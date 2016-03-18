@@ -1,18 +1,18 @@
 ### Site info:
-title: Freshman21
-tagline: Another Jekyll theme, Freshman twenty-first
-author: Lijia Yu
-email: yu@lijiayu.net
+title: Ruyuan Zhang
+tagline: Personal webpage, Freshman twenty-first
+author: Ruyuan Zhang
+email: ruyuanzhang@gmai.com
 description: "Freshman21 is a Jekyll blog theme." # You can edit this line in _config.yml. It will appear in your document head meta and in your feed.xml site description
-keywords: "Jekyll, theme, Freshman21"
+keywords: "Vision, machine, neuroscience"
 baseurl: "/freshman21" # the subpath of your site, e.g. /blog
-url: "http://yulijia.net/freshman21" # the base hostname & protocol for your site
+url: "http://ruyuanzhang.github.io" # the base hostname & protocol for your site
 locale: en_US
 
 ### Personal info and site tools info:
-twitter_username: yulijia
-github_username:  yulijia
-disqus_shortname: freshman21
+twitter_username: ruyuanzhang
+github_username:  ruyuanzhang
+disqus_shortname: ruyuanzhang
 favicon:     "/images/favicon.ico"
 aboutme: Hi, this is Lijia Yu. I made the Freshman21 theme. Please enjoy it. # these are shown on aboutme-sidebar.
 aboutme_photo: https://i.imgur.com/Mdc4szJl.jpg # your photo.
@@ -26,9 +26,9 @@ default_locale: "en" # blog sidebar language set, only include: English(en) and 
 locales:
     en:
       Aboutme: "About Me"
-      Archives: "Archives"
-      Blogroll: "Blogroll"
-      Categories: "Categories"
+      Archives: "CV"
+      Blogroll: "Research"
+      Categories: "Publication"
       Copyright_Notice: "Copyright Notice"
       Recent_Posts: "Recent Posts"
       Tags: "Tags"
@@ -60,14 +60,5 @@ Blogroll:
       title: Another Jekyll blog theme
     - name: author's website
       href: http://yulijia.net/
-      title: Lijia Yu's website
+      title: Ruyuan Zhang's website
 
-
-### Build settings
-markdown: kramdown
-# highlighter: pygments
-kramdown:
-        input: GFM
-        syntax_highlighter: rouge
-gems: [jekyll-paginate]
-paginate: 5
