@@ -3,38 +3,34 @@
 ---
 @charset "utf-8";
 
-// Our variables
-$base-font-family: 'Open Sans', Helvetica, Arial, sans-serif !important;
-$base-font-size:   16px;
-$small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.6em;
 
-$spacing-unit:     15px;
+
+// Our variables
+$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$base-font-size:   16px;
+$base-font-weight: 400;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.5;
+
+$spacing-unit:     30px;
 
 $text-color:       #111;
-$background-color: #f9f9f9;
+$background-color: #fdfdfd;
 $brand-color:      #2a7ae2;
-$brand-top-color:  #2583ad;
-$hover-color:      #DD1144;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
-$code-backgroud-color: #29281e;
-$code-font-color:  #eee;  
-
-
 // Width of the content area
-$content-width:    960px;
-$page-width:       1000px;
+$content-width:    800px;
 
 $on-palm:          600px;
 $on-laptop:        800px;
 
 
 
-// Using media queries with like this:
+// Use media queries like this:
 // @include media-query($on-palm) {
 //     .wrapper {
 //         padding-right: $spacing-unit / 2;
@@ -42,19 +38,16 @@ $on-laptop:        800px;
 //     }
 // }
 @mixin media-query($device) {
-  @media screen and (max-width: $device) {
-    @content;
-  }
+    @media screen and (max-width: $device) {
+        @content;
+    }
 }
 
 
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-"base",
-"layout",
-"_syntax-highlighting-native" // "syntax-highlighting"
+        "base",
+        "layout",
+        "syntax-highlighting"
 ;
-
-@import url('http://fonts.googleapis.com/css?family=Open+Sans');
-

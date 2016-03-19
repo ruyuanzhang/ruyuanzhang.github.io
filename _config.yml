@@ -1,64 +1,23 @@
-### Site info:
-title: Ruyuan Zhang
-tagline: Personal webpage, Freshman twenty-first
-author: Ruyuan Zhang
-email: ruyuanzhang@gmai.com
-description: "Freshman21 is a Jekyll blog theme." # You can edit this line in _config.yml. It will appear in your document head meta and in your feed.xml site description
-keywords: "Vision, machine, neuroscience"
-baseurl: "/freshman21" # the subpath of your site, e.g. /blog
-url: "http://ruyuanzhang.github.io" # the base hostname & protocol for your site
-locale: en_US
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
 
-### Personal info and site tools info:
+# Site settings
+title: Ruyuan Zhang
+email: ruyuanzhang@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Here is the Ruyuan Zhang's personal webpage
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://ruyuanzhang.github.io" # the base hostname & protocol for your site
 twitter_username: ruyuanzhang
 github_username:  ruyuanzhang
-disqus_shortname: ruyuanzhang
-favicon:     "/images/favicon.ico"
-aboutme: Hi, this is Lijia Yu. I made the Freshman21 theme. Please enjoy it. # these are shown on aboutme-sidebar.
-aboutme_photo: https://i.imgur.com/Mdc4szJl.jpg # your photo.
+
+# Build settings
+markdown: kramdown
 
 
-### Site setting:
-ShowContactInfo: "True" # Personal Info (twitter,github,email) can be seen on aboutme-sidebar, those info only shown when ShowContactInfo == True
-default_column: "two" # blog style: two columns, if default_column != "two", you will see a one column blog.
-default_locale: "en" # blog sidebar language set, only include: English(en) and Chinese (cn)
-
-locales:
-    en:
-      Aboutme: "About Me"
-      Archives: "CV"
-      Blogroll: "Research"
-      Categories: "Publication"
-      Copyright_Notice: "Copyright Notice"
-      Recent_Posts: "Recent Posts"
-      Tags: "Tags"
-      Previous: "Older"
-      Next: "Newer"
-      PostedInCategories: "Posted in"
-      Taggedwith: "and tagged"  
-      PostDate: "on "
-    cn:
-      Aboutme: "关于我"
-      Archives: "存档"
-      Blogroll: "良师益友"        
-      Categories: "分类目录"    
-      Copyright_Notice: "版权声明"
-      Recent_Posts: "近期文章"
-      Tags: "标签" 
-      Previous: "前一页"
-      Next: "后一页"
-      PostedInCategories: "目录:"   
-      Taggedwith: "| 标签:"
-      PostDate: "| 发表时间: "
-
-
-### your Blogroll info, only name can shown on the page.
-
-Blogroll:
-    - name: Freshman21
-      href: http://yulijia.net/freshman21
-      title: Another Jekyll blog theme
-    - name: author's website
-      href: http://yulijia.net/
-      title: Ruyuan Zhang's website
+port: 3000 # change server port to 3000,since 4000 is conflict with nomachine
 
