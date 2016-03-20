@@ -94,10 +94,10 @@
             display: inline;
         }
 
-        &:hover, active .trigger {
+        &:hover .trigger {
             display: inline;
             padding-bottom: 5px;
-            backgroun-color:#202020;
+            
         }
 
         .page-link {
