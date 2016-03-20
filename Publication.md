@@ -6,22 +6,21 @@ permalink: /Publication
 ---
 
 
-### Journal
+### Journal Articals
 
-- **Zhang, R**, Kwon, O.S  & Tadin,D. ( equally contributing authors). When learning impairs performance: divisive gain control explains adaptive learning of motion (in preparation).
+- **Zhang, R**, Kwon, O.S & Tadin,D. When learning impairs performance: divisive gain control explains adaptive learning of motion (in preparation).
 
 - **Zhang, R** & Tadin,D. Complete transfer between component and pattern motion reveals learning-induced plasticity in MT (in preparation).
 
 
 - Nyquist J.B., Lappin J.S., **Zhang, R** & Tadin,D. Perceptual Training yields rapid improvements in visually impaired youth (in preparation).
 
+- Cavanaugh M.R\*, **Zhang, R** \*. Melnick M.D., Das. A., Roberts, M., Tadin,D., Carrasco, M., Huxlin,.K.R.  (2015) Visual recovery in cortical blindness is limited by high internal noise. (\*=equally contributing authors). *Journal of Vision*. 15(10),9-9. [PDF](https://github.com/ruyuanzhang/ruyuanzhang.github.io/blob/master/files/CavanaughZhang_JOV15.pdf) 
 
-- Cavanaugh M.R, **Zhang, R**. Melnick M.D., Das. A., Roberts, M., Tadin,D., Carrasco, M., Huxlin,.K.R.  (2015) Visual recovery in cortical blindness is limited by high internal noise. (**=equally contributing authors). *Journal of Vision*. 15(10),9-9. [PDF](http:) 
-
-- V.R.Bejjanki, **Zhang, R**, Li.R., Lu. Z., Pouget, A., Green, CS, & Bavelier, D. (2014).  Action video game facilitates development of better perceptual template. (**=equally first authors, listed in alphabetic order). *Proceedings of the National Academy of Sciences* 111 (47), 16961-16966 [PDF]()
+- V.R.Bejjanki\*, **Zhang, R**\*, Li.R., Lu. Z., Pouget, A., Green, CS, & Bavelier, D. (2014).  Action video game facilitates development of better perceptual template. (\*=equally first authors, listed in alphabetic order). *Proceedings of the National Academy of Sciences*  111 (47), 16961-16966 [PDF](https://github.com/ruyuanzhang/ruyuanzhang.github.io/blob/master/files/BejjankiZhang_PNAS16.pdf), [Supp](https://github.com/ruyuanzhang/ruyuanzhang.github.io/blob/master/files/BejjankiZhang_PNAS16_supp.pdf)
 
 
-- **Zhang, R**. Kwon, O.S. & Tadin, D. (2013). Illusory motion of stationary stimuli in visual periphery: evidence for a strong centrifugal prior. (**=equally first authors). *Journal of Neuroscience*, 33, 4415-4423. [PDF]
+- **Zhang, R**\*. Kwon, O.S\*. & Tadin, D. (2013). Illusory motion of stationary stimuli in visual periphery: evidence for a strong centrifugal prior. (\*=equally first authors). *Journal of Neuroscience*, 33, 4415-4423. [PDF](https://github.com/ruyuanzhang/ruyuanzhang.github.io/blob/master/files/ZhangKwonTadin_JN13.pdf)
 
 ### Ongoing Projects (titles are provitional)
 
@@ -38,6 +37,8 @@ permalink: /Publication
 - Zhang, R., Bavelier, D., & Tadin, D.  Superior learning ability of action video game player in motion direction identification task.
 
 - Zhang, R., Bavelier, D., & Tadin, D.  Investigate neural representation of attended and unattended stimuli during binocular rivaly using high-field fMRI.
+
+- Yeatman,J., Zhang,R., Kay,K,. Top-down and buttom-up influence of neural representation of words in VWFA.
 
 
 ### Conference
@@ -68,7 +69,7 @@ permalink: /Publication
 
 - Zhang, R., Bejjanki, V. R., Lu, Z., Green, S., Pouget, A., & Bavelier, D. (2012). Action Video Games playing improves learning to learn in perceptual learning. Journal of Vision, 12(9), 1130-1130. (Poster on VSS 2012)
 
-### 2011
+#### 2011
 
 - Zhang, R., Li, R., Lu, Z., & Bavelier, D. (2011). Perceptual templates improvement through action video game playing and comparison to perceptual learning. i-Perception, 2(4), 269-269. (Abstract for APCV 2011)
 
@@ -76,6 +77,6 @@ permalink: /Publication
 
 - Zhang, R., & Tadin, D. (2011). Illusory centrifugal motion direction observed in stationary stimuli: Dependency on duration and eccentricity. Journal of Vision, 11(11), 769-769. ( Poster on VSS 2011)
 
-### 2009
+#### 2009
 
 - Zhang，R. and Fang, F.(2009). Top-down influence on invisible face to gain access to awareness during continuous flash suppression (poster presentation). Workshop on Cognitive Science: From Cellular Mechanisms to Computational Theories (CS-2009), May, 2009, Beijing, China.( Poster on Beijing International Cognitive Science Work shop)
