@@ -1,23 +1,26 @@
-# Welcome to Jekyll!
+# This is the configure file to my personal pages
 #
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
 title: Ruyuan Zhang
-email: ruyuanzhang@gmail.com
+owner:
+  name: Ruyuan Zhang
+  email: ruyuanzhangATgmailDOTcom
 description: > # this means to ignore newlines until "baseurl:"
   Here is the Ruyuan Zhang's personal webpage
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://ruyuanzhang.github.io" # the base hostname & protocol for your site
 twitter_username: ruyuanzhang
 github_username:  ruyuanzhang
+permalink: pretty
+
+
+
+
+exclude: ['README.md']
+
 
 # Build settings
 markdown: kramdown
-
-
 port: 3000 # change server port to 3000,since 4000 is conflict with nomachine
 

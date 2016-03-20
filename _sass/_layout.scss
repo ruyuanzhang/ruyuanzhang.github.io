@@ -4,19 +4,27 @@
 .site-header {
     border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
-    min-height: 56px;
+    min-height: $header-height;
+    min-width: $content-width;
+
 
     // Positioning context for the mobile navigation icon
-    position: relative;
+    position: fixed;
+    width: $content-width;
+    left: $sidebar-width;
 }
 
+
 .site-title {
+    position:fixed;
+
     font-size: 26px;
     font-weight: 300;
     line-height: 56px;
     letter-spacing: -1px;
     margin-bottom: 0;
-    float: left;
+    margin-left: 1em;
+    float: center;
 
     &,
     &:visited {
@@ -25,7 +33,14 @@
 }
 
 .site-nav {
-    float: right;
+    
+
+    position:relative;
+    float:left;
+    margin-top:auto;
+    margin-buttom:auto;
+    
+
     line-height: 56px;
 
     .menu-icon {
@@ -52,7 +67,7 @@
         text-align: right;
 
         .menu-icon {
-            display: block;
+            display: none;
             float: right;
             width: 36px;
             height: 26px;
@@ -72,16 +87,16 @@
 
         .trigger {
             clear: both;
-            display: none;
+            display: inline;
         }
 
         &:hover .trigger {
-            display: block;
+            display: inline;
             padding-bottom: 5px;
         }
 
         .page-link {
-            display: block;
+            display: inline;
             padding: 5px 10px;
 
             &:not(:last-child) {
@@ -92,19 +107,50 @@
     }
 }
 
+.navigation-list{
+    font-size:$nav-font-size;
+    list-style:none;
+    margin-left: $spacing-unit;
+    display: inline;
+}
 
 
 /**
- * Site footer
- */
-.site-footer {
-    border-top: 1px solid $grey-color-light;
-    padding: $spacing-unit 0;
+*  home container
+*/
+.news-heading{
+    margin-left:0;
+    font-size: 26px;
+
 }
 
-.footer-heading {
-    font-size: 18px;
-    margin-bottom: $spacing-unit / 2;
+
+.news-list {
+    margin-left: 0;
+}
+
+.news-list li{
+    margin-bottom: 1.5rem;
+}
+
+
+
+
+/** 
+* site left side bar
+*/
+.site-sidebar{
+    position:fixed;
+    width:#{$sidebar-width};
+    height:100%;
+    left:0px;
+    background-color:#ac4142;
+
+
+    text-align: center;
+    padding: 2rem 1rem;
+    color: rgba(255,255,255,.5);
+    background-color: #202020;
 }
 
 .contact-list,
@@ -113,8 +159,39 @@
     margin-left: 0;
 }
 
+
+
+
+
+/**
+ * Site footer
+ */
+.site-footer {
+    border-top: 1px solid $grey-color-light;
+    padding: $spacing-unit 0em;
+    position: fixed;
+    bottom:0;
+    height:$footer-height;
+    margin-left: $sidebar-width;
+    min-width: $content-width;
+
+
+    background-color: #ffffff;
+    opacity:1;
+    filter:alpha(opacity=100);
+    
+}
+
+.footer-heading {
+    font-size: 14px;
+    margin-bottom: $spacing-unit / 4;
+}
+
+
+
+
 .footer-col-wrapper {
-    font-size: 15px;
+    font-size: 12px;
     color: $grey-color;
     margin-left: -$spacing-unit / 2;
     @extend %clearfix;
@@ -131,10 +208,6 @@
     width:         calc(35% - (#{$spacing-unit} / 2));
 }
 
-.footer-col-2 {
-    width: -webkit-calc(20% - (#{$spacing-unit} / 2));
-    width:         calc(20% - (#{$spacing-unit} / 2));
-}
 
 .footer-col-3 {
     width: -webkit-calc(45% - (#{$spacing-unit} / 2));
@@ -168,11 +241,22 @@
  * Page content
  */
 .page-content {
-    padding: $spacing-unit 0;
+    padding: $spacing-unit 1em;
+    position: fixed;
+    top:$header-height;
+    left:$sidebar-width;
+    max-width:700px;
+
+    margin-left: 1rem
+
+    
 }
 
 .page-heading {
+    padding: $spacing-unit 0;
     font-size: 20px;
+    position: relative;
+    float:left;
 }
 
 .post-list {
