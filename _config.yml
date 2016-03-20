@@ -21,6 +21,6 @@ exclude: ['README.md']
 
 
 # Build settings
-markdown: redcarpet
+markdown: kramdown
 port: 3000 # change server port to 3000,since 4000 is conflict with nomachine
 
