@@ -242,13 +242,16 @@
  */
 .page-content {
     padding: $spacing-unit 1em;
-    position: fixed;
+    position: relative;
+
     top:$header-height;
     left:$sidebar-width;
-    max-width:700px;
+    
+    max-width:$content-width;
+    height: auto;
 
-    margin-left: 1rem
-
+    margin-left: 1rem;
+    overflow: scroll;
     
 }
 
