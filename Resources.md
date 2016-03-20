@@ -8,6 +8,15 @@ permalink: /Resources
 
 
 ### Collaborators
+
+*Universit of Minnesota*
+
+- [Kendrick Kay][Kay]
+- Luca Vizioli
+- [Keith Jamison][Jamison]
+- [Steve Engle][Engle]
+
+
 *University of Rochester* 
 
 - [Duje Tadin][Tadin]
@@ -24,7 +33,13 @@ permalink: /Resources
 - [Shawn Green][Green], University of Wisconsin, Madison
 - [Zhonglin Lu][Lu], Ohio State Univesity
 - [Vik Rao][Rao], Princeton University
+- [Susanne M. Jaeggi][Jaeggi], University of California at Irvine.
 
+
+
+[Kay]:http://cvnlab.net/home.shtml
+[Jamison]:http://www.tc.umn.edu/~binhe/keith.htm
+[Engle]:https://www.psych.umn.edu/engellab/index.html
 
 [Bavelier]:http://cms.unige.ch/fapse/people/bavelier
 [Tadin]:http://www.bcs.rochester.edu/people/duje/
@@ -35,6 +50,6 @@ permalink: /Resources
 [Lu]:http://lobes.osu.edu/
 [Green]:http://greenlab.psych.wisc.edu/
 [Rao]: http://www.princeton.edu/~bejjanki/
-
+[Jaeggi]:http://wmp.education.uci.edu/
 
 
