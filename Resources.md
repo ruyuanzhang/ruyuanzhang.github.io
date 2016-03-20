@@ -2,7 +2,7 @@
 layout: page
 title:  Resources
 date:   2016-03-18 19:16:02 -0500
-
+permalink: /Resources
 ---
 
 
