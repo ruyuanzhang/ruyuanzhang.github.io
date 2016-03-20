@@ -5,13 +5,16 @@ meta: list of all my publications
 permalink: /Publication
 ---
 
+**Please note that the PDF articles provided herein are for your own personal, scholarly use. Please do not distribute or post these files. To request a paper reprint, please email ruyuanzhangATgmailDOTcom.**
 
-### Journal Articals
+
+### Journal Articles
+
+- **Zhang, R**, Lu. Z., Green, CS, & Bavelier, D. Action video game experience improves perceptual and cognitive learning (in preparation).
 
 - **Zhang, R**, Kwon, O.S & Tadin,D. When learning impairs performance: divisive gain control explains adaptive learning of motion (in preparation).
 
 - **Zhang, R** & Tadin,D. Complete transfer between component and pattern motion reveals learning-induced plasticity in MT (in preparation).
-
 
 - Nyquist J.B., Lappin J.S., **Zhang, R** & Tadin,D. Perceptual Training yields rapid improvements in visually impaired youth (in preparation).
 
@@ -24,7 +27,7 @@ permalink: /Publication
 
 ### Ongoing Projects (titles are provitional)
 
-- Zhang, R, Lu. Z., Green, CS, & Bavelier, D.   Long-term benefit of extensive action video game training on perceptual and cognitive learning.
+
 
 - Zhang, R, Lu. Z., Green, CS, & Bavelier, D.   Which component of action video games contributes to enhanced cognition?
 

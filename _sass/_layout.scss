@@ -12,6 +12,10 @@
     position: fixed;
     width: $content-width;
     left: $sidebar-width;
+
+    background-color: #ffffff;
+    opacity:1;
+    filter:alpha(opacity=100);
 }
 
 
@@ -93,6 +97,7 @@
         &:hover .trigger {
             display: inline;
             padding-bottom: 5px;
+            backgroun-color:#202020;
         }
 
         .page-link {
@@ -121,15 +126,20 @@
 .news-heading{
     margin-left:0;
     font-size: 26px;
-
 }
 
-
-.news-list {
+.news-date{
     margin-left: 0;
+    font-size:$base-font-size+1; 
+    list-style:none;
+}
+.news-content {
+    font-size:$base-font-size;
+    margin-left: 1.5rem;
+    list-style-type:disc;
 }
 
-.news-list li{
+.news-content li{
     margin-bottom: 1.5rem;
 }
 
@@ -144,7 +154,6 @@
     width:#{$sidebar-width};
     height:100%;
     left:0px;
-    background-color:#ac4142;
 
 
     text-align: center;
@@ -175,10 +184,13 @@
     margin-left: $sidebar-width;
     min-width: $content-width;
 
+    text-alingn : center;
+
 
     background-color: #ffffff;
     opacity:1;
     filter:alpha(opacity=100);
+    z-index:-1;
     
 }
 
@@ -193,7 +205,7 @@
 .footer-col-wrapper {
     font-size: 12px;
     color: $grey-color;
-    margin-left: -$spacing-unit / 2;
+    margin-left: spacing-unit / 2;
     @extend %clearfix;
 }
 
@@ -204,8 +216,8 @@
 }
 
 .footer-col-1 {
-    width: -webkit-calc(35% - (#{$spacing-unit} / 2));
-    width:         calc(35% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(20% - (#{$spacing-unit} / 2));
+    width:         calc(20% - (#{$spacing-unit} / 2));
 }
 
 
@@ -252,6 +264,9 @@
 
     margin-left: 1rem;
     overflow: scroll;
+
+    font-size:$small-font-size;
+    z-index:-3;
     
 }
 
