@@ -18,12 +18,12 @@ permalink: /Publication
 
 - Nyquist J.B., Lappin J.S., **Zhang, R** & Tadin,D. Perceptual Training yields rapid improvements in visually impaired youth (in preparation).
 
-- Cavanaugh M.R\*, **Zhang, R** \*. Melnick M.D., Das. A., Roberts, M., Tadin,D., Carrasco, M., Huxlin,.K.R.  (2015) Visual recovery in cortical blindness is limited by high internal noise. (\*=equally contributing authors). *Journal of Vision*. 15(10),9-9. [PDF](https://github.com/ruyuanzhang/ruyuanzhang.github.io/blob/master/files/CavanaughZhang_JOV15.pdf) 
+- Cavanaugh M.R\*, **Zhang, R** \*. Melnick M.D., Das. A., Roberts, M., Tadin,D., Carrasco, M., Huxlin,.K.R.  (2015) Visual recovery in cortical blindness is limited by high internal noise. (\*=equally contributing authors). *Journal of Vision. 15(10)*, 9-9. [PDF](http://ruyuanzhang.github.io/files/CavanaughZhang_JOV15.pdf) 
 
-- V.R.Bejjanki\*, **Zhang, R**\*, Li.R., Lu. Z., Pouget, A., Green, CS, & Bavelier, D. (2014).  Action video game facilitates development of better perceptual template. (\*=equally first authors, listed in alphabetic order). *Proceedings of the National Academy of Sciences*  111 (47), 16961-16966 [PDF](https://github.com/ruyuanzhang/ruyuanzhang.github.io/blob/master/files/BejjankiZhang_PNAS16.pdf), [Supp](https://github.com/ruyuanzhang/ruyuanzhang.github.io/blob/master/files/BejjankiZhang_PNAS16_supp.pdf)
+- V.R.Bejjanki\*, **Zhang, R**\*, Li.R., Lu. Z., Pouget, A., Green, CS, & Bavelier, D. (2014).  Action video game facilitates development of better perceptual template. (\*=equally first authors, listed in alphabetic order). *Proceedings of the National Academy of Sciences  111 (47)*, 16961-16966 [PDF](http://ruyuanzhang.github.io/files/BejjankiZhang_PNAS16.pdf), [Supp](http://ruyuanzhang.github.io/files/BejjankiZhang_PNAS16_supp.pdf)
 
 
-- **Zhang, R**\*. Kwon, O.S\*. & Tadin, D. (2013). Illusory motion of stationary stimuli in visual periphery: evidence for a strong centrifugal prior. (\*=equally first authors). *Journal of Neuroscience*, 33, 4415-4423. [PDF](https://github.com/ruyuanzhang/ruyuanzhang.github.io/blob/master/files/ZhangKwonTadin_JN13.pdf)
+- **Zhang, R**\*. Kwon, O.S\*. & Tadin, D. (2013). Illusory motion of stationary stimuli in visual periphery: evidence for a strong centrifugal prior. (\*=equally first authors). *Journal of Neuroscience, 33*, 4415-4423. [PDF](http://ruyuanzhang.github.io/files/ZhangKwonTadin_JN13.pdf)
 
 ### Ongoing Projects (titles are provitional)
 
