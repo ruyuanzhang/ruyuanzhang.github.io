@@ -10,8 +10,10 @@
 
     // Positioning context for the mobile navigation icon
     position: fixed;
+
     width: $content-width;
     left: $sidebar-width;
+    margin-right: 0rem;
 
     background-color: #ffffff;
     opacity:1;
@@ -40,12 +42,11 @@
 
 .site-nav {
     
-
     position:relative;
     float:left;
     margin-top:auto;
     margin-buttom:auto;
-    
+    margin-left:0;
 
     line-height: 56px;
 
@@ -161,7 +162,7 @@
     text-align: center;
     padding: 2rem 1rem;
     color: rgba(255,255,255,.5);
-    background-color: #202020;
+    background-color: #2f2f2f;
 
     z-index:999;
 }
@@ -172,7 +173,22 @@
     margin-left: 0;
 }
 
+.profileImg{
+	position:relative;
+	float:center;
+	margin-top: 3rem;
+	margin-bottom:1rem;
 
+}
+
+.profileIntro{
+	text-align:center;
+	margin-bottom: 1rem;
+
+}
+.profileContact{
+	text-align:center;
+}
 
 
 
@@ -267,9 +283,11 @@
     height: auto;
 
     margin-left: 1rem;
+    margin-right: 20rem;
+
     overflow: scroll;
 
-    font-size:$small-font-size;
+    font-size:$base-font-size;
     z-index:1;
     
 }
