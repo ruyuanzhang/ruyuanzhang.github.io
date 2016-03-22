@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  New website
-meta: just some testing here
+meta: New website, excited
 date:   2016-03-18 19:16:02 -0500
 categories: random thoughts
 ---
