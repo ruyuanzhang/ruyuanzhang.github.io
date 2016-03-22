@@ -9,7 +9,7 @@ permalink: /Resources
 
 ### Collaborators
 
-*Universit of Minnesota*
+*University of Minnesota*
 
 - [Kendrick Kay][Kay]
 - Luca Vizioli
