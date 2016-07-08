@@ -16,7 +16,7 @@ permalink: /Publication
 
 - **Zhang, R** & Tadin,D. Complete transfer between component and pattern motion reveals learning-induced plasticity in MT (in preparation).
 
-- Nyquist J.B., Lappin J.S., **Zhang, R** & Tadin,D. Perceptual Training yields rapid improvements in visually impaired youth (in preparation).
+- Nyquist J.B., Lappin J.S., **Zhang, R** & Tadin,D. Perceptual Training yields rapid improvements in visually impaired youth (Submitted).
 
 - Cavanaugh M.R\*, **Zhang, R** \*. Melnick M.D., Das. A., Roberts, M., Tadin,D., Carrasco, M., Huxlin,.K.R.  (2015) Visual recovery in cortical blindness is limited by high internal noise. (\*=equally contributing authors). *Journal of Vision. 15(10)*, 9-9. [PDF](http://ruyuanzhang.github.io/files/CavanaughZhang_JOV15.pdf) 
 
