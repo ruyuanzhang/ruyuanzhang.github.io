@@ -14,7 +14,7 @@ permalink: /Resources
 - [Kendrick Kay][Kay]
 - Luca Vizioli
 - [Keith Jamison][Jamison]
-- [Steve Engle][Engle]
+- [Steve Engel][Engle]
 
 
 *University of Rochester* 
@@ -32,7 +32,7 @@ permalink: /Resources
 - [Oh-Sang Kwon][Kwon], Ulsan National Institute of Science and Technology
 - [Shawn Green][Green], University of Wisconsin, Madison
 - [Zhonglin Lu][Lu], Ohio State Univesity
-- [Vik Rao][Rao], Princeton University
+- [Bejjanki Vikranth Rao][Rao], Princeton University
 - [Susanne M. Jaeggi][Jaeggi], University of California at Irvine.
 
 
