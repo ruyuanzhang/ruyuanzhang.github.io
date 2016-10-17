@@ -10,13 +10,17 @@ permalink: /Publication
 
 ### Journal Articles
 
-- **Zhang, R**, Lu. Z., Green, CS, & Bavelier, D. Action video game experience improves perceptual and cognitive learning (in preparation).
+- Kwon, O.S.  **Zhang, R**. & Tadin, D. Temporal evolution of motion direction judgments (in preparation)
 
 - **Zhang, R**, Kwon, O.S & Tadin,D. When learning impairs performance: divisive gain control explains adaptive learning of motion (in preparation).
 
 - **Zhang, R** & Tadin,D. Complete transfer between component and pattern motion reveals learning-induced plasticity in MT (in preparation).
 
-- Nyquist J.B., Lappin J.S., **Zhang, R** & Tadin,D. Perceptual Training yields rapid improvements in visually impaired youth (Submitted).
+- Park WJ, Schauder KB, **Zhang R**, Bennetto L, Tadin D. Perceptual inefficiency characterized by increased internal noise and reduced external noise filtering in autism spectrum disorder. (in preparation).
+
+- **Zhang, R**,Lu, Z.,Jaeggi,S., Buschkuehl,M., Green, C,S, & Bavelier, D. ‘Learning to learn’ as a mechanism for generalization of learning: Lessons from action video games. (in preparation).
+
+- Nyquist J.B., Lappin J.S., **Zhang, R** & Tadin,D. Perceptual Training yields rapid improvements in visually impaired youth. *Scientif Report* (in press).
 
 - Cavanaugh M.R\*, **Zhang, R** \*. Melnick M.D., Das. A., Roberts, M., Tadin,D., Carrasco, M., Huxlin,.K.R.  (2015) Visual recovery in cortical blindness is limited by high internal noise. (\*=equally contributing authors). *Journal of Vision. 15(10)*, 9-9. [PDF](http://ruyuanzhang.github.io/files/CavanaughZhang_JOV15.pdf) 
 
@@ -27,15 +31,9 @@ permalink: /Publication
 
 ### Ongoing Projects (titles are provitional)
 
-
-
 - Zhang, R, Lu. Z., Green, CS, & Bavelier, D.   Which component of action video games contributes to enhanced cognition?
 
 - Zhang,R., Chen Q., Mahon,B.  Decode motion processing in cortical blind patients.
-
-- Kwon, O.S.  Zhang, R. & Tadin, D.   Temporal evolution of motion direction judgments.
-
-- Zhang, R., Jaeggi, S.M., Buschkuehl, M., & Bavelier, D.   Working memory and skill learning as a function of video game experience.
 
 - Zhang, R., Bavelier, D., & Tadin, D.  Superior learning ability of action video game player in motion direction identification task.
 
@@ -43,11 +41,14 @@ permalink: /Publication
 
 - Yeatman,J., Zhang,R., Kay,K,. Top-down and buttom-up influence of neural representation of words in VWFA.
 
+- Zhang, R., Engel,S.,Kay,K,. Attentional control on neural representation of binocular rivalry in human visual cortex.
+
+
 
 ### Conference
 
 #### 2016
-- Zhang, R., Tadin, D. (2015). Complete transfer between pattern motion and component motion: evidence for plasticity in MT. (Poster at Vision Sciences Society Annual Meeting 2016)
+- Zhang, R., Tadin, D. (2016). Complete transfer between pattern motion and component motion: evidence for plasticity in MT. (Poster at Vision Sciences Society Annual Meeting 2016)
 
 
 #### 2015
