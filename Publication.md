@@ -14,20 +14,21 @@ permalink: /Publication
 
 - **Zhang, R**, Kwon, O.S & Tadin,D. When learning impairs performance: divisive gain control explains adaptive learning of motion (in preparation).
 
-- **Zhang, R** & Tadin,D. Complete transfer between component and pattern motion reveals learning-induced plasticity in MT (in preparation).
 
 - Park WJ, Schauder KB, **Zhang R**, Bennetto L, Tadin D. Perceptual inefficiency characterized by increased internal noise and reduced external noise filtering in autism spectrum disorder. (in preparation).
 
+- **Zhang, R** & Tadin,D. Complete transfer between component and pattern motion reveals learning-induced plasticity in MT (in preparation)
+
 - **Zhang, R**,Lu, Z.,Jaeggi,S., Buschkuehl,M., Green, C,S, & Bavelier, D. ‘Learning to learn’ as a mechanism for generalization of learning: Lessons from action video games. (in preparation).
 
-- Nyquist J.B., Lappin J.S., **Zhang, R** & Tadin,D. Perceptual Training yields rapid improvements in visually impaired youth. *Scientific Report* (in press).
+- Nyquist J.B., Lappin J.S., **Zhang, R** & Tadin,D. Perceptual Training yields rapid improvements in visually impaired youth. ***Scientific Report*** (in press).
 
-- Cavanaugh M.R\*, **Zhang, R** \*. Melnick M.D., Das. A., Roberts, M., Tadin,D., Carrasco, M., Huxlin,.K.R.  (2015) Visual recovery in cortical blindness is limited by high internal noise. (\*=equally contributing authors). *Journal of Vision. 15(10)*, 9-9. [PDF](http://ruyuanzhang.github.io/files/CavanaughZhang_JOV15.pdf) 
+- Cavanaugh M.R\*, **Zhang, R** \*. Melnick M.D., Das. A., Roberts, M., Tadin,D., Carrasco, M., Huxlin,.K.R.  (2015) Visual recovery in cortical blindness is limited by high internal noise. (\*=equally contributing authors). ***Journal of Vision***, *15(10)*, 9-9. [PDF](http://ruyuanzhang.github.io/files/CavanaughZhang_JOV15.pdf) 
 
-- V.R.Bejjanki\*, **Zhang, R**\*, Li.R., Lu. Z., Pouget, A., Green, CS, & Bavelier, D. (2014).  Action video game facilitates development of better perceptual template. (\*=equally first authors, listed in alphabetic order). *Proceedings of the National Academy of Sciences  111 (47)*, 16961-16966 [PDF](http://ruyuanzhang.github.io/files/BejjankiZhang_PNAS16.pdf), [Supp](http://ruyuanzhang.github.io/files/BejjankiZhang_PNAS16_supp.pdf)
+- V.R.Bejjanki\*, **Zhang, R**\*, Li.R., Lu. Z., Pouget, A., Green, CS, & Bavelier, D. (2014).  Action video game facilitates development of better perceptual template. (\*=equally first authors, listed in alphabetic order). ***Proceedings of the National Academy of Sciences***,  *111 (47)*, 16961-16966 [PDF](http://ruyuanzhang.github.io/files/BejjankiZhang_PNAS16.pdf), [Supp](http://ruyuanzhang.github.io/files/BejjankiZhang_PNAS16_supp.pdf)
 
 
-- **Zhang, R**\*. Kwon, O.S\*. & Tadin, D. (2013). Illusory motion of stationary stimuli in visual periphery: evidence for a strong centrifugal prior. (\*=equally first authors). *Journal of Neuroscience, 33*, 4415-4423. [PDF](http://ruyuanzhang.github.io/files/ZhangKwonTadin_JN13.pdf)
+- **Zhang, R**\*. Kwon, O.S\*. & Tadin, D. (2013). Illusory motion of stationary stimuli in visual periphery: evidence for a strong centrifugal prior. (\*=equally first authors). ***Journal of Neuroscience***, *33*, 4415-4423. [PDF](http://ruyuanzhang.github.io/files/ZhangKwonTadin_JN13.pdf)
 
 ### Ongoing Projects (titles are provitional)
 
