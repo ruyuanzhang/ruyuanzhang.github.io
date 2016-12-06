@@ -21,7 +21,7 @@ permalink: /Publication
 
 - **Zhang, R**,Lu, Z.,Jaeggi,S., Buschkuehl,M., Green, C,S, & Bavelier, D. ‘Learning to learn’ as a mechanism for generalization of learning: Lessons from action video games. (in preparation).
 
-- Nyquist J.B., Lappin J.S., **Zhang, R** & Tadin,D. Perceptual Training yields rapid improvements in visually impaired youth. ***Scientific Report*** (in press).
+- Nyquist J.B., Lappin J.S., **Zhang, R** & Tadin,D. (2016) Perceptual Training yields rapid improvements in visually impaired youth. ***Scientific Report***, **6**, 37431; doi: 10.1038/srep37431. [PDF](http://ruyuanzhang.github.io/files/NyquistLappinZhangTadin_SciRep2016.pdf)
 
 - Cavanaugh M.R\*, **Zhang, R** \*. Melnick M.D., Das. A., Roberts, M., Tadin,D., Carrasco, M., Huxlin,.K.R.  (2015) Visual recovery in cortical blindness is limited by high internal noise. (\*=equally contributing authors). ***Journal of Vision***, *15(10)*, 9-9. [PDF](http://ruyuanzhang.github.io/files/CavanaughZhang_JOV15.pdf) 
 
