@@ -12,13 +12,13 @@ permalink: /Publication
 
 - Kwon, O.S.  **Zhang, R**. & Tadin, D. Temporal evolution of motion direction judgments (in preparation)
 
-- **Zhang, R**, Kwon, O.S & Tadin,D. When learning impairs performance: divisive gain control explains adaptive learning of motion (in preparation).
+- **Zhang, R**, Kwon, O.S & Tadin,D. When learning impairs performance: generalization and overfiting in perceptual learning of motion (in preparation).
 
 - **Zhang, R** & Tadin,D. Complete transfer between component and pattern motion reveals learning-induced plasticity in MT (in preparation)
 
-- **Zhang, R**,Lu, Z.,Jaeggi,S., Buschkuehl,M., Green, C,S, & Bavelier, D. ‘Learning to learn’ as a mechanism for generalization of learning: Lessons from action video games. (in preparation).
+- **Zhang, R**,Lu, Z.,Jaeggi,S., Buschkuehl,M., Green, C,S, & Bavelier, D. ‘Learning to learn’ as a mechanism for generalization of learning. (under review).
 
-- Park WJ, Schauder KB, **Zhang R**, Bennetto L, Tadin D. Elvated internal noise and poor external noise filter limit perception in autism spectrum disorder. (submitted).
+- Park WJ, Schauder KB, **Zhang R**, Bennetto L, Tadin D. Elvated internal noise and poor external noise filter limit perception in autism spectrum disorder. (under review).
 
 - Nyquist J.B., Lappin J.S., **Zhang, R** & Tadin,D. (2016) Perceptual Training yields rapid improvements in visually impaired youth. ***Scientific Report***, **6**, 37431; doi: 10.1038/srep37431. [PDF](http://ruyuanzhang.github.io/files/NyquistLappinZhangTadin_SciRep2016.pdf) ~[Press Release](http://www.rochester.edu/newscenter/brain-training-video-games-help-low-vision-kids-see-better-201322/), [Science Daily](https://www.sciencedaily.com/releases/2016/11/161130130851.htm)
 
