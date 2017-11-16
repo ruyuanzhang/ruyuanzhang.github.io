@@ -8,16 +8,16 @@ permalink: /Publication
 **Please note that the PDF articles provided herein are for your own personal, scholarly use. Please do not distribute or post these files. To request a paper reprint, please email ruyuanzhangATgmailDOTcom.**
 
 
-### Publications
-- **Zhang, R**., Lu, Z.,Jaeggi,S., Buschkuehl,M., Green, C,S, & Bavelier, D. ‘Learning to learn’ as a mechanism for generalization of learning. ***Nature Human Bahavior*** (under review).
+### Publications 
+- **Zhang, R**., Lu, Z.,Jaeggi,S., Buschkuehl,M., Green, C,S, & Bavelier, D. ‘Learning to learn’ as a mechanism for generalization of learning. ***Nature Human Bahavior*** (in revision).
 
-- Park WJ, Schauder KB, **Zhang R**, Bennetto L, Tadin D. Elvated internal noise and poor external noise filter limit perception in autism spectrum disorder. ***Brain*** (under review).
+- Park WJ, Schauder KB, **Zhang R**, Bennetto L, Tadin D. Elvated internal noise and poor external noise filter limit perception in autism spectrum disorder. ***Scientific Report*** (Submitted).
 
 - **Zhang, R**., & Tadin,D. (2017) Disentangling cortical locus of perceptual learning along motion pathway (submitted).
 
 - **Zhang, R**, Engel S.A., Kay,K. (2017) Binocular Rivalry: a window into cortical competition and suppression. Journal of Indian Institute of Sciences (in press).
 
-- **Zhang, R**., & Kay,K. (2017) Attentional field model does not explain task-dependent spatial representation in human ventral temporal cortex. Proceedings of Annual Conference on Cognitive Computatinal Neuroscience. (in press).
+- **Zhang, R**., & Kay,K. (2017) Attentional field model does not explain task-dependent spatial representation in human ventral temporal cortex. Proceedings of 1st Annual Conference on Cognitive Computatinal Neuroscience.[PDF](http://ruyuanzhang.github.io/files/ZhangKay_CCN17.pdf)
 
 - Nyquist J.B., Lappin J.S., **Zhang, R** & Tadin,D. (2016) Perceptual Training yields rapid improvements in visually impaired youth. ***Scientific Report***, **6**, 37431; doi: 10.1038/srep37431. [PDF](http://ruyuanzhang.github.io/files/NyquistLappinZhangTadin_SciRep2016.pdf) ~[Press Release](http://www.rochester.edu/newscenter/brain-training-video-games-help-low-vision-kids-see-better-201322/), [Science Daily](https://www.sciencedaily.com/releases/2016/11/161130130851.htm)
 
@@ -30,6 +30,7 @@ permalink: /Publication
 
 ### Publication in preparation (titles are provitional)
 - **Zhang, R**., Kwon, O.S & Tadin,D. When learning impairs performance: divisive gain control explains adaptive learning of motion (in preparation).- Kwon, O.S., **Zhang, R**. & Tadin,D. Two-stages temporal evolution of motion perception (in preparation).- **Zhang, R**., Kay, K. Modeling the attentional modulation on spatial representation in human ventral temproal cortex (in preparation).
+- **Zhang, R**., Kay, K. Eccentricity and Task-dependent attentional modulation in the human ventral temporal cortex (in preparation).
 
 ### Ongoing Projects (titles are provitional)
 
