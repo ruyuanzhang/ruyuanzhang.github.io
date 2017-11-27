@@ -12,11 +12,11 @@ permalink: /Publication
 
 - **Zhang, R**., & Tadin,D. (2017) Disentangling cortical locus of perceptual learning along motion pathway.***Journal of vision***  (submitted).
 
-- **Zhang, R**., & Kay, K. (2017) Flexible attention in human ventral temporal cortex. ***Cerebral Cortex*** (Submitted)
+- **Zhang, R**., & Kay, K. (2017) Flexible attention in human ventral temporal cortex. ***Cerebral Cortex*** (submitted)
 
 - **Zhang, R**., Lu, Z.,Jaeggi,S., Buschkuehl,M., Green, C,S, & Bavelier, D. ‘Learning to learn’ as a mechanism for generalization of learning. ***Nature Human Bahavior*** (in revision).
 
-- Park WJ, Schauder KB, **Zhang R**, Bennetto L, Tadin D. Elvated internal noise and poor external noise filter limit perception in autism spectrum disorder. ***Scientific Report*** (Resubmitted).
+- Park WJ, Schauder KB, **Zhang R**, Bennetto L, Tadin D. Elvated internal noise and poor external noise filter limit perception in autism spectrum disorder. ***Scientific Report*** (resubmitted).
 
 - **Zhang, R**, Engel S.A., Kay,K. (2017) Binocular Rivalry: a window into cortical competition and suppression. ***Journal of Indian Institute of Sciences***,1-9.[PDF](http://ruyuanzhang.github.io/files/ZhangJIndianInstSci2017.pdf)
 
