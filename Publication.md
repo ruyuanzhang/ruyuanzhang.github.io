@@ -10,7 +10,7 @@ permalink: /Publication
 
 ### Publications 
 
-- **Zhang, R**., & Tadin,D. (2017) Disentangling locus of perceptual learning in the visual hierarchy of motion processing.***Journal of vision***  (submitted).
+- **Zhang, R**., & Tadin,D. (2017) Disentangling locus of perceptual learning in the visual hierarchy of motion processing.***Journal of Vision***  (submitted).
 
 - **Zhang, R**., & Kay, K. (2017) Flexible attention in human ventral temporal cortex. ***Cerebral Cortex*** (submitted)
 
