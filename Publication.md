@@ -10,13 +10,13 @@ permalink: /Publication
 
 ### Publications 
 
-- **Zhang, R**., & Tadin,D. (2017) Disentangling locus of perceptual learning in the visual hierarchy of motion processing.***Journal of Vision***  (submitted).
+- **Zhang, R**., & Tadin,D. (2017) Disentangling locus of perceptual learning in the visual hierarchy of motion processing. ***Journal of Vision***  (submitted).
 
 - **Zhang, R**., & Kay, K. (2017) Flexible attention in human ventral temporal cortex. ***Cerebral Cortex*** (submitted)
 
 - **Zhang, R**., Lu, Z.,Jaeggi,S., Buschkuehl,M., Green, C,S, & Bavelier, D. ‘Learning to learn’ as a mechanism for generalization of learning. ***Nature Human Bahavior*** (in revision).
 
-- Park WJ, Schauder KB, **Zhang R**, Bennetto L, Tadin D. Elvated internal noise and poor external noise filter limit perception in autism spectrum disorder. ***Scientific Report*** (in press).
+- Park WJ, Schauder KB, **Zhang R**, Bennetto L, Tadin D. Elvated internal noise and poor external noise filter limit perception in autism spectrum disorder. ***Scientific Report***, **7**, 17584;  DOI:10.1038/s41598-017-17676-5. [PDF](http://ruyuanzhang.github.io/files/ParkZhangTadin_SciRep2017.pdf) 
 
 - **Zhang, R**, Engel S.A., Kay,K. (2017) Binocular Rivalry: a window into cortical competition and suppression. ***Journal of Indian Institute of Sciences***,1-9.[PDF](http://ruyuanzhang.github.io/files/ZhangJIndianInstSci2017.pdf)
 
@@ -32,7 +32,7 @@ permalink: /Publication
 
 ### Publication in preparation (titles are provitional)
 - **Zhang, R**., Kwon, O.S & Tadin,D. When learning impairs performance: divisive gain control explains adaptive learning of motion (in preparation).- Kwon, O.S., **Zhang, R**. & Tadin,D. Two-stages temporal evolution of motion perception (in preparation).- **Zhang, R**., Kay, K. Modeling the attentional modulation on spatial representation in human ventral temproal cortex (in preparation).
--  Barbot, A., Park, W. J., **Zhang, R**., Huxlin, K., Tadin, D., & Yoon, G. Re-organization of visual processing following long-term adaptation to severe optical aberrations. 
+-  Barbot, A., Park, W. J., **Zhang, R**., Huxlin, K., Tadin, D., & Yoon, G. Re-organization of visual processing following long-term adaptation to severe optical aberrations.
 
 ### Ongoing Projects (titles are provitional)
 
@@ -41,6 +41,13 @@ permalink: /Publication
 - **Zhang, R**, Kay, K. Identifying effects of vein in local blood-oxygen-level-dependent responses using high spatial and temporal neuroimaging.- **Zhang, R**., Kay, K. Cortical depth dependent selectivity for natural image statistics in human visual cortex. - **Zhang, R**., Chen Q., Mahon,B. Decode motion processing in cortical blind patients.- **Zhang, R**, Jaeggi, S.M., Buschkuehl, M., & Bavelier, D.  Working memory and skill learning as a function of video game experience.- **Zhang, R**., Engel, S., Kay, K., Attention-dependent binocular rivalry in human visual cortex.- **Zhang, R**., Bavelier D. Decomposing influences of video game over superior learning ability by video contexts. - Yang, L, **Zhang, R**. Features from deep models optimized on large-scale natural images  explain mechanisms of visual perceptual learning.
 - Racey, C., **Zhang, R**., Kay, K., Schloss, K. Neural mechanisms of color preference in the human brain.- Chopin, A., **Zhang, R**., Shibata, K., Bavelier, D. Action video game play facilitates ‘Learning to learn’– a large sample, preregistration study.
 ### Conference
+
+#### 2018
+- Racey C, Zhang R, Kay K, Schloss K. (2018). The neural substrate for semantic associations underlies color preference judgments (Vision Sciences Society Annual Meeting 2018).
+ 
+- K Kay, Jamison K, Vizioli L, Zhang R, E Margalit. (2018). Ultra-high-resolution fMRI: a critical assessment. (The 23rd Annual Meeting of the Organization for Human Brain Mapping 2018)
+
+
 #### 2017
 - Jamison K, Vizioli L, Zhang R, Tao J, Winawer J, Kay K. (2017). A tool for automatic identification of cerebral sinuses and corresponding artifacts in fMRI (Poster at Vision Sciences Society Annual Meeting 2017).
 - Zhang R, Kay K. (2017). Attentional field model does not explain task-dependent spatial representation in human ventral temporal cortex (Poster at Annual Conference on Cognitive Computational Neuroscience 2017).
