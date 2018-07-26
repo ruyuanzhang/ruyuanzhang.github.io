@@ -8,9 +8,9 @@ permalink: /Publication
 **Please note that the PDF articles provided herein are for your own personal, scholarly use. Please do not distribute or post these files. To request a paper reprint, please email ruyuanzhangATgmailDOTcom.**
 
 ### In review/revision
-- **Zhang, R**., & Tadin,D. (2018) Disentangling locus of perceptual learning in the visual hierarchy of motion processing. ***Scientific Report***  (In revision). [biorxiv](https://www.biorxiv.org/content/early/2018/03/14/282319)
+- **Zhang, R**., & Tadin,D. (2018) Disentangling locus of perceptual learning in the visual hierarchy of motion processing. (in review). [biorxiv](https://www.biorxiv.org/content/early/2018/03/14/282319)
 
-- **Zhang, R**., & Kay, K. (2018) Flexible attention in human ventral temporal cortex. ***Cerebral Cortex*** (in review) [biorxiv](https://www.biorxiv.org/content/early/2018/03/16/279935)
+- **Zhang, R**., & Kay, K. (2018) Flexible attention in human ventral temporal cortex. (in review) [biorxiv](https://www.biorxiv.org/content/early/2018/03/16/279935)
 
 - **Zhang, R**., Lu, Z.,Jaeggi,S., Buschkuehl,M., Green, C,S, & Bavelier, D. (2018) ‘Learning to learn’ as a mechanism for generalization of learning. ***Elife*** (in revision).
 
