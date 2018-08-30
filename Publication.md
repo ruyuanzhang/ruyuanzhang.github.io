@@ -12,9 +12,9 @@ permalink: /Publication
 
 - **Zhang, R**., & Kay, K. (2018) Flexible attention in human ventral temporal cortex. (in review) [biorxiv](https://www.biorxiv.org/content/early/2018/03/16/279935)
 
-- **Zhang, R**., Lu, Z.,Jaeggi,S., Buschkuehl,M., Green, C,S, & Bavelier, D. (2018) ‘Learning to learn’ as a mechanism for generalization of learning. ***Elife*** (in revision).
+- **Zhang, R**., Lu, Z.,Jaeggi,S., Buschkuehl,M., Green, C,S, & Bavelier, D. (2018) ‘Learning to learn’ as a mechanism for generalization of learning. (in revision).
 
-- Kendrick Kay, Keith Jamison, Luca Vizioli, **Ruyuan Zhang**, Eshed Margalit, Kamil Ugurbil. (2018) A critical assessment of data quality and venous effects in ultra-high-resolution fMRI. ***Neuroimage*** (in review) [biorxiv](https://www.biorxiv.org/content/early/2018/06/03/337667)
+- Kendrick Kay, Keith Jamison, Luca Vizioli, **Ruyuan Zhang**, Eshed Margalit, Kamil Ugurbil. (2018) A critical assessment of data quality and venous effects in ultra-high-resolution fMRI. (in review) [biorxiv](https://www.biorxiv.org/content/early/2018/06/03/337667)
 
 ### Publications 
 
@@ -22,7 +22,7 @@ permalink: /Publication
 
 - **Zhang, R**, Engel S.A., Kay,K. (2017) Binocular Rivalry: a window into cortical competition and suppression. ***Journal of Indian Institute of Sciences***,1-9.[PDF](http://ruyuanzhang.github.io/files/ZhangJIndianInstSci2017.pdf)
 
-- **Zhang, R**., & Kay,K. (2017) Attentional field model does not explain task-dependent spatial representation in human ventral temporal cortex. ***Proceedings of 1st Annual Conference on Cognitive Computatinal Neuroscience***.[PDF](http://ruyuanzhang.github.io/files/ZhangKay_CCN17.pdf)
+- **Zhang, R**., & Kay,K. (2017) Attentional field model does not explain task-dependent spatial representation in human ventral temporal cortex. ***Proceedings of Annual Conference on Cognitive Computatinal Neuroscience***.[PDF](http://ruyuanzhang.github.io/files/ZhangKay_CCN17.pdf)
 
 - Nyquist J.B., Lappin J.S., **Zhang, R** & Tadin,D. (2016) Perceptual Training yields rapid improvements in visually impaired youth. ***Scientific Report***, **6**, 37431; doi: 10.1038/srep37431. [PDF](http://ruyuanzhang.github.io/files/NyquistLappinZhangTadin_SciRep2016.pdf) ~[Press Release](http://www.rochester.edu/newscenter/brain-training-video-games-help-low-vision-kids-see-better-201322/), [Science Daily](https://www.sciencedaily.com/releases/2016/11/161130130851.htm)
 
