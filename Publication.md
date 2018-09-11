@@ -7,28 +7,36 @@ permalink: /Publication
 
 **Please note that the PDF articles provided herein are for your own personal, scholarly use. Please do not distribute or post these files. To request a paper reprint, please email ruyuanzhangATgmailDOTcom.**
 
+\* co-first author, \# co-corresponding/seninor author
+
 ### In review/revision
 - **Zhang, R**., & Tadin,D. (2018) Disentangling locus of perceptual learning in the visual hierarchy of motion processing. (in review). [biorxiv](https://www.biorxiv.org/content/early/2018/03/14/282319)
 
 - **Zhang, R**., & Kay, K. (2018) Flexible attention in human ventral temporal cortex. (in review) [biorxiv](https://www.biorxiv.org/content/early/2018/03/16/279935)
 
-- **Zhang, R**., Lu, Z.,Jaeggi,S., Buschkuehl,M., Green, C,S, & Bavelier, D. (2018) ‘Learning to learn’ as a mechanism for generalization of learning. (in revision).
+- **Zhang, R**., Lu, Z., Jaeggi,S., Buschkuehl,M., Green, C,S, & Bavelier, D. (2018) ‘Learning to learn’ as a mechanism for generalization of learning. (in revision).
 
-- Kendrick Kay, Keith Jamison, Luca Vizioli, **Ruyuan Zhang**, Eshed Margalit, Kamil Ugurbil. (2018) A critical assessment of data quality and venous effects in ultra-high-resolution fMRI. (in review) [biorxiv](https://www.biorxiv.org/content/early/2018/06/03/337667)
+- Kay K., Jamison K., Vizioli L., **Zhang R**., Margalit E, Ugurbil K. (2018) A critical assessment of data quality and venous effects in ultra-high-resolution fMRI. (in review) [biorxiv](https://www.biorxiv.org/content/early/2018/06/03/337667)
 
 ### Publications 
 
+- **Zhang, R**., & Kay,K. (2018) The impact of noise correlation on multivariate pattern classification in fMRI. ***Proceedings of Conference on Cognitive Computatinal Neuroscience***. [PDF](http://ruyuanzhang.github.io/files/CCN18_noiseCorr_ZhangKay.pdf)
+
+- Chi Zhang., Xiaohan Duan., **Ruyuan Zhang**\#., Li Tong\#. (2018) Representation of adversarial images in deep neural networks and the human brain. ***Proceedings of Conference on Cognitive Computatinal Neuroscience***. [PDF](http://ruyuanzhang.github.io/files/CCN18_advserial_ChiRuyuanLi.pdf)
+
+- Yijie Zhao., Xuemei Ran., Li Zhang., **Ruyuan Zhang**\#., Yixuan Ku\#. (2018) Modeling visual working memory in Schizophrenia. ***Proceedings of Conference on Cognitive Computatinal Neuroscience***. [PDF](http://ruyuanzhang.github.io/files/CCN18_YijieRuyuanYixuan.pdf)
+
 - Park WJ, Schauder KB, **Zhang R**, Bennetto L, Tadin D. Elvated internal noise and poor external noise filter limit perception in autism spectrum disorder. ***Scientific Report***, **7**, 17584;  DOI:10.1038/s41598-017-17676-5. [PDF](http://ruyuanzhang.github.io/files/ParkZhangTadin_SciRep2017.pdf) 
 
-- **Zhang, R**, Engel S.A., Kay,K. (2017) Binocular Rivalry: a window into cortical competition and suppression. ***Journal of Indian Institute of Sciences***,1-9.[PDF](http://ruyuanzhang.github.io/files/ZhangJIndianInstSci2017.pdf)
+- **Zhang, R**, Engel S.A., Kay,K. (2017) Binocular Rivalry: a window into cortical competition and suppression. ***Journal of Indian Institute of Sciences*** 97(4), 477-485. [PDF](http://ruyuanzhang.github.io/files/ZhangJIndianInstSci2017.pdf)
 
-- **Zhang, R**., & Kay,K. (2017) Attentional field model does not explain task-dependent spatial representation in human ventral temporal cortex. ***Proceedings of Annual Conference on Cognitive Computatinal Neuroscience***.[PDF](http://ruyuanzhang.github.io/files/ZhangKay_CCN17.pdf)
+- **Zhang, R**., & Kay,K. (2017) Attentional field model does not explain task-dependent spatial representation in human ventral temporal cortex. ***Proceedings of <!---->Conference on Cognitive Computatinal Neuroscience***. [PDF](http://ruyuanzhang.github.io/files/ZhangKay_CCN17.pdf)
 
 - Nyquist J.B., Lappin J.S., **Zhang, R** & Tadin,D. (2016) Perceptual Training yields rapid improvements in visually impaired youth. ***Scientific Report***, **6**, 37431; doi: 10.1038/srep37431. [PDF](http://ruyuanzhang.github.io/files/NyquistLappinZhangTadin_SciRep2016.pdf) ~[Press Release](http://www.rochester.edu/newscenter/brain-training-video-games-help-low-vision-kids-see-better-201322/), [Science Daily](https://www.sciencedaily.com/releases/2016/11/161130130851.htm)
 
-- Cavanaugh M.R\*, **Zhang, R** \*. Melnick M.D., Das. A., Roberts, M., Tadin,D., Carrasco, M., & Huxlin,.K.R.  (2015) Visual recovery in cortical blindness is limited by high internal noise. (\*=equally contributing authors). ***Journal of Vision***, *15(10)*, 9-9. [PDF](http://ruyuanzhang.github.io/files/CavanaughZhang_JOV15.pdf) 
+- Cavanaugh M.R\*, **Zhang, R**\*. Melnick M.D., Das. A., Roberts, M., Tadin,D., Carrasco, M., & Huxlin,.K.R.  (2015) Visual recovery in cortical blindness is limited by high internal noise. ***Journal of Vision***, *15(10)*, 9-9. [PDF](http://ruyuanzhang.github.io/files/CavanaughZhang_JOV15.pdf)
 
-- V.R.Bejjanki\*, **Zhang, R**\*, Li.R., Lu. Z., Pouget, A., Green, CS, & & Bavelier, D. (2014).  Action video game facilitates development of better perceptual template. (\*=equally first authors, listed in alphabetic order). ***Proceedings of the National Academy of Sciences***,  *111 (47)*, 16961-16966 [PDF](http://ruyuanzhang.github.io/files/BejjankiZhang_PNAS16.pdf), [Supp](http://ruyuanzhang.github.io/files/BejjankiZhang_PNAS16_supp.pdf), [CBS News](http://www.cbsnews.com/news/playing-video-games-could-make-you-smarter/) , [Bloomberg](https://www.bloomberg.com/news/articles/2014-11-10/shoot-em-up-video-games-boost-brain-s-ability-to-learn)
+- V.R.Bejjanki\*, **Zhang, R**\*, Li.R., Lu. Z., Pouget, A., Green, CS, & & Bavelier, D. (2014).  Action video game facilitates development of better perceptual template. ***Proceedings of the National Academy of Sciences***,  *111 (47)*, 16961-16966. [PDF](http://ruyuanzhang.github.io/files/BejjankiZhang_PNAS16.pdf), [Supp](http://ruyuanzhang.github.io/files/BejjankiZhang_PNAS16_supp.pdf), [CBS News](http://www.cbsnews.com/news/playing-video-games-could-make-you-smarter/) , [Bloomberg](https://www.bloomberg.com/news/articles/2014-11-10/shoot-em-up-video-games-boost-brain-s-ability-to-learn)
 
 - **Zhang, R**\*. Kwon, O.S\*. & Tadin, D. (2013). Illusory motion of stationary stimuli in visual periphery: evidence for a strong centrifugal prior. (\*=equally first authors). ***Journal of Neuroscience***, *33*, 4415-4423. [PDF](http://ruyuanzhang.github.io/files/ZhangKwonTadin_JN13.pdf)
 
@@ -47,7 +55,7 @@ permalink: /Publication
 #### 2018
 - Racey C, Zhang R, Kay K, Schloss K. (2018). The neural substrate for semantic associations underlies color preference judgments (Vision Sciences Society Annual Meeting 2018).
  
-- K Kay, Jamison K, Vizioli L, Zhang R, E Margalit. (2018). Ultra-high-resolution fMRI: a critical assessment. (The 23rd Annual Meeting of the Organization for Human Brain Mapping 2018)
+- Kay K, Jamison K, Vizioli L, Zhang R, E Margalit. (2018). Ultra-high-resolution fMRI: a critical assessment. (The 23rd Annual Meeting of the Organization for Human Brain Mapping 2018)
 
 
 #### 2017
