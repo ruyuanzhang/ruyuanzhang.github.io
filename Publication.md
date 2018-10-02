@@ -7,12 +7,14 @@ permalink: /Publication
 
 **Please note that the PDF articles provided herein are for your own personal, scholarly use. Please do not distribute or post these files. To request a paper reprint, please email ruyuanzhangATgmailDOTcom.**
 
-\* co-first author, \# co-corresponding/seninor author
+\* co-first author, \# corresponding/seninor author
 
 ### In review/revision
-- **Zhang, R**., & Tadin,D. (2018) Disentangling locus of perceptual learning in the visual hierarchy of motion processing. (in review). [biorxiv](https://www.biorxiv.org/content/early/2018/03/14/282319)
+- Yijie Zhao., Xuemei Ran., Li Zhang.,**Ruyuan Zhang**#., Yixuan Ku# (2018) Atypically larger variability of resource allocation accounts for visual working memory deficits in schizophrenia. (in review). [biorxiv](https://www.biorxiv.org/content/early/2018/09/23/424523)
 
-- **Zhang, R**., & Kay, K. (2018) Flexible attention in human ventral temporal cortex. (in review) [biorxiv](https://www.biorxiv.org/content/early/2018/03/16/279935)
+- **Zhang, R**#., & Tadin,D. (2018) Disentangling locus of perceptual learning in the visual hierarchy of motion processing. (in review). [biorxiv](https://www.biorxiv.org/content/early/2018/03/14/282319)
+
+- **Zhang, R**#., & Kay, K. (2018) Flexible attention in human ventral temporal cortex. (in review) [biorxiv](https://www.biorxiv.org/content/early/2018/03/16/279935)
 
 - **Zhang, R**., Lu, Z., Jaeggi,S., Buschkuehl,M., Green, C,S, & Bavelier, D. (2018) ‘Learning to learn’ as a mechanism for generalization of learning. (in revision).
 
@@ -46,55 +48,62 @@ permalink: /Publication
 
 ### Ongoing Projects (titles are provitional)
 
-- **Zhang, R**., Kay,K. Bottom-up and top-down influences on spatial representation in human ventral temporal cortex - a 7T fMRI study.- **Zhang, R**., Yeatman, J., Kay,K., Bottom-up and top-down influences in word reading.
+- **Zhang, R**., Kay,K. Bottom-up and top-down influences on spatial representation in human ventral temporal cortex-a 7T fMRI study.- **Zhang, R**., Yeatman, J., Kay,K., Bottom-up and top-down influences in word reading.
 
-- **Zhang, R**, Kay, K. Identifying effects of vein in local blood-oxygen-level-dependent responses using high spatial and temporal neuroimaging.- **Zhang, R**., Kay, K. Cortical depth dependent selectivity for natural image statistics in human visual cortex. - **Zhang, R**., Chen Q., Mahon,B. Decode motion processing in cortical blind patients.- **Zhang, R**, Jaeggi, S.M., Buschkuehl, M., & Bavelier, D.  Working memory and skill learning as a function of video game experience.- **Zhang, R**., Engel, S., Kay, K., Attention-dependent binocular rivalry in human visual cortex.- **Zhang, R**., Bavelier D. Decomposing influences of video game over superior learning ability by video contexts. - Yang, L, **Zhang, R**. Features from deep models optimized on large-scale natural images  explain mechanisms of visual perceptual learning.
-- Racey, C., **Zhang, R**., Kay, K., Schloss, K. Neural mechanisms of color preference in the human brain.- Chopin, A., **Zhang, R**., Shibata, K., Bavelier, D. Action video game play facilitates ‘Learning to learn’– a large sample, preregistration study.
-### Conference
+- **Zhang, R**, Kay, K. Identifying effects of vein in local blood-oxygen-level-dependent responses using high spatial and temporal neuroimaging.- **Zhang, R**., Kay, K. Cortical depth dependent selectivity for natural image statistics in human visual cortex. - **Zhang, R**., Chen Q., Mahon,B. Decode motion processing in cortical blind patients.- **Zhang, R**, Jaeggi, S.M., Buschkuehl, M., & Bavelier, D.  Working memory and skill learning as a function of video game experience.- **Zhang, R**., Bavelier D. Decomposing influences of video game over superior learning ability by video contexts. - Racey, C., **Zhang, R**., Kay, K., Schloss, K. Neural mechanisms of color preference in the human brain.- Chopin, A., **Zhang, R**., Shibata, K., Bavelier, D. Action video game play facilitates ‘Learning to learn’– a large sample, preregistration study.
+### Conferences
 
 #### 2018
+- Zhang, R., & Kay,K. (2018) The impact of noise correlation on multivariate pattern classification in fMRI. (Annual Conference on Cognitive Computational Neuroscience 2018). 
+
+- Chi Zhang., Xiaohan Duan., Ruyuan Zhang#., Li Tong#. (2018) Representation of adversarial images in deep neural networks and the human brain. (Annual Conference on Cognitive Computational Neuroscience 2018).
+
+- Yijie Zhao., Xuemei Ran., Li Zhang., Ruyuan Zhang#., Yixuan Ku\#. (2018) Modeling visual working memory in Schizophrenia. (Annual Conference on Cognitive Computational Neuroscience 2017). 
+
+- Zhang C., Duan X., Li T., Zhang R (2018). Representation of adviserial images in deep neural networks and the human brain (Asia-Pacific Conference on Vision 2018).
+
 - Racey C, Zhang R, Kay K, Schloss K. (2018). The neural substrate for semantic associations underlies color preference judgments (Vision Sciences Society Annual Meeting 2018).
  
 - Kay K, Jamison K, Vizioli L, Zhang R, E Margalit. (2018). Ultra-high-resolution fMRI: a critical assessment. (The 23rd Annual Meeting of the Organization for Human Brain Mapping 2018)
 
 
 #### 2017
-- Jamison K, Vizioli L, Zhang R, Tao J, Winawer J, Kay K. (2017). A tool for automatic identification of cerebral sinuses and corresponding artifacts in fMRI (Poster at Vision Sciences Society Annual Meeting 2017).
-- Zhang R, Kay K. (2017). Attentional field model does not explain task-dependent spatial representation in human ventral temporal cortex (Poster at Annual Conference on Cognitive Computational Neuroscience 2017).
+- Jamison K, Vizioli L, Zhang R, Tao J, Winawer J, Kay K. (2017). A tool for automatic identification of cerebral sinuses and corresponding artifacts in fMRI (Vision Sciences Society Annual Meeting 2017).
+- Zhang R, Kay K. (2017). Attentional field model does not explain task-dependent spatial representation in human ventral temporal cortex (Annual Conference on Cognitive Computational Neuroscience 2017).
 #### 2016
-- Zhang, R., Tadin, D. (2016). Complete transfer between pattern motion and component motion: evidence for plasticity in MT. (Poster at Vision Sciences Society Annual Meeting 2016)
+- Zhang, R., Tadin, D. (2016). Complete transfer between pattern motion and component motion: evidence for plasticity in MT. (Vision Sciences Society Annual Meeting 2016)
 
 
 #### 2015
-- Zhang, R., Kwon, O.S., & Tadin, D. (2015). Specificity and transfer of perceptual learning of motion. (Poster at Vision Sciences Society Annual Meeting 2015)
+- Zhang, R., Kwon, O.S., & Tadin, D. (2015). Specificity and transfer of perceptual learning of motion. (Vision Sciences Society Annual Meeting 2015)
 
 - Kwon, O.S., Zhang, R., & Tadin, D. (2015). Temporal evolution of motion direction judgments. (Talk at Vision Sciences Society Annual Meeting 2015)    
 
 #### 2014
-- Zhang, R., Jaeggi, S.M., Buschkuehl, M.,& Bavelier, D. (2014). Working memory and skill learning as a function of video game experience. (Poster on American Psychological Society Convention 2014)
+- Zhang, R., Jaeggi, S.M., Buschkuehl, M.,& Bavelier, D. (2014). Working memory and skill learning as a function of video game experience. (American Psychological Society Convention 2014)
 
-- Cavanaugh, M.R., Melnick, T.M., Zhang, R., Roberts, M., Das, A., Tadin, D., Carrasco, M., & Huxlin, K.R., (2014). Residual inefficiencies of recovered vision in cortically blind fields – insights from the equivalent noise analysis. (Poster on VISION SCIENCE SOCIETY 2014)
+- Cavanaugh, M.R., Melnick, T.M., Zhang, R., Roberts, M., Das, A., Tadin, D., Carrasco, M., & Huxlin, K.R., (2014). Residual inefficiencies of recovered vision in cortically blind fields – insights from the equivalent noise analysis. (Vision Sciences Society Annual Meeting 2014)
 
-- Cavanaugh, M.R., Das, A., Melnick, T.M., Zhang, R., Tadin, D., Carrasco, M., & Huxlin, K.R., (2014). Engineering the Eye IV Restoring Vision 29th Symposium. Center of Visual Science, University of Rochester. (Poster on 29th CVS Symposium)
+- Cavanaugh, M.R., Das, A., Melnick, T.M., Zhang, R., Tadin, D., Carrasco, M., & Huxlin, K.R., (2014). Engineering the Eye IV Restoring Vision 29th Symposium. Center of Visual Science, University of Rochester. (29th CVS Symposium)
 
 #### 2013
 
-- Zhang, R., Green, S., Lu, Z., & Bavelier, D. (2013). Speeding up Learning: Action Video Games and Perceptual Learning. Journal of Vision, 13(9), 1089-1089.(Talk on VSS 2013)
+- Zhang, R., Green, S., Lu, Z., & Bavelier, D. (2013). Speeding up Learning: Action Video Games and Perceptual Learning. Journal of Vision, 13(9), 1089-1089.(Vision Sciences Society Annual Meeting 2013)
 
 #### 2012
 
-- Zhang, R., Kwon, O.S. & Tadin, D. (2012) Illusory motion of stationary stimuli in visual periphery: evidence for a strong centrifugal prior. (**=equally contributing authors). Computational Foundations of Perception & Action 28th Symposium. Center of Visual Science, University of Rochester. (Poster on 28th CVS Symposium)
+- Zhang, R., Kwon, O.S. & Tadin, D. (2012) Illusory motion of stationary stimuli in visual periphery: evidence for a strong centrifugal prior. (**=equally contributing authors). Computational Foundations of Perception & Action 28th Symposium. Center of Visual Science, University of Rochester. (28th CVS Symposium)
 
-- Zhang, R., Bejjanki, V. R., Lu, Z., Green, S., Pouget, A., & Bavelier, D. (2012). Action Video Games playing improves learning to learn in perceptual learning. Journal of Vision, 12(9), 1130-1130. (Poster on VSS 2012)
+- Zhang, R., Bejjanki, V. R., Lu, Z., Green, S., Pouget, A., & Bavelier, D. (2012). Action Video Games playing improves learning to learn in perceptual learning. Journal of Vision, 12(9), 1130-1130. (Vision Sciences Society Annual Meeting 2012)
 
 #### 2011
 
-- Zhang, R., Li, R., Lu, Z., & Bavelier, D. (2011). Perceptual templates improvement through action video game playing and comparison to perceptual learning. i-Perception, 2(4), 269-269. (Abstract for APCV 2011)
+- Zhang, R., Li, R., Lu, Z., & Bavelier, D. (2011). Perceptual templates improvement through action video game playing and comparison to perceptual learning. i-Perception, 2(4), 269-269. (Asia-Pasific Conference on Vision 2011)
 
-- Zhang, R., & Tadin, D. (2011). Illusory centrifugal motion direction observed in brief stimuli: psychophysics and energy model. i-Perception, 2(4), 389-389. (Poster on APCV 2011)
+- Zhang, R., & Tadin, D. (2011). Illusory centrifugal motion direction observed in brief stimuli: psychophysics and energy model. i-Perception, 2(4), 389-389. (Asia-Pasific Conference on Vision 2011)
 
-- Zhang, R., & Tadin, D. (2011). Illusory centrifugal motion direction observed in stationary stimuli: Dependency on duration and eccentricity. Journal of Vision, 11(11), 769-769. ( Poster on VSS 2011)
+- Zhang, R., & Tadin, D. (2011). Illusory centrifugal motion direction observed in stationary stimuli: Dependency on duration and eccentricity. Journal of Vision, 11(11), 769-769. (Vision Sciences Society Annual Meeting 2011)
 
 #### 2009
 
-- Zhang，R. and Fang, F.(2009). Top-down influence on invisible face to gain access to awareness during continuous flash suppression (poster presentation). Workshop on Cognitive Science: From Cellular Mechanisms to Computational Theories (CS-2009), May, 2009, Beijing, China.( Poster on Beijing International Cognitive Science Work shop)
+- Zhang，R. and Fang, F.(2009). Top-down influence on invisible face to gain access to awareness during continuous flash suppression (poster presentation). Workshop on Cognitive Science: From Cellular Mechanisms to Computational Theories (CS-2009), May, 2009, Beijing, China.(Beijing International Cognitive Science Work shop)
