@@ -22,11 +22,11 @@ permalink: /Publication
 
 ### Publications 
 
-- **Zhang, R**., & Kay,K. (2018) The impact of noise correlation on multivariate pattern classification in fMRI. ***Proceedings of Conference on Cognitive Computatinal Neuroscience***. [PDF](http://ruyuanzhang.github.io/files/CCN18_noiseCorr_ZhangKay.pdf)
+- **Zhang, R**., & Kay,K. (2018) The impact of noise correlation on multivariate pattern classification in fMRI. ***Proceedings of Conference on Cognitive Computational Neuroscience***. [PDF](http://ruyuanzhang.github.io/files/CCN18_noiseCorr_ZhangKay.pdf)
 
-- Chi Zhang., Xiaohan Duan., **Ruyuan Zhang**\#., Li Tong\#. (2018) Representation of adversarial images in deep neural networks and the human brain. ***Proceedings of Conference on Cognitive Computatinal Neuroscience***. [PDF](http://ruyuanzhang.github.io/files/CCN18_advserial_ChiRuyuanLi.pdf)
+- Chi Zhang., Xiaohan Duan., **Ruyuan Zhang**\#., Li Tong\#. (2018) Representation of adversarial images in deep neural networks and the human brain. ***Proceedings of Conference on Cognitive Computational Neuroscience***. [PDF](http://ruyuanzhang.github.io/files/CCN18_advserial_ChiRuyuanLi.pdf)
 
-- Yijie Zhao., Xuemei Ran., Li Zhang., **Ruyuan Zhang**\#., Yixuan Ku\#. (2018) Modeling visual working memory in Schizophrenia. ***Proceedings of Conference on Cognitive Computatinal Neuroscience***. [PDF](http://ruyuanzhang.github.io/files/CCN18_YijieRuyuanYixuan.pdf)
+- Yijie Zhao., Xuemei Ran., Li Zhang., **Ruyuan Zhang**\#., Yixuan Ku\#. (2018) Modeling visual working memory in Schizophrenia. ***Proceedings of Conference on Cognitive Computational Neuroscience***. [PDF](http://ruyuanzhang.github.io/files/CCN18_YijieRuyuanYixuan.pdf)
 
 - Park WJ, Schauder KB, **Zhang R**, Bennetto L, Tadin D. Elvated internal noise and poor external noise filter limit perception in autism spectrum disorder. ***Scientific Report***, **7**, 17584;  DOI:10.1038/s41598-017-17676-5. [PDF](http://ruyuanzhang.github.io/files/ParkZhangTadin_SciRep2017.pdf) 
 
