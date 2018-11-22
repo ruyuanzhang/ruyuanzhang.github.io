@@ -10,7 +10,9 @@ permalink: /Publication
 \* co-first author, \# corresponding/seninor author
 
 ### In review/revision
-- Yijie Zhao., Xuemei Ran., Li Zhang.,**Ruyuan Zhang**#., Yixuan Ku# (2018) Atypically larger variability of resource allocation accounts for visual working memory deficits in schizophrenia. (in review). [biorxiv](https://www.biorxiv.org/content/early/2018/09/23/424523)
+- Fang, W., **Zhang, R**., Zhao, Y., Wang, L., Zhou, Y. (2018) Attenuation of pain perception induced by the rubber hand illusion. (in review).
+
+- Zhao, Y., Ran, X., Zhang, L., **Zhang, R**#., Ku, Y#., (2018) Atypically larger variability of resource allocation accounts for visual working memory deficits in schizophrenia. (in review). [biorxiv](https://www.biorxiv.org/content/early/2018/09/23/424523)
 
 - **Zhang, R**#., & Tadin,D. (2018) Disentangling locus of perceptual learning in the visual hierarchy of motion processing. (in review). [biorxiv](https://www.biorxiv.org/content/early/2018/03/14/282319)
 
