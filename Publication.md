@@ -10,11 +10,11 @@ permalink: /Publication
 \* co-first author, \# corresponding/seninor author
 
 ### In review/revision
+- Zhang, C., Duan, X., Wang, L., Li, Y., Yan, B., Hu, G., **Zhang, R**#., Tong, L#. Dissociable neural representations of adversarially perturbed images in deep neural networks and the human brain. (in review). [arxiv](https://128.84.21.199/abs/1812.09431)
+
 - Fang, W., **Zhang, R**., Zhao, Y., Wang, L., Zhou, Y. (2018) Attenuation of pain perception induced by the rubber hand illusion. (in review).
 
 - Zhao, Y., Ran, X., Zhang, L., **Zhang, R**#., Ku, Y#., (2018) Atypically larger variability of resource allocation accounts for visual working memory deficits in schizophrenia. (in review). [biorxiv](https://www.biorxiv.org/content/early/2018/09/23/424523)
-
-- **Zhang, R**#., & Tadin,D. (2018) Disentangling locus of perceptual learning in the visual hierarchy of motion processing. (in review). [biorxiv](https://www.biorxiv.org/content/early/2018/03/14/282319)
 
 - **Zhang, R**#., & Kay, K. (2018) Flexible attention in human ventral temporal cortex. (in review) [biorxiv](https://www.biorxiv.org/content/early/2018/03/16/279935)
 
@@ -23,12 +23,13 @@ permalink: /Publication
 - Kay K., Jamison K., Vizioli L., **Zhang R**., Margalit E, Ugurbil K. (2018) A critical assessment of data quality and venous effects in ultra-high-resolution fMRI. (in review) [biorxiv](https://www.biorxiv.org/content/early/2018/06/03/337667)
 
 ### Publications 
+- **Zhang, R**#., & Tadin,D. (2018) Disentangling locus of perceptual learning in the visual hierarchy of motion processing. ***Scientfic Report*** (in press). [biorxiv](https://www.biorxiv.org/content/early/2018/03/14/282319)
 
 - **Zhang, R**., & Kay,K. (2018) The impact of noise correlation on multivariate pattern classification in fMRI. ***Proceedings of Conference on Cognitive Computational Neuroscience***. [PDF](http://ruyuanzhang.github.io/files/CCN18_noiseCorr_ZhangKay.pdf)
 
-- Chi Zhang., Xiaohan Duan., **Ruyuan Zhang**\#., Li Tong\#. (2018) Representation of adversarial images in deep neural networks and the human brain. ***Proceedings of Conference on Cognitive Computational Neuroscience***. [PDF](http://ruyuanzhang.github.io/files/CCN18_advserial_ChiRuyuanLi.pdf)
+- Zhang, C., Duan, X., **Zhang, C**\#., Tong, L\#. (2018) Representation of adversarial images in deep neural networks and the human brain. ***Proceedings of Conference on Cognitive Computational Neuroscience***. [PDF](http://ruyuanzhang.github.io/files/CCN18_advserial_ChiRuyuanLi.pdf)
 
-- Yijie Zhao., Xuemei Ran., Li Zhang., **Ruyuan Zhang**\#., Yixuan Ku\#. (2018) Modeling visual working memory in Schizophrenia. ***Proceedings of Conference on Cognitive Computational Neuroscience***. [PDF](http://ruyuanzhang.github.io/files/CCN18_YijieRuyuanYixuan.pdf)
+- Zhao, Y., Ran, X.,Zhang, L., **Zhang, R**\#., Ku, Y\#. (2018) Modeling visual working memory in Schizophrenia. ***Proceedings of Conference on Cognitive Computational Neuroscience***. [PDF](http://ruyuanzhang.github.io/files/CCN18_YijieRuyuanYixuan.pdf)
 
 - Park WJ, Schauder KB, **Zhang R**, Bennetto L, Tadin D. Elvated internal noise and poor external noise filter limit perception in autism spectrum disorder. ***Scientific Report***, **7**, 17584;  DOI:10.1038/s41598-017-17676-5. [PDF](http://ruyuanzhang.github.io/files/ParkZhangTadin_SciRep2017.pdf) 
 
