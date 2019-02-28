@@ -7,37 +7,40 @@ permalink: /Publication
 
 **Please note that the PDF articles provided herein are for your own personal, scholarly use. Please do not distribute or post these files. To request a paper reprint, please email ruyuanzhangATgmailDOTcom.**
 
-\* co-first author, \# corresponding/seninor author
+\* co-first author, \# corresponding/senior author
 
 ### In review/revision
-- Zhang, C., Duan, X., Wang, L., Li, Y., Yan, B., Hu, G., **Zhang, R**#., Tong, L#. Dissociable neural representations of adversarially perturbed images in deep neural networks and the human brain. (in review). [arxiv](https://128.84.21.199/abs/1812.09431)
+- Zhang, C., Qiao, K., Wang, L., Tong, L., Hu, G., **Zhang, R**#., Bin, Y#. A visual encoding model based on deep neural networks and transfer learning. (in review). [arxiv](https://arxiv.org/abs/1902.08793)
 
-- Fang, W., **Zhang, R**., Zhao, Y., Wang, L., Zhou, Y. (2018) Attenuation of pain perception induced by the rubber hand illusion. (in review).
+- Zhang, C., Duan, X., Wang, L., Li, Y., Yan, B., Hu, G., **Zhang, R**#., Tong, L#. Dissociable neural representations of adversarially perturbed images in deep neural networks and the human brain. (in review). [arxiv](https://arxiv.org/abs/1812.09431)
 
-- Zhao, Y., Ran, X., Zhang, L., **Zhang, R**#., Ku, Y#., (2018) Atypically larger variability of resource allocation accounts for visual working memory deficits in schizophrenia. (in review). [biorxiv](https://www.biorxiv.org/content/early/2018/09/23/424523)
+- Fang, W., **Zhang, R**., Zhao, Y., Wang, L., Zhou, Y. Attenuation of pain perception induced by the rubber hand illusion. (in review).
 
-- **Zhang, R**#., & Kay, K. (2018) Flexible attention in human ventral temporal cortex. (in review) [biorxiv](https://www.biorxiv.org/content/early/2018/03/16/279935)
+- Zhao, Y., Ran, X., Zhang, L., **Zhang, R**#., Ku, Y#., Atypically larger variability of resource allocation accounts for visual working memory deficits in schizophrenia. (in review). [biorxiv](https://www.biorxiv.org/content/early/2018/09/23/424523)
 
-- **Zhang, R**., Lu, Z., Jaeggi,S., Buschkuehl,M., Green, C,S, & Bavelier, D. (2018) ‘Learning to learn’ as a mechanism for generalization of learning. (in revision).
+- **Zhang, R**#., & Kay, K. Flexible attention in human ventral temporal cortex. (in review). [biorxiv](https://www.biorxiv.org/content/early/2018/03/16/279935)
 
-- Kay K., Jamison K., Vizioli L., **Zhang R**., Margalit E, Ugurbil K. (2018) A critical assessment of data quality and venous effects in ultra-high-resolution fMRI. (in review) [biorxiv](https://www.biorxiv.org/content/early/2018/06/03/337667)
+- **Zhang, R**., Lu, Z., Jaeggi,S., Buschkuehl, M., Green, C,S, & Bavelier, D. ‘Learning to learn’ as a mechanism for generalization of learning. (in revision).
+
 
 ### Publications 
-- **Zhang, R**#., & Tadin,D. (2018) Disentangling locus of perceptual learning in the visual hierarchy of motion processing. ***Scientfic Report*** (in press). [biorxiv](https://www.biorxiv.org/content/early/2018/03/14/282319)
+- Kay K., Jamison K., Vizioli L., **Zhang R**., Margalit E, Ugurbil K. (2019) A critical assessment of data quality and venous effects in ultra-high-resolution fMRI. ***Neuroimage***, *189*, 847-869. [PDF](https://doi.org/10.1016/j.neuroimage.2019.02.006)
 
-- **Zhang, R**., & Kay,K. (2018) The impact of noise correlation on multivariate pattern classification in fMRI. ***Proceedings of Conference on Cognitive Computational Neuroscience***. [PDF](http://ruyuanzhang.github.io/files/CCN18_noiseCorr_ZhangKay.pdf)
+- **Zhang, R**#., & Tadin, D. (2019). Disentangling locus of perceptual learning in the visual hierarchy of motion processing. ***Scientific Reports***, *9*(1), 1557. [PDF](https://www.nature.com/articles/s41598-018-37892-x)
 
-- Zhang, C., Duan, X., **Zhang, C**\#., Tong, L\#. (2018) Representation of adversarial images in deep neural networks and the human brain. ***Proceedings of Conference on Cognitive Computational Neuroscience***. [PDF](http://ruyuanzhang.github.io/files/CCN18_advserial_ChiRuyuanLi.pdf)
+- **Zhang, R**#., & Kay, K. (2018) The impact of noise correlation on multivariate pattern classification in fMRI. ***Proceedings of Conference on Cognitive Computational Neuroscience***. [PDF](http://ruyuanzhang.github.io/files/CCN18_noiseCorr_ZhangKay.pdf)
 
-- Zhao, Y., Ran, X.,Zhang, L., **Zhang, R**\#., Ku, Y\#. (2018) Modeling visual working memory in Schizophrenia. ***Proceedings of Conference on Cognitive Computational Neuroscience***. [PDF](http://ruyuanzhang.github.io/files/CCN18_YijieRuyuanYixuan.pdf)
+- Zhang, C., Duan, X., **Zhang, R**\#., Tong, L\#. (2018) Representation of adversarial images in deep neural networks and the human brain. ***Proceedings of Conference on Cognitive Computational Neuroscience***. [PDF](http://ruyuanzhang.github.io/files/CCN18_advserial_ChiRuyuanLi.pdf)
 
-- Park WJ, Schauder KB, **Zhang R**, Bennetto L, Tadin D. Elvated internal noise and poor external noise filter limit perception in autism spectrum disorder. ***Scientific Report***, **7**, 17584;  DOI:10.1038/s41598-017-17676-5. [PDF](http://ruyuanzhang.github.io/files/ParkZhangTadin_SciRep2017.pdf) 
+- Zhao, Y., Ran, X., Zhang, L., **Zhang, R**\#., Ku, Y\#. (2018) Modeling visual working memory in Schizophrenia. ***Proceedings of Conference on Cognitive Computational Neuroscience***. [PDF](http://ruyuanzhang.github.io/files/CCN18_YijieRuyuanYixuan.pdf)
 
-- **Zhang, R**, Engel S.A., Kay,K. (2017) Binocular Rivalry: a window into cortical competition and suppression. ***Journal of Indian Institute of Sciences*** 97(4), 477-485. [PDF](http://ruyuanzhang.github.io/files/ZhangJIndianInstSci2017.pdf)
+- Park, WJ, Schauder, KB, **Zhang, R**., Bennetto, L., Tadin, D. Elevated internal noise and poor external noise filter limit perception in autism spectrum disorder. ***Scientific Reports***, *7*, 17584. [PDF](http://ruyuanzhang.github.io/files/ParkZhangTadin_SciRep2017.pdf) 
 
-- **Zhang, R**., & Kay,K. (2017) Attentional field model does not explain task-dependent spatial representation in human ventral temporal cortex. ***Proceedings of <!---->Conference on Cognitive Computatinal Neuroscience***. [PDF](http://ruyuanzhang.github.io/files/ZhangKay_CCN17.pdf)
+- **Zhang, R**, Engel S.A., Kay, K. (2017) Binocular Rivalry: a window into cortical competition and suppression. ***Journal of Indian Institute of Sciences*** 97(4), 477-485. [PDF](http://ruyuanzhang.github.io/files/ZhangJIndianInstSci2017.pdf)
 
-- Nyquist J.B., Lappin J.S., **Zhang, R** & Tadin,D. (2016) Perceptual Training yields rapid improvements in visually impaired youth. ***Scientific Report***, **6**, 37431; doi: 10.1038/srep37431. [PDF](http://ruyuanzhang.github.io/files/NyquistLappinZhangTadin_SciRep2016.pdf) ~[Press Release](http://www.rochester.edu/newscenter/brain-training-video-games-help-low-vision-kids-see-better-201322/), [Science Daily](https://www.sciencedaily.com/releases/2016/11/161130130851.htm)
+- **Zhang, R**#., & Kay, K. (2017) Attentional field model does not explain task-dependent spatial representation in human ventral temporal cortex. ***Proceedings of Conference on Cognitive Computational Neuroscience***. [PDF](http://ruyuanzhang.github.io/files/ZhangKay_CCN17.pdf)
+
+- Nyquist J.B., Lappin J.S., **Zhang, R** & Tadin, D. (2016) Perceptual Training yields rapid improvements in visually impaired youth. ***Scientific Reports***, *6*, 37431. [PDF](http://ruyuanzhang.github.io/files/NyquistLappinZhangTadin_SciRep2016.pdf) ~[Press Release](http://www.rochester.edu/newscenter/brain-training-video-games-help-low-vision-kids-see-better-201322/), [Science Daily](https://www.sciencedaily.com/releases/2016/11/161130130851.htm)
 
 - Cavanaugh M.R\*, **Zhang, R**\*. Melnick M.D., Das. A., Roberts, M., Tadin,D., Carrasco, M., & Huxlin,.K.R.  (2015) Visual recovery in cortical blindness is limited by high internal noise. ***Journal of Vision***, *15(10)*, 9-9. [PDF](http://ruyuanzhang.github.io/files/CavanaughZhang_JOV15.pdf)
 
@@ -45,19 +48,25 @@ permalink: /Publication
 
 - **Zhang, R**\*. Kwon, O.S\*. & Tadin, D. (2013). Illusory motion of stationary stimuli in visual periphery: evidence for a strong centrifugal prior. (\*=equally first authors). ***Journal of Neuroscience***, *33*, 4415-4423. [PDF](http://ruyuanzhang.github.io/files/ZhangKwonTadin_JN13.pdf)
 
-### Publication in preparation (titles are provitional)
-- **Zhang, R**., Kwon, O.S & Tadin,D. When learning impairs performance: divisive gain control explains adaptive learning of motion (in preparation).- Kwon, O.S., **Zhang, R**. & Tadin,D. Two-stages temporal evolution of motion perception (in preparation).- **Zhang, R**., Kay, K. Modeling the attentional modulation on spatial representation in human ventral temproal cortex (in preparation).
+### Publication in preparation (titles are provisional)
+- **Zhang, R**., Kwon, O.S & Tadin, D. When learning impairs performance: divisive gain control explains adaptive learning of motion (in preparation).- Kwon, O.S., **Zhang, R**. & Tadin, D. Two-stages temporal evolution of motion perception (in preparation).- **Zhang, R**., Kay, K. Modeling the attentional modulation on spatial representation in human ventral temproal cortex (in preparation).
 -  Barbot, A., Park, W. J., **Zhang, R**., Huxlin, K., Tadin, D., & Yoon, G. Re-organization of visual processing following long-term adaptation to severe optical aberrations.
 
-### Ongoing Projects (titles are provitional)
+### Ongoing Projects (titles are provisional)
 
-- **Zhang, R**., Kay,K. Bottom-up and top-down influences on spatial representation in human ventral temporal cortex-a 7T fMRI study.- **Zhang, R**., Yeatman, J., Kay,K., Bottom-up and top-down influences in word reading.
+- **Zhang, R**., Kay, K. Bottom-up and top-down influences on spatial representation in human ventral temporal cortex-a 7T fMRI study.- **Zhang, R**., Yeatman, J., Kay, K., Bottom-up and top-down influences in word reading.
 
-- **Zhang, R**, Kay, K. Identifying effects of vein in local blood-oxygen-level-dependent responses using high spatial and temporal neuroimaging.- **Zhang, R**., Kay, K. Cortical depth dependent selectivity for natural image statistics in human visual cortex. - **Zhang, R**., Chen Q., Mahon,B. Decode motion processing in cortical blind patients.- **Zhang, R**, Jaeggi, S.M., Buschkuehl, M., & Bavelier, D.  Working memory and skill learning as a function of video game experience.- **Zhang, R**., Bavelier D. Decomposing influences of video game over superior learning ability by video contexts. - Racey, C., **Zhang, R**., Kay, K., Schloss, K. Neural mechanisms of color preference in the human brain.- Chopin, A., **Zhang, R**., Shibata, K., Bavelier, D. Action video game play facilitates ‘Learning to learn’– a large sample, preregistration study.
+- **Zhang, R**, Kay, K. Identifying effects of vein in local blood-oxygen-level-dependent responses using high spatial and temporal neuroimaging.- **Zhang, R**., Kay, K. Cortical depth dependent selectivity for natural image statistics in human visual cortex. - **Zhang, R**., Chen Q., Mahon, B. Decode motion processing in cortical blind patients.- **Zhang, R**, Jaeggi, S.M., Buschkuehl, M., & Bavelier, D.  Working memory and skill learning as a function of video game experience.- **Zhang, R**., Bavelier D. Decomposing influences of video game over superior learning ability by video contexts. - Racey, C., **Zhang, R**., Kay, K., Schloss, K. Neural mechanisms of color preference in the human brain.- Chopin, A., **Zhang, R**., Shibata, K., Bavelier, D. Action video game play facilitates ‘Learning to learn’– a large sample, preregistration study.
 ### Conferences
+#### 2019
+- Zhao, Y., Ran, X., Zhang, L., Zhang, R#., Ku, Y#. (2019) Abnormally enhanced resilience to distraction in visual working memory in schizophrenia. (2019 Annual Meeting of Society of Biological Psychiatry)
+- Zhao, Y., Ran, X., Zhang, L., Zhang, R#., Ku, Y#. (2019) Atypically larger variability of resource allocation accounts for visual working memory deficits in schizophrenia. (2019 Annual Meeting of Society of Biological Psychiatry)
+- Margalit, E., Jamison, K., Weiner, K., Vizioli, L., Zhang, R., Kay, K., and Grill-Spector, K. (2019) Differential representation of object category information follows anatomical differences in ventral temporal cortex. (Vision Sciences Society Annual Meeting 2019)
+- Ge, Y., Zhang, R., Qian, C., Chen, C., Mesik, J., Engle, S., He S. (2019) Underlying mechanisms of temporal dynamics in bistable perception. (Vision Sciences Society Annual Meeting 2019).
+
 
 #### 2018
-- Zhang, R., & Kay,K. (2018) The impact of noise correlation on multivariate pattern classification in fMRI. (Annual Conference on Cognitive Computational Neuroscience 2018). 
+- Zhang, R., & Kay, K. (2018) The impact of noise correlation on multivariate pattern classification in fMRI. (Annual Conference on Cognitive Computational Neuroscience 2018). 
 
 - Chi Zhang., Xiaohan Duan., Ruyuan Zhang#., Li Tong#. (2018) Representation of adversarial images in deep neural networks and the human brain. (Annual Conference on Cognitive Computational Neuroscience 2018).
 
