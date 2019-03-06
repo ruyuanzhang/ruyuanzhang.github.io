@@ -10,6 +10,9 @@ permalink: /Publication
 \* co-first author, \# corresponding/senior author
 
 ### In review/revision
+
+- Zhao, Y., Ran, X., Zhang, L., **Zhang, R**#., Ku, Y#., Unexpected higher resilience to distraction during visual working memory in schizophrenia. [biorxiv](https://www.biorxiv.org/content/10.1101/567859v1?rss=1)
+
 - Zhang, C., Qiao, K., Wang, L., Tong, L., Hu, G., **Zhang, R**#., Bin, Y#. A visual encoding model based on deep neural networks and transfer learning. (in review). [arxiv](https://arxiv.org/abs/1902.08793)
 
 - Zhang, C., Duan, X., Wang, L., Li, Y., Yan, B., Hu, G., **Zhang, R**#., Tong, L#. Dissociable neural representations of adversarially perturbed images in deep neural networks and the human brain. (in review). [arxiv](https://arxiv.org/abs/1812.09431)
