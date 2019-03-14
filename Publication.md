@@ -17,8 +17,6 @@ permalink: /Publication
 
 - Zhang, C., Duan, X., Wang, L., Li, Y., Yan, B., Hu, G., **Zhang, R**#., Tong, L#. Dissociable neural representations of adversarially perturbed images in deep neural networks and the human brain. (in review). [arxiv](https://arxiv.org/abs/1812.09431)
 
-- Fang, W., **Zhang, R**., Zhao, Y., Wang, L., Zhou, Y. Attenuation of pain perception induced by the rubber hand illusion. (in review).
-
 - Zhao, Y., Ran, X., Zhang, L., **Zhang, R**#., Ku, Y#., Atypically larger variability of resource allocation accounts for visual working memory deficits in schizophrenia. (in review). [biorxiv](https://www.biorxiv.org/content/early/2018/09/23/424523)
 
 - **Zhang, R**#., & Kay, K. Flexible attention in human ventral temporal cortex. (in review). [biorxiv](https://www.biorxiv.org/content/early/2018/03/16/279935)
@@ -27,6 +25,8 @@ permalink: /Publication
 
 
 ### Publications 
+- Fang, W., **Zhang, R**., Zhao, Y., Wang, L., Zhou, Y. (2019) Attenuation of pain perception induced by the rubber hand illusion. ***Frontiers in Neuroscience***, *13*, 261.
+
 - Kay K., Jamison K., Vizioli L., **Zhang R**., Margalit E, Ugurbil K. (2019) A critical assessment of data quality and venous effects in ultra-high-resolution fMRI. ***Neuroimage***, *189*, 847-869. [PDF](https://doi.org/10.1016/j.neuroimage.2019.02.006)
 
 - **Zhang, R**#., & Tadin, D. (2019). Disentangling locus of perceptual learning in the visual hierarchy of motion processing. ***Scientific Reports***, *9*(1), 1557. [PDF](https://www.nature.com/articles/s41598-018-37892-x)
