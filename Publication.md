@@ -10,6 +10,7 @@ permalink: /Publication
 \* co-first author, \# corresponding/senior author
 
 ### In review/revision
+- **Zhang, R-Y**#., Xue-Xin Wei., Kay, K. Understanding multivariate brain activity: evaluating the effect of voxelwise noise correlations on population codes in functional magnetic resonance imaging. [biorxiv](https://www.biorxiv.org/content/10.1101/592618v1)
 
 - Zhao, Y., Ran, X., Zhang, L., **Zhang, R**#., Ku, Y#., Unexpected higher resilience to distraction during visual working memory in schizophrenia. [biorxiv](https://www.biorxiv.org/content/10.1101/567859v1?rss=1)
 

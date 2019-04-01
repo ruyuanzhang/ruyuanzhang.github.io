@@ -2,12 +2,12 @@
 #
 
 # Site settings
-title: Ruyuan Zhang
+title: Ru-Yuan Zhang
 owner:
-  name: Ruyuan Zhang
+  name: Ru-Yuan Zhang
   email: ruyuanzhangATgmailDOTcom
 description: > # this means to ignore newlines until "baseurl:"
-  Here is the Ruyuan Zhang's personal webpage
+  Here is the Ru-Yuan Zhang's personal webpage
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://ruyuanzhang.github.io" # the base hostname & protocol for your site
 twitter_username: ruyuanzhang
