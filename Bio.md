@@ -5,7 +5,7 @@ meta: My bio and CV
 permalink: /Bio
 ---
 
-I am currently a postdoctoral research associate, working with Prof. [Kendrick Kay][Kay] in [Center for Magnetic Resonance Research][CMRR] at University of Minnesota Twin cities.
+I am currently a postdoctoral research associate, working with Prof. Geoffery Ghose[Kay] in [Center for Magnetic Resonance Research][CMRR] at University of Minnesota Twin cities.
 
 
 I got my Ph.D in 2016 from [Department of Brain and Cognitive Sciences][BCS] and [Center for Visual Science][CVS] at  University of Rochester (Rochester,NY). During my Ph.D, I worked with Prof. [Daphne Bavelier] [Bavelier] and Prof. [Duje Tadin][Tadin]. Super lucky! Two smart and nice advisors helped me a lot both in my life and academic career.
@@ -17,7 +17,7 @@ I was born in Zhangjiajie, a small city in middle south of China. It's famous fo
 You can download my full [CV][C-V] here.
 
 [C-V]: https://ruyuanzhang.github.io/files/CV-RuyuanZhang.pdf
-[Kay]: http://cvnlab.net/home.shtml
+[Ghose]: https://www.cmrr.umn.edu/facultystaff/geoff/
 [CMRR]:https://www.cmrr.umn.edu/
 [BCS]:https://www.bcs.rochester.edu/
 [CVS]:https://www.cvs.rochester.edu/

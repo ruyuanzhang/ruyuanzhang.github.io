@@ -26,7 +26,7 @@ permalink: /Publication
 
 
 ### Publications 
-- Fang, W., **Zhang, R**., Zhao, Y., Wang, L., Zhou, Y. (2019) Attenuation of pain perception induced by the rubber hand illusion. ***Frontiers in Neuroscience***, *13*, 261.
+- Fang, W., **Zhang, R**., Zhao, Y., Wang, L., Zhou, Y. (2019) Attenuation of pain perception induced by the rubber hand illusion. ***Frontiers in Neuroscience***, *13*, 261.[PDF](http://ruyuanzhang.github.io/files/Fang_rhi_FrontieNeuro2019.pdf)
 
 - Kay K., Jamison K., Vizioli L., **Zhang R**., Margalit E, Ugurbil K. (2019) A critical assessment of data quality and venous effects in ultra-high-resolution fMRI. ***Neuroimage***, *189*, 847-869. [PDF](https://doi.org/10.1016/j.neuroimage.2019.02.006)
 
