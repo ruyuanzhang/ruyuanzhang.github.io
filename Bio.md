@@ -5,7 +5,7 @@ meta: My bio and CV
 permalink: /Bio
 ---
 
-I am currently a postdoctoral research associate, working with Prof. Geoffery Ghose[Kay] in [Center for Magnetic Resonance Research][CMRR] at University of Minnesota Twin cities.
+My name is Ru-Yuan Zhang (张洳源 in Chinese). I am currently a postdoctoral research associate, working with Prof. [Geoffery Ghose][Ghose] in [Center for Magnetic Resonance Research][CMRR] at University of Minnesota Twin cities.
 
 
 I got my Ph.D in 2016 from [Department of Brain and Cognitive Sciences][BCS] and [Center for Visual Science][CVS] at  University of Rochester (Rochester,NY). During my Ph.D, I worked with Prof. [Daphne Bavelier] [Bavelier] and Prof. [Duje Tadin][Tadin]. Super lucky! Two smart and nice advisors helped me a lot both in my life and academic career.
