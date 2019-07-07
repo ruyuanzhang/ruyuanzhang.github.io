@@ -9,10 +9,12 @@ permalink: /Publication
 
 \* co-first author, \# corresponding/senior author
 
-### In review/revision
+### In preprint/review/revision/
+- Liu, S., **Zhang, R-Y**., Kishimoto, T. Analysis and Prospect of Clinical Psychology Based on Topic Models: Hot Research Topics and Scientific trends in the Latest Decades.
+
 - **Zhang, R-Y**#., Wei, X-X., Kay, K. Understanding multivariate brain activity: evaluating the effect of voxelwise noise correlations on population codes in functional magnetic resonance imaging. [biorxiv](https://www.biorxiv.org/content/10.1101/592618v1)
 
-- Zhao, Y., Ran, X., Zhang, L., **Zhang, R-Y**#., Ku, Y#., Unexpected higher resilience to distraction during visual working memory in schizophrenia. [biorxiv](https://www.biorxiv.org/content/10.1101/567859v1?rss=1)
+- Zhao, Y., Ran, X., Zhang, L., **Zhang, R-Y**#., Ku, Y#. Unexpected higher resilience to distraction during visual working memory in schizophrenia. [biorxiv](https://www.biorxiv.org/content/10.1101/567859v1?rss=1)
 
 - Zhang, C., Duan, X., Wang, L., Li, Y., Yan, B., Hu, G., **Zhang, R-Y**#., Tong, L#. Dissociable neural representations of adversarially perturbed images in deep neural networks and the human brain. (in review). [arxiv](https://arxiv.org/abs/1812.09431)
 
@@ -24,7 +26,7 @@ permalink: /Publication
 
 
 ### Publications 
-- Zhang, C., Qiao, K., Wang, L., Tong, L., Hu, G., **Zhang, R-Y**#., Bin, Y#. A visual encoding model based on deep neural networks and transfer learning. ***Journal of Neuroscience Methods***, 108318. [PDF](https://www.sciencedirect.com/science/article/pii/S0165027019301761#!)
+- Zhang, C., Qiao, K., Wang, L., Tong, L., Hu, G., **Zhang, R-Y**#., Bin, Y#. (2019) A visual encoding model based on deep neural networks and transfer learning. ***Journal of Neuroscience Methods***, 108318. [PDF](https://www.sciencedirect.com/science/article/pii/S0165027019301761#!)
 
 - Fang, W., **Zhang, R**., Zhao, Y., Wang, L., Zhou, Y. (2019) Attenuation of pain perception induced by the rubber hand illusion. ***Frontiers in Neuroscience***, *13*, 261.[PDF](http://ruyuanzhang.github.io/files/Fang_rhi_FrontieNeuro2019.pdf)
 
@@ -61,6 +63,8 @@ permalink: /Publication
 - **Zhang, R**., Kay, K. Bottom-up and top-down influences on spatial representation in human ventral temporal cortex-a 7T fMRI study.- **Zhang, R**., Yeatman, J., Kay, K., Bottom-up and top-down influences in word reading.- **Zhang, R**., Chen Q., Mahon, B. Decode motion processing in cortical blind patients.- **Zhang, R**, Jaeggi, S.M., Buschkuehl, M., & Bavelier, D.  Working memory and skill learning as a function of video game experience.- **Zhang, R**., Bavelier D. Decomposing influences of video game over superior learning ability by video contexts. - Racey, C., **Zhang, R**., Kay, K., Schloss, K. Neural mechanisms of color preference in the human brain.- Chopin, A., **Zhang, R**., Shibata, K., Bavelier, D. Action video game play facilitates ‘Learning to learn’– a large sample, preregistration study.
 ### Conferences
 #### 2019
+- Zhang, R-Y., Wei, X-X., Xiangbin, Teng., Kay, K. (2019) Trial-by-trial voxelwise noise correlations improve population coding of orientation in human V1. (2019 Annual Conferences on Cognitive Computational Neuroscience)
+- Zhang, R-Y., Wei, X-X., Kay, K. (2019) Trial-by-trial voxelwise noise correlations may enhance the fidelity of population codes in functional magnetic resonance imaging (2019 Annual Conferences of Society of Neuroscience)
 - Zhao, Y., Ran, X., Zhang, L., Zhang, R#., Ku, Y#. (2019) Abnormally enhanced resilience to distraction in visual working memory in schizophrenia. (2019 Annual Meeting of Society of Biological Psychiatry)
 - Zhao, Y., Ran, X., Zhang, L., Zhang, R#., Ku, Y#. (2019) Atypically larger variability of resource allocation accounts for visual working memory deficits in schizophrenia. (2019 Annual Meeting of Society of Biological Psychiatry)
 - Margalit, E., Jamison, K., Weiner, K., Vizioli, L., Zhang, R., Kay, K., and Grill-Spector, K. (2019) Differential representation of object category information follows anatomical differences in ventral temporal cortex. (Vision Sciences Society Annual Meeting 2019)
