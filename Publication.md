@@ -12,20 +12,20 @@ permalink: /Publication
 ### In review/revision
 - **Zhang, R-Y**#., Wei, X-X., Kay, K. Understanding multivariate brain activity: evaluating the effect of voxelwise noise correlations on population codes in functional magnetic resonance imaging. [biorxiv](https://www.biorxiv.org/content/10.1101/592618v1)
 
-- Zhao, Y., Ran, X., Zhang, L., **Zhang, R**#., Ku, Y#., Unexpected higher resilience to distraction during visual working memory in schizophrenia. [biorxiv](https://www.biorxiv.org/content/10.1101/567859v1?rss=1)
+- Zhao, Y., Ran, X., Zhang, L., **Zhang, R-Y**#., Ku, Y#., Unexpected higher resilience to distraction during visual working memory in schizophrenia. [biorxiv](https://www.biorxiv.org/content/10.1101/567859v1?rss=1)
 
-- Zhang, C., Qiao, K., Wang, L., Tong, L., Hu, G., **Zhang, R**#., Bin, Y#. A visual encoding model based on deep neural networks and transfer learning. (in review). [arxiv](https://arxiv.org/abs/1902.08793)
+- Zhang, C., Duan, X., Wang, L., Li, Y., Yan, B., Hu, G., **Zhang, R-Y**#., Tong, L#. Dissociable neural representations of adversarially perturbed images in deep neural networks and the human brain. (in review). [arxiv](https://arxiv.org/abs/1812.09431)
 
-- Zhang, C., Duan, X., Wang, L., Li, Y., Yan, B., Hu, G., **Zhang, R**#., Tong, L#. Dissociable neural representations of adversarially perturbed images in deep neural networks and the human brain. (in review). [arxiv](https://arxiv.org/abs/1812.09431)
+- Zhao, Y., Ran, X., Zhang, L., **Zhang, R-Y**#., Ku, Y#., Atypically larger variability of resource allocation accounts for visual working memory deficits in schizophrenia. (in review). [biorxiv](https://www.biorxiv.org/content/early/2018/09/23/424523)
 
-- Zhao, Y., Ran, X., Zhang, L., **Zhang, R**#., Ku, Y#., Atypically larger variability of resource allocation accounts for visual working memory deficits in schizophrenia. (in review). [biorxiv](https://www.biorxiv.org/content/early/2018/09/23/424523)
+- **Zhang, R-Y**#., & Kay, K. Flexible attention in human ventral temporal cortex. (in review). [biorxiv](https://www.biorxiv.org/content/early/2018/03/16/279935)
 
-- **Zhang, R**#., & Kay, K. Flexible attention in human ventral temporal cortex. (in review). [biorxiv](https://www.biorxiv.org/content/early/2018/03/16/279935)
-
-- **Zhang, R**., Lu, Z., Jaeggi,S., Buschkuehl, M., Green, C,S, & Bavelier, D. ‘Learning to learn’ as a mechanism for generalization of learning. (in revision).
+- **Zhang, R-Y**., Lu, Z., Jaeggi,S., Buschkuehl, M., Green, C,S, & Bavelier, D. ‘Learning to learn’ as a mechanism for generalization of learning. (in revision).
 
 
 ### Publications 
+- Zhang, C., Qiao, K., Wang, L., Tong, L., Hu, G., **Zhang, R-Y**#., Bin, Y#. A visual encoding model based on deep neural networks and transfer learning. ***Journal of Neuroscience Methods***, 108318. [PDF](https://www.sciencedirect.com/science/article/pii/S0165027019301761#!)
+
 - Fang, W., **Zhang, R**., Zhao, Y., Wang, L., Zhou, Y. (2019) Attenuation of pain perception induced by the rubber hand illusion. ***Frontiers in Neuroscience***, *13*, 261.[PDF](http://ruyuanzhang.github.io/files/Fang_rhi_FrontieNeuro2019.pdf)
 
 - Kay K., Jamison K., Vizioli L., **Zhang R**., Margalit E, Ugurbil K. (2019) A critical assessment of data quality and venous effects in ultra-high-resolution fMRI. ***Neuroimage***, *189*, 847-869. [PDF](https://doi.org/10.1016/j.neuroimage.2019.02.006)
@@ -58,9 +58,7 @@ permalink: /Publication
 
 ### Ongoing Projects (titles are provisional)
 
-- **Zhang, R**., Kay, K. Bottom-up and top-down influences on spatial representation in human ventral temporal cortex-a 7T fMRI study.- **Zhang, R**., Yeatman, J., Kay, K., Bottom-up and top-down influences in word reading.
-
-- **Zhang, R**, Kay, K. Identifying effects of vein in local blood-oxygen-level-dependent responses using high spatial and temporal neuroimaging.- **Zhang, R**., Kay, K. Cortical depth dependent selectivity for natural image statistics in human visual cortex. - **Zhang, R**., Chen Q., Mahon, B. Decode motion processing in cortical blind patients.- **Zhang, R**, Jaeggi, S.M., Buschkuehl, M., & Bavelier, D.  Working memory and skill learning as a function of video game experience.- **Zhang, R**., Bavelier D. Decomposing influences of video game over superior learning ability by video contexts. - Racey, C., **Zhang, R**., Kay, K., Schloss, K. Neural mechanisms of color preference in the human brain.- Chopin, A., **Zhang, R**., Shibata, K., Bavelier, D. Action video game play facilitates ‘Learning to learn’– a large sample, preregistration study.
+- **Zhang, R**., Kay, K. Bottom-up and top-down influences on spatial representation in human ventral temporal cortex-a 7T fMRI study.- **Zhang, R**., Yeatman, J., Kay, K., Bottom-up and top-down influences in word reading.- **Zhang, R**., Chen Q., Mahon, B. Decode motion processing in cortical blind patients.- **Zhang, R**, Jaeggi, S.M., Buschkuehl, M., & Bavelier, D.  Working memory and skill learning as a function of video game experience.- **Zhang, R**., Bavelier D. Decomposing influences of video game over superior learning ability by video contexts. - Racey, C., **Zhang, R**., Kay, K., Schloss, K. Neural mechanisms of color preference in the human brain.- Chopin, A., **Zhang, R**., Shibata, K., Bavelier, D. Action video game play facilitates ‘Learning to learn’– a large sample, preregistration study.
 ### Conferences
 #### 2019
 - Zhao, Y., Ran, X., Zhang, L., Zhang, R#., Ku, Y#. (2019) Abnormally enhanced resilience to distraction in visual working memory in schizophrenia. (2019 Annual Meeting of Society of Biological Psychiatry)
