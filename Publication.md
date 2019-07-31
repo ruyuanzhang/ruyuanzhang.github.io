@@ -10,7 +10,11 @@ permalink: /Publication
 \* co-first author, \# corresponding/senior author
 
 ### In preprint/review/revision/
-- Liu, S., **Zhang, R-Y**., Kishimoto, T. Analysis and Prospect of Clinical Psychology Based on Topic Models: Hot Research Topics and Scientific trends in the Latest Decades.
+- Yao, S., Lin, P., Cao, C., Juvekar, P., **Zhang, R-Y**., Vera, M., Golby, A.J., Xu, G., Tie, Y., Song, J. Endogenous hormone levels are associated with alterations of functional connectivity in patients with prolactinomas. (in review)
+
+- Kishimoto, T., Wen, X., Li, M., **Zhang, R-Y**., Yao, N., Huang, Y., Qian, M. Attentional bias towards negative faces in social anxie-ty with and without comorbid depression. (In revision) 
+
+- Liu, S., **Zhang, R-Y**., Kishimoto, T. Analysis and Prospect of Clinical Psychology Based on Topic Models: Hot Research Topics and Scientific trends in the Latest  Decades. (In review)
 
 - **Zhang, R-Y**#., Wei, X-X., Kay, K. Understanding multivariate brain activity: evaluating the effect of voxelwise noise correlations on population codes in functional magnetic resonance imaging. [biorxiv](https://www.biorxiv.org/content/10.1101/592618v1)
 
@@ -26,6 +30,8 @@ permalink: /Publication
 
 
 ### Publications 
+- **Zhang, R-Y**#., Wei, X-X., Teng, X., Kay, K. (2019) Trial-by-trial voxelwise noise correlations improve population coding of orientation in human V1. ***Proceedings of Conference on Cognitive Computational Neuroscience***.
+
 - Zhang, C., Qiao, K., Wang, L., Tong, L., Hu, G., **Zhang, R-Y**#., Bin, Y#. (2019) A visual encoding model based on deep neural networks and transfer learning. ***Journal of Neuroscience Methods***, 108318. [PDF](https://www.sciencedirect.com/science/article/pii/S0165027019301761#!)
 
 - Fang, W., **Zhang, R**., Zhao, Y., Wang, L., Zhou, Y. (2019) Attenuation of pain perception induced by the rubber hand illusion. ***Frontiers in Neuroscience***, *13*, 261.[PDF](http://ruyuanzhang.github.io/files/Fang_rhi_FrontieNeuro2019.pdf)
