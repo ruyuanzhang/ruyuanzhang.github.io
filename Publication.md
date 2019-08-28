@@ -10,24 +10,27 @@ permalink: /Publication
 \* co-first author, \# corresponding/senior author
 
 ### In preprint/review/revision/
-- Yao, S., Lin, P., Cao, C., Juvekar, P., **Zhang, R-Y**., Vera, M., Golby, A.J., Xu, G., Tie, Y., Song, J. Endogenous hormone levels are associated with alterations of functional connectivity in patients with prolactinomas. (in review)
+- **Zhang, R-Y***., Chopin, A\*., Lu, Z., Jaeggi,S., Buschkuehl, M., Green, C,S, & Bavelier, D. ‘Learning to learn’ as a mechanism for generalization of learning. (in preparation).
+
+- A temporal decomposition method for removing venous effects from task-based fMRI. Kay, K., Jamison, K.W., **Zhang, R-Y.**, Ugurbil, K. (in preparation)
+
+- Ultra-high-resolution fMRI reveals differential representation of categories and domains across human ventral temporal cortex. Margalit E., Jamison K.W., Weiner K.S., Vizioli L., **Zhang, R-Y.**, Kay K., Grill-Spector K. (in review)
+
+- Yao, S., Lin, P., Cao, C., Juvekar, P., **Zhang, R-Y**., Vera, M., Golby, A.J., Xu, G., Tie, Y., Song, J. Endogenous hormone levels are associated with alterations of functional connectivity in patients with prolactinomas. (in review) [bioRxiv](https://www.biorxiv.org/content/10.1101/746297v1)
 
 - Kishimoto, T., Wen, X., Li, M., **Zhang, R-Y**., Yao, N., Huang, Y., Qian, M. Attentional bias towards negative faces in social anxie-ty with and without comorbid depression. (In revision) 
 
 - Liu, S., **Zhang, R-Y**., Kishimoto, T. Analysis and Prospect of Clinical Psychology Based on Topic Models: Hot Research Topics and Scientific trends in the Latest  Decades. (In review)
 
-- **Zhang, R-Y**#., Wei, X-X., Kay, K. Understanding multivariate brain activity: evaluating the effect of voxelwise noise correlations on population codes in functional magnetic resonance imaging. [biorxiv](https://www.biorxiv.org/content/10.1101/592618v1)
+- **Zhang, R-Y**#., Wei, X-X., Kay, K. Understanding multivariate brain activity: evaluating the effect of voxelwise noise correlations on population codes in functional magnetic resonance imaging. [bioRxiv](https://www.biorxiv.org/content/10.1101/592618v1)
 
-- Zhao, Y., Ran, X., Zhang, L., **Zhang, R-Y**#., Ku, Y#. Unexpected higher resilience to distraction during visual working memory in schizophrenia. [biorxiv](https://www.biorxiv.org/content/10.1101/567859v1?rss=1)
+- Zhao, Y., Ran, X., Zhang, L., **Zhang, R-Y**#., Ku, Y#. Unexpected higher resilience to distraction during visual working memory in schizophrenia. [bioRxiv](https://www.biorxiv.org/content/10.1101/567859v1?rss=1)
 
-- Zhang, C., Duan, X., Wang, L., Li, Y., Yan, B., Hu, G., **Zhang, R-Y**#., Tong, L#. Dissociable neural representations of adversarially perturbed images in deep neural networks and the human brain. (in review). [arxiv](https://arxiv.org/abs/1812.09431)
+- Zhang, C., Duan, X., Wang, L., Li, Y., Yan, B., Hu, G., **Zhang, R-Y**#., Tong, L#. Dissociable neural representations of adversarially perturbed images in deep neural networks and the human brain. (in review). [arXiv](https://arxiv.org/abs/1812.09431)
 
-- Zhao, Y., Ran, X., Zhang, L., **Zhang, R-Y**#., Ku, Y#., Atypically larger variability of resource allocation accounts for visual working memory deficits in schizophrenia. (in review). [biorxiv](https://www.biorxiv.org/content/early/2018/09/23/424523)
+- Zhao, Y., Ran, X., Zhang, L., **Zhang, R-Y**#., Ku, Y#., Atypically larger variability of resource allocation accounts for visual working memory deficits in schizophrenia. (in review). [bioRxiv](https://www.biorxiv.org/content/early/2018/09/23/424523)
 
-- **Zhang, R-Y**#., & Kay, K. Flexible attention in human ventral temporal cortex. (in review). [biorxiv](https://www.biorxiv.org/content/early/2018/03/16/279935)
-
-- **Zhang, R-Y**., Lu, Z., Jaeggi,S., Buschkuehl, M., Green, C,S, & Bavelier, D. ‘Learning to learn’ as a mechanism for generalization of learning. (in revision).
-
+- **Zhang, R-Y**#., & Kay, K. Flexible attention in human ventral temporal cortex. (in review). [bioRxiv](https://www.biorxiv.org/content/early/2018/03/16/279935)
 
 ### Publications 
 - **Zhang, R-Y**#., Wei, X-X., Teng, X., Kay, K. (2019) Trial-by-trial voxelwise noise correlations improve population coding of orientation in human V1. ***Proceedings of Conference on Cognitive Computational Neuroscience***.
