@@ -10,21 +10,23 @@ permalink: /Publication
 \* co-first author, \# corresponding/senior author
 
 ### In preprint/review/revision/
-- **Zhang, R-Y***., Chopin, A\*., Lu, Z., Jaeggi,S., Buschkuehl, M., Green, C,S, & Bavelier, D. ‘Learning to learn’ as a mechanism for generalization of learning. (in preparation).
+- Barbot, A, Park, W-J, **Zhang, R-Y**, Huxlin, K.R., Tadin, D., Yoon,G. Reorganization of visual processing following long-term adaptation to severe optical aberrations. (in preparation)
 
-- A temporal decomposition method for removing venous effects from task-based fMRI. Kay, K., Jamison, K.W., **Zhang, R-Y.**, Ugurbil, K. (in preparation)
+- **Zhang, R-Y***., Chopin, A\*., Lu, Z., Jaeggi,S., Buschkuehl, M., Green, C,S, & Bavelier, D. Action video game experience enhances working memory learning. (in preparation).
 
-- Ultra-high-resolution fMRI reveals differential representation of categories and domains across human ventral temporal cortex. Margalit E., Jamison K.W., Weiner K.S., Vizioli L., **Zhang, R-Y.**, Kay K., Grill-Spector K. (in review)
+- Kay, K., Jamison, K.W., **Zhang, R-Y.**, Ugurbil, K. A temporal decomposition method for removing venous effects from task-based fMRI. (in preparation)
+
+- Margalit E., Jamison K.W., Weiner K.S., Vizioli L., **Zhang, R-Y.**, Kay K., Grill-Spector K. Ultra-high-resolution fMRI reveals differential representation of categories and domains across human ventral temporal cortex.  (in review)
 
 - Yao, S., Lin, P., Cao, C., Juvekar, P., **Zhang, R-Y**., Vera, M., Golby, A.J., Xu, G., Tie, Y., Song, J. Endogenous hormone levels are associated with alterations of functional connectivity in patients with prolactinomas. (in review) [bioRxiv](https://www.biorxiv.org/content/10.1101/746297v1)
 
-- Kishimoto, T., Wen, X., Li, M., **Zhang, R-Y**., Yao, N., Huang, Y., Qian, M. Attentional bias towards negative faces in social anxie-ty with and without comorbid depression. (In revision) 
+- Kishimoto, T., Wen, X., Li, M., **Zhang, R-Y**., Yao, N., Huang, Y., Qian, M. Attentional bias towards negative faces in social anxie-ty with and without comorbid depression. (in revision) 
 
-- Liu, S., **Zhang, R-Y**., Kishimoto, T. Analysis and Prospect of Clinical Psychology Based on Topic Models: Hot Research Topics and Scientific trends in the Latest  Decades. (In review)
+- Liu, S., **Zhang, R-Y**., Kishimoto, T. Analysis and Prospect of Clinical Psychology Based on Topic Models: Hot Research Topics and Scientific trends in the Latest  Decades. (in review)
 
-- **Zhang, R-Y**#., Wei, X-X., Kay, K. Understanding multivariate brain activity: evaluating the effect of voxelwise noise correlations on population codes in functional magnetic resonance imaging. [bioRxiv](https://www.biorxiv.org/content/10.1101/592618v1)
+- **Zhang, R-Y**#., Wei, X-X., Kay, K. Understanding multivariate brain activity: evaluating the effect of voxelwise noise correlations on population codes in functional magnetic resonance imaging. (in revision) [bioRxiv](https://www.biorxiv.org/content/10.1101/592618v1)
 
-- Zhao, Y., Ran, X., Zhang, L., **Zhang, R-Y**#., Ku, Y#. Unexpected higher resilience to distraction during visual working memory in schizophrenia. [bioRxiv](https://www.biorxiv.org/content/10.1101/567859v1?rss=1)
+- Zhao, Y., Ran, X., Zhang, L., **Zhang, R-Y**#., Ku, Y#. Unexpected higher resilience to distraction during visual working memory in schizophrenia. (in revision)[bioRxiv](https://www.biorxiv.org/content/10.1101/567859v1?rss=1)
 
 - Zhang, C., Duan, X., Wang, L., Li, Y., Yan, B., Hu, G., **Zhang, R-Y**#., Tong, L#. Dissociable neural representations of adversarially perturbed images in deep neural networks and the human brain. (in review). [arXiv](https://arxiv.org/abs/1812.09431)
 
