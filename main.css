@@ -1,0 +1,135 @@
+/*--------------- Home Page--------------- */
+body{
+    font-family: "Helvetica Neue", Helvetica, arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.3;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+    padding: 0; 
+}
+td.top{
+  vertical-align: top;
+}
+
+
+/*--------------- Home Page--------------- */
+
+/* header section */
+div.headerimg{
+  background-image: url('background.jpg');
+  background-size: cover;
+  width: 100%;
+  height: 350px;
+  object-fit: contain;
+}
+
+/* Navigation bar */
+
+nav {
+  background-color: #003660;
+  display: block;
+  margin: auto;
+  width: 80%;
+  overflow: hidden;
+  text-align: center;
+}
+nav ul li {
+  display: inline-block;
+  list-style-type: none;
+  font-size: 18px;
+
+  /*-webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s; */
+}
+nav > ul > li > a {
+    color: rgb(255,255,255);
+    display: block;
+    line-height: 25px;
+    padding: 0 30px;
+    text-decoration: none;
+}
+nav > ul > li:hover > a {
+    color: #FBBB33;
+}
+.active {
+    color: #FBBB33;
+}
+
+div.recruit{
+  vertical-align: top;
+  text-align: center;
+  border-width: 0.5px;
+  border-style: solid;
+}
+
+
+/* content part */
+div.homepara{
+    font-size: 20px;
+}
+
+/* News list section */
+#labnews{
+  text-indent: 1em;
+  font-size: 25px;
+  font-style: italic;
+}
+p.newsdate{
+    text-indent: 1em;
+    font-size: large;
+}
+ul.newsitem{
+    text-indent: 2em;
+    font-size: median;
+}
+
+
+/*--------------- Research Page--------------- */
+p.subtitle{
+    font-size: large;
+    font-weight: bold;
+}
+p.content{
+    font-size: medium;
+}
+img.researchimg{
+  float: right;
+}
+
+/*--------------- Publication Page--------------- */
+/* Publication list section */
+#pubinstr{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+p.pubsubtitle{
+    text-align: center;
+    font-weight: bold;
+    font-size: x-large;
+}
+ul.ref{
+    margin-left: 2em;
+    font-size: medium;
+}
+
+p.pubyear{
+    margin-left: 1em;
+    font-size: medium;
+}
+ul.conference{
+    margin-left: 2em;
+    font-size: 14px;
+}
+
+
+/*--------------- Contact Page--------------- */
+p.contactpage{
+  font-size: large;
+  text-align: center;
+  line-height: 25px;
+}
