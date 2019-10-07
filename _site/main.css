@@ -100,14 +100,12 @@ ul.newsitem{
 
 
 /*--------------- Research Page--------------- */
-p.subtitle{
-    font-size: large;
-    font-weight: bold;
-}
-p.content{
+ul.research{
+    padding: 0;
     font-size: medium;
+    list-style-type: none;
 }
-img.researchimg{
+img.research{
   float: right;
 }
 
@@ -125,18 +123,13 @@ p.pubsubtitle{
 }
 ul.ref{
     margin-left: 2em;
-    font-size: medium;
+    font-size: 14px;
 }
 
 p.pubyear{
     margin-left: 1em;
     font-size: medium;
 }
-ul.conference{
-    margin-left: 2em;
-    font-size: 14px;
-}
-
 
 /*--------------- Contact Page--------------- */
 p.contactpage{
