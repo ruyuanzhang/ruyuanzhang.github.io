@@ -1,0 +1,509 @@
+<!doctype html>
+<html style='font-size:14px !important'>
+<head>
+<meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
+<title>writing3</title><link href='https://fonts.loli.net/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext' rel='stylesheet' type='text/css' /><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color: #ffffff; --text-color: #333333; --select-text-bg-color: #B5D6FC; --select-text-font-color: auto; --monospace: "Lucida Console",Consolas,"Courier",monospace; }
+html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
+body { margin: 0px; padding: 0px; height: auto; bottom: 0px; top: 0px; left: 0px; right: 0px; font-size: 1rem; line-height: 1.42857143; overflow-x: hidden; background-image: inherit; background-size: inherit; background-attachment: inherit; background-origin: inherit; background-clip: inherit; background-color: inherit; tab-size: 4; background-position: inherit inherit; background-repeat: inherit inherit; }
+iframe { margin: auto; }
+a.url { word-break: break-all; }
+a:active, a:hover { outline: 0px; }
+.in-text-selection, ::selection { text-shadow: none; background: var(--select-text-bg-color); color: var(--select-text-font-color); }
+#write { margin: 0px auto; height: auto; width: inherit; word-break: normal; word-wrap: break-word; position: relative; white-space: normal; overflow-x: visible; padding-top: 40px; }
+#write.first-line-indent p { text-indent: 2em; }
+#write.first-line-indent li p, #write.first-line-indent p * { text-indent: 0px; }
+#write.first-line-indent li { margin-left: 2em; }
+.for-image #write { padding-left: 8px; padding-right: 8px; }
+body.typora-export { padding-left: 30px; padding-right: 30px; }
+.typora-export .footnote-line, .typora-export li, .typora-export p { white-space: pre-wrap; }
+@media screen and (max-width: 500px) { 
+  body.typora-export { padding-left: 0px; padding-right: 0px; }
+  #write { padding-left: 20px; padding-right: 20px; }
+  .CodeMirror-sizer { margin-left: 0px !important; }
+  .CodeMirror-gutters { display: none !important; }
+}
+#write li > figure:last-child { margin-bottom: 0.5rem; }
+#write ol, #write ul { position: relative; }
+img { max-width: 100%; vertical-align: middle; }
+button, input, select, textarea { color: inherit; font-family: inherit; font-size: inherit; font-style: inherit; font-variant-caps: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; }
+input[type="checkbox"], input[type="radio"] { line-height: normal; padding: 0px; }
+*, ::after, ::before { box-sizing: border-box; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p, #write pre { width: inherit; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p { position: relative; }
+p { line-height: inherit; }
+h1, h2, h3, h4, h5, h6 { break-after: avoid-page; break-inside: avoid; orphans: 2; }
+p { orphans: 4; }
+h1 { font-size: 2rem; }
+h2 { font-size: 1.8rem; }
+h3 { font-size: 1.6rem; }
+h4 { font-size: 1.4rem; }
+h5 { font-size: 1.2rem; }
+h6 { font-size: 1rem; }
+.md-math-block, .md-rawblock, h1, h2, h3, h4, h5, h6, p { margin-top: 1rem; margin-bottom: 1rem; }
+.hidden { display: none; }
+.md-blockmeta { color: rgb(204, 204, 204); font-weight: 700; font-style: italic; }
+a { cursor: pointer; }
+sup.md-footnote { padding: 2px 4px; background-color: rgba(238, 238, 238, 0.701961); color: rgb(85, 85, 85); border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; cursor: pointer; }
+sup.md-footnote a, sup.md-footnote a:hover { color: inherit; text-transform: inherit; text-decoration: inherit; }
+#write input[type="checkbox"] { cursor: pointer; width: inherit; height: inherit; }
+figure { overflow-x: auto; margin: 1.2em 0px; max-width: calc(100% + 16px); padding: 0px; }
+figure > table { margin: 0px !important; }
+tr { break-inside: avoid; break-after: auto; }
+thead { display: table-header-group; }
+table { border-collapse: collapse; border-spacing: 0px; width: 100%; overflow: auto; break-inside: auto; text-align: left; }
+table.md-table td { min-width: 32px; }
+.CodeMirror-gutters { border-right-width: 0px; background-color: inherit; }
+.CodeMirror-linenumber { }
+.CodeMirror { text-align: left; }
+.CodeMirror-placeholder { opacity: 0.3; }
+.CodeMirror pre { padding: 0px 4px; }
+.CodeMirror-lines { padding: 0px; }
+div.hr:focus { cursor: none; }
+#write pre { white-space: pre-wrap; }
+#write.fences-no-line-wrapping pre { white-space: pre; }
+#write pre.ty-contain-cm { white-space: normal; }
+.CodeMirror-gutters { margin-right: 4px; }
+.md-fences { font-size: 0.9rem; display: block; break-inside: avoid; text-align: left; overflow: visible; white-space: pre; background-image: inherit; background-size: inherit; background-attachment: inherit; background-origin: inherit; background-clip: inherit; background-color: inherit; position: relative !important; background-position: inherit inherit; background-repeat: inherit inherit; }
+.md-diagram-panel { width: 100%; margin-top: 10px; text-align: center; padding-top: 0px; padding-bottom: 8px; overflow-x: auto; }
+#write .md-fences.mock-cm { white-space: pre-wrap; }
+.md-fences.md-fences-with-lineno { padding-left: 0px; }
+#write.fences-no-line-wrapping .md-fences.mock-cm { white-space: pre; overflow-x: auto; }
+.md-fences.mock-cm.md-fences-with-lineno { padding-left: 8px; }
+.CodeMirror-line, twitterwidget { break-inside: avoid; }
+.footnotes { opacity: 0.8; font-size: 0.9rem; margin-top: 1em; margin-bottom: 1em; }
+.footnotes + .footnotes { margin-top: 0px; }
+.md-reset { margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: top; text-decoration: none; text-shadow: none; float: none; position: static; width: auto; height: auto; white-space: nowrap; cursor: inherit; line-height: normal; font-weight: 400; text-align: left; box-sizing: content-box; direction: ltr; background-position: 0px 0px; background-repeat: initial initial; }
+li div { padding-top: 0px; }
+blockquote { margin: 1rem 0px; }
+li .mathjax-block, li p { margin: 0.5rem 0px; }
+li { margin: 0px; position: relative; }
+blockquote > :last-child { margin-bottom: 0px; }
+blockquote > :first-child, li > :first-child { margin-top: 0px; }
+.footnotes-area { color: rgb(136, 136, 136); margin-top: 0.714rem; padding-bottom: 0.143rem; white-space: normal; }
+#write .footnote-line { white-space: pre-wrap; }
+@media print { 
+  body, html { border: 1px solid transparent; height: 99%; break-after: avoid; break-before: avoid; }
+  #write { margin-top: 0px; padding-top: 0px; border-color: transparent !important; }
+  .typora-export * { -webkit-print-color-adjust: exact; }
+  html.blink-to-pdf { font-size: 13px; }
+  .typora-export #write { padding-left: 32px; padding-right: 32px; padding-bottom: 0px; break-after: avoid; }
+  .typora-export #write::after { height: 0px; }
+}
+.footnote-line { margin-top: 0.714em; font-size: 0.7em; }
+a img, img a { cursor: pointer; }
+pre.md-meta-block { font-size: 0.8rem; min-height: 0.8rem; white-space: pre-wrap; background-color: rgb(204, 204, 204); display: block; overflow-x: hidden; background-position: initial initial; background-repeat: initial initial; }
+p > .md-image:only-child:not(.md-img-error) img, p > img:only-child { display: block; margin: auto; }
+p > .md-image:only-child { display: inline-block; width: 100%; }
+#write .MathJax_Display { margin: 0.8em 0px 0px; }
+.md-math-block { width: 100%; }
+.md-math-block:not(:empty)::after { display: none; }
+[contenteditable="true"]:active, [contenteditable="true"]:focus, [contenteditable="false"]:active, [contenteditable="false"]:focus { outline: 0px; box-shadow: none; }
+.md-task-list-item { position: relative; list-style-type: none; }
+.task-list-item.md-task-list-item { padding-left: 0px; }
+.md-task-list-item > input { position: absolute; top: 0px; left: 0px; margin-left: -1.2em; margin-top: calc(1em - 10px); border: none; }
+.math { font-size: 1rem; }
+.md-toc { min-height: 3.58rem; position: relative; font-size: 0.9rem; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; }
+.md-toc-content { position: relative; margin-left: 0px; }
+.md-toc-content::after, .md-toc::after { display: none; }
+.md-toc-item { display: block; color: rgb(65, 131, 196); }
+.md-toc-item a { text-decoration: none; }
+.md-toc-inner:hover { text-decoration: underline; }
+.md-toc-inner { display: inline-block; cursor: pointer; }
+.md-toc-h1 .md-toc-inner { margin-left: 0px; font-weight: 700; }
+.md-toc-h2 .md-toc-inner { margin-left: 2em; }
+.md-toc-h3 .md-toc-inner { margin-left: 4em; }
+.md-toc-h4 .md-toc-inner { margin-left: 6em; }
+.md-toc-h5 .md-toc-inner { margin-left: 8em; }
+.md-toc-h6 .md-toc-inner { margin-left: 10em; }
+@media screen and (max-width: 48em) { 
+  .md-toc-h3 .md-toc-inner { margin-left: 3.5em; }
+  .md-toc-h4 .md-toc-inner { margin-left: 5em; }
+  .md-toc-h5 .md-toc-inner { margin-left: 6.5em; }
+  .md-toc-h6 .md-toc-inner { margin-left: 8em; }
+}
+a.md-toc-inner { font-size: inherit; font-style: inherit; font-weight: inherit; line-height: inherit; }
+.footnote-line a:not(.reversefootnote) { color: inherit; }
+.md-attr { display: none; }
+.md-fn-count::after { content: "."; }
+code, pre, samp, tt { font-family: var(--monospace); }
+kbd { margin: 0px 0.1em; padding: 0.1em 0.6em; font-size: 0.8em; color: rgb(36, 39, 41); background-color: rgb(255, 255, 255); border: 1px solid rgb(173, 179, 185); border-top-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px; box-shadow: rgba(12, 13, 14, 0.2) 0px 1px 0px, rgb(255, 255, 255) 0px 0px 0px 2px inset; white-space: nowrap; vertical-align: middle; background-position: initial initial; background-repeat: initial initial; }
+.md-comment { color: rgb(162, 127, 3); opacity: 0.8; font-family: var(--monospace); }
+code { text-align: left; }
+a.md-print-anchor { white-space: pre !important; border: none !important; display: inline-block !important; position: absolute !important; width: 1px !important; right: 0px !important; outline: 0px !important; text-shadow: initial !important; background-position: 0px 0px !important; background-repeat: initial initial !important; }
+.md-inline-math .MathJax_SVG .noError { display: none !important; }
+.html-for-mac .inline-math-svg .MathJax_SVG { vertical-align: 0.2px; }
+.md-math-block .MathJax_SVG_Display { text-align: center; margin: 0px; position: relative; text-indent: 0px; max-width: none; max-height: none; min-height: 0px; min-width: 100%; width: auto; overflow-y: hidden; display: block !important; }
+.MathJax_SVG_Display, .md-inline-math .MathJax_SVG_Display { width: auto; margin: inherit; display: inline-block !important; }
+.MathJax_SVG .MJX-monospace { font-family: var(--monospace); }
+.MathJax_SVG .MJX-sans-serif { font-family: sans-serif; }
+.MathJax_SVG { display: inline; font-style: normal; font-weight: 400; line-height: normal; zoom: 90%; text-indent: 0px; text-align: left; text-transform: none; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0px; min-height: 0px; border: 0px; padding: 0px; margin: 0px; }
+.MathJax_SVG * { transition: none; }
+.MathJax_SVG_Display svg { vertical-align: middle !important; margin-bottom: 0px !important; margin-top: 0px !important; }
+.os-windows.monocolor-emoji .md-emoji { font-family: "Segoe UI Symbol", sans-serif; }
+.md-diagram-panel > svg { max-width: 100%; }
+[lang="flow"] svg, [lang="mermaid"] svg { max-width: 100%; height: auto; }
+[lang="mermaid"] .node text { font-size: 1rem; }
+table tr th { border-bottom-width: 0px; }
+video { max-width: 100%; display: block; margin: 0px auto; }
+iframe { max-width: 100%; width: 100%; border: none; }
+.highlight td, .highlight tr { border: 0px; }
+svg[id^="mermaidChart"] { line-height: 1em; }
+mark { background-color: rgb(255, 255, 0); color: rgb(0, 0, 0); background-position: initial initial; background-repeat: initial initial; }
+.md-html-inline .md-plain, .md-html-inline strong, mark .md-inline-math, mark strong { color: inherit; }
+mark .md-meta { color: rgb(0, 0, 0); opacity: 0.3 !important; }
+
+
+:root {
+    --side-bar-bg-color: #fafafa;
+    --control-text-color: #777;
+}
+
+@include-when-export url(https://fonts.loli.net/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext);
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: "Open Sans","Clear Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: rgb(51, 51, 51);
+    line-height: 1.6;
+}
+
+#write {
+    max-width: 860px;
+  	margin: 0 auto;
+  	padding: 30px;
+    padding-bottom: 100px;
+}
+#write > ul:first-child,
+#write > ol:first-child{
+    margin-top: 30px;
+}
+
+a {
+    color: #4183C4;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    position: relative;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    line-height: 1.4;
+    cursor: text;
+}
+h1:hover a.anchor,
+h2:hover a.anchor,
+h3:hover a.anchor,
+h4:hover a.anchor,
+h5:hover a.anchor,
+h6:hover a.anchor {
+    text-decoration: none;
+}
+h1 tt,
+h1 code {
+    font-size: inherit;
+}
+h2 tt,
+h2 code {
+    font-size: inherit;
+}
+h3 tt,
+h3 code {
+    font-size: inherit;
+}
+h4 tt,
+h4 code {
+    font-size: inherit;
+}
+h5 tt,
+h5 code {
+    font-size: inherit;
+}
+h6 tt,
+h6 code {
+    font-size: inherit;
+}
+h1 {
+    padding-bottom: .3em;
+    font-size: 2.25em;
+    line-height: 1.2;
+    border-bottom: 1px solid #eee;
+}
+h2 {
+   padding-bottom: .3em;
+    font-size: 1.75em;
+    line-height: 1.225;
+    border-bottom: 1px solid #eee;
+}
+h3 {
+    font-size: 1.5em;
+    line-height: 1.43;
+}
+h4 {
+    font-size: 1.25em;
+}
+h5 {
+    font-size: 1em;
+}
+h6 {
+   font-size: 1em;
+    color: #777;
+}
+p,
+blockquote,
+ul,
+ol,
+dl,
+table{
+    margin: 0.8em 0;
+}
+li>ol,
+li>ul {
+    margin: 0 0;
+}
+hr {
+    height: 2px;
+    padding: 0;
+    margin: 16px 0;
+    background-color: #e7e7e7;
+    border: 0 none;
+    overflow: hidden;
+    box-sizing: content-box;
+}
+
+li p.first {
+    display: inline-block;
+}
+ul,
+ol {
+    padding-left: 30px;
+}
+ul:first-child,
+ol:first-child {
+    margin-top: 0;
+}
+ul:last-child,
+ol:last-child {
+    margin-bottom: 0;
+}
+blockquote {
+    border-left: 4px solid #dfe2e5;
+    padding: 0 15px;
+    color: #777777;
+}
+blockquote blockquote {
+    padding-right: 0;
+}
+table {
+    padding: 0;
+    word-break: initial;
+}
+table tr {
+    border-top: 1px solid #dfe2e5;
+    margin: 0;
+    padding: 0;
+}
+table tr:nth-child(2n),
+thead {
+    background-color: #f8f8f8;
+}
+table tr th {
+    font-weight: bold;
+    border: 1px solid #dfe2e5;
+    border-bottom: 0;
+    margin: 0;
+    padding: 6px 13px;
+}
+table tr td {
+    border: 1px solid #dfe2e5;
+    margin: 0;
+    padding: 6px 13px;
+}
+table tr th:first-child,
+table tr td:first-child {
+    margin-top: 0;
+}
+table tr th:last-child,
+table tr td:last-child {
+    margin-bottom: 0;
+}
+
+.CodeMirror-lines {
+    padding-left: 4px;
+}
+
+.code-tooltip {
+    box-shadow: 0 1px 1px 0 rgba(0,28,36,.3);
+    border-top: 1px solid #eef2f2;
+}
+
+.md-fences,
+code,
+tt {
+    border: 1px solid #e7eaed;
+    background-color: #f8f8f8;
+    border-radius: 3px;
+    padding: 0;
+    padding: 2px 4px 0px 4px;
+    font-size: 0.9em;
+}
+
+code {
+    background-color: #f3f4f4;
+    padding: 0 2px 0 2px;
+}
+
+.md-fences {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    padding-top: 8px;
+    padding-bottom: 6px;
+}
+
+
+.md-task-list-item > input {
+  margin-left: -1.3em;
+}
+
+@media print {
+    html {
+        font-size: 13px;
+    }
+    table,
+    pre {
+        page-break-inside: avoid;
+    }
+    pre {
+        word-wrap: break-word;
+    }
+}
+
+.md-fences {
+	background-color: #f8f8f8;
+}
+#write pre.md-meta-block {
+	padding: 1rem;
+    font-size: 85%;
+    line-height: 1.45;
+    background-color: #f7f7f7;
+    border: 0;
+    border-radius: 3px;
+    color: #777777;
+    margin-top: 0 !important;
+}
+
+.mathjax-block>.code-tooltip {
+	bottom: .375rem;
+}
+
+.md-mathjax-midline {
+    background: #fafafa;
+}
+
+#write>h3.md-focus:before{
+	left: -1.5625rem;
+	top: .375rem;
+}
+#write>h4.md-focus:before{
+	left: -1.5625rem;
+	top: .285714286rem;
+}
+#write>h5.md-focus:before{
+	left: -1.5625rem;
+	top: .285714286rem;
+}
+#write>h6.md-focus:before{
+	left: -1.5625rem;
+	top: .285714286rem;
+}
+.md-image>.md-meta {
+    /*border: 1px solid #ddd;*/
+    border-radius: 3px;
+    padding: 2px 0px 0px 4px;
+    font-size: 0.9em;
+    color: inherit;
+}
+
+.md-tag {
+    color: #a7a7a7;
+    opacity: 1;
+}
+
+.md-toc { 
+    margin-top:20px;
+    padding-bottom:20px;
+}
+
+.sidebar-tabs {
+    border-bottom: none;
+}
+
+#typora-quick-open {
+    border: 1px solid #ddd;
+    background-color: #f8f8f8;
+}
+
+#typora-quick-open-item {
+    background-color: #FAFAFA;
+    border-color: #FEFEFE #e5e5e5 #e5e5e5 #eee;
+    border-style: solid;
+    border-width: 1px;
+}
+
+/** focus mode */
+.on-focus-mode blockquote {
+    border-left-color: rgba(85, 85, 85, 0.12);
+}
+
+header, .context-menu, .megamenu-content, footer{
+    font-family: "Segoe UI", "Arial", sans-serif;
+}
+
+.file-node-content:hover .file-node-icon,
+.file-node-content:hover .file-node-open-state{
+    visibility: visible;
+}
+
+.mac-seamless-mode #typora-sidebar {
+    background-color: #fafafa;
+    background-color: var(--side-bar-bg-color);
+}
+
+.md-lang {
+    color: #b4654d;
+}
+
+.html-for-mac .context-menu {
+    --item-hover-bg-color: #E6F0FE;
+}
+
+#md-notification .btn {
+    border: 0;
+}
+
+.dropdown-menu .divider {
+    border-color: #e5e5e5;
+}
+
+.ty-preferences .window-content {
+    background-color: #fafafa;
+}
+
+.ty-preferences .nav-group-item.active {
+    color: white;
+    background: #999;
+}
+
+
+</style>
+</head>
+<body class='typora-export' >
+<div  id='write'  class = 'is-mac'><div class='md-toc' mdtype='toc'><p class="md-toc-content" role="list"><span role="listitem" class="md-toc-item md-toc-h1" data-ref="n2"><a class="md-toc-inner" href="#认知神经科学英文写作经验---图片图注文献引用-公式统计报告补充材料-3">认知神经科学英文写作经验—图片，图注，文献引用， 公式，统计报告，补充材料 (3)</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n5"><a class="md-toc-inner" href="#图片">图片</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n48"><a class="md-toc-inner" href="#图注">图注</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n78"><a class="md-toc-inner" href="#文献引用">文献引用</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n99"><a class="md-toc-inner" href="#公式">公式</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n108"><a class="md-toc-inner" href="#统计报告">统计报告</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n151"><a class="md-toc-inner" href="#补充材料">补充材料</a></span><span role="listitem" class="md-toc-item md-toc-h3" data-ref="n172"><a class="md-toc-inner" href="#补充材料title-page">补充材料title page</a></span><span role="listitem" class="md-toc-item md-toc-h3" data-ref="n184"><a class="md-toc-inner" href="#补充材料正文">补充材料正文</a></span></p></div><h1><a name="认知神经科学英文写作经验---图片图注文献引用-公式统计报告补充材料-3" class="md-header-anchor"></a><span>认知神经科学英文写作经验—图片，图注，文献引用， 公式，统计报告，补充材料 (3)</span></h1><p><span>从格式上搭好架构之后，我们需要往里填充内容，但是在聚焦在内容之前，我希望对于论文中的其他方面的格式习惯进一步进行标准化，与之前一样，</span><mark><span>做到以下这些方面几乎不需要英语知识，任何一个研究生都能完成</span></mark><span>。</span></p><p>&nbsp;</p><h2><a name="图片" class="md-header-anchor"></a><span>图片</span></h2><ul><li><p><span>图片和图注在写作过程中直接插入文章，不要放在正文最后。</span></p></li><li><p><span>分清图注(caption)和图例(legend)。图注是每个图片下面那段解释的话，图例是一个图中表示不同颜色的线或者柱是什么意思。</span></p></li><li><p><span>画图能用代码画图就不要用手动点击。请尽量用matlab或者python的代码出图，不推荐用excel或者origin之类的软件画图，因为图要反复修改手动会让你改到吐而且容易出错。</span></p></li><li><p><span>请为每一张图单独保存一张代码文件和pdf图片放在同一个文件夹里以方便修改，比如Figure4.m, Figure4.py.</span></p></li><li><p><span>所有从matlab或者python导出的图片请存成pdf矢量图格式，以能在illustrator里面打开编辑和保存为准。</span></p></li><li><p><span>所有图片记得去掉四周空白边，紧凑布局。</span></p></li><li><p><span>所有图片的背景底色全部设置为透明，不要白色。</span></p></li><li><p><span>图片里面所有文字数字(e.g., 坐标尺度，横纵坐标标签)请用Arial字体, 公式因为用latex除外。</span></p></li><li><p><span>每个subplot要有A,B,C..标识，标在每个子图的左上角。这些子图表示上下左右要互相对齐。</span></p></li><li><p><span>请检查每个subplot里面</span></p><ul><li><span>横纵坐标以及标度数字是否看的清楚。</span></li><li><span>横纵坐标名称，单位。</span></li><li><span>图例(legend是不是表达清楚，比如包括被试数)。</span></li><li><span>思考这个图需要error bar么，如果需要已经加上了么？</span></li></ul></li><li><p><span>图片在正文中的引用格式为 Fig. 4A (注意是Fig + . + 空格 + 4A ), Fig. 4A&amp;B, Fig. 4A-C</span></p></li><li><p><span>颜色选取</span></p><ul><li><span>在看的清楚的条件下能用黑白就不要用彩色。</span></li><li><span>同一个实验条件/一组被试在同一篇文章的不同图中尽量保持一个颜色。</span></li><li><span>请仔细思考一个子图里面的颜色是不是和其他子图以及文章中其他图协调。</span></li></ul></li></ul><p><span> </span></p><h2><a name="图注" class="md-header-anchor"></a><span>图注</span></h2><ul><li><p><span>图注是图片下面一段解释语言。</span></p></li><li><p><span>图注整体左右各缩进两格，单倍行距(注意正文是1.5倍行距)，字体字号和正文一样。</span></p></li><li><p><span>图注的开头用，Figure 1. 不能用缩写Fig. 5.</span></p></li><li><p><span>图注的标题加粗，比如以下的 </span><strong><span>Visual working memory performance in SZ and HC</span></strong><span>。也可以没有标题</span></p></li><li><p><span>图注中针对不同subplot, 可以用 </span><strong><em><span>A.</span></em></strong><span> (字母斜体加粗，点加粗)来分开介绍。</span></p></li><li><p><span>图注中提到不同的子图，可以用panel A或者subplot A来指代，比如</span></p><blockquote><p><span>The shaded areas in panel A and all error bars in panels B and C represent ±SEM across subjects.</span></p><p><span>SZ have larger resource allocation variability than HC (panel B).</span></p></blockquote></li><li><p><span>图例中要有对error bar或者其他data variability的解释，比如</span></p><blockquote><p><span>The shaded areas in panel A and all error bars in panels B and C represent ±SEM across subjects.</span></p></blockquote></li><li><p><span>图注中要有对显著符号的解释，比如</span></p><blockquote><p><span>Significance symbol conventions are </span><span>*</span><span>: p &lt; 0.05; </span><span>*</span><span>*</span><span>: p &lt; 0.05; </span><span>*</span><span>*</span><span>*</span><span>: p &lt; 0.001; n.s.: non-significant.</span></p></blockquote></li></ul><p><span>这里提供1个例子，详情请见</span><a href='./papertemplate.docx'><span>papertemplate</span></a></p><p><span>Example</span></p><blockquote><p><span>Figure 5. </span><strong><span>Schematic illustrations (A,C), predictions (B,D) and empirical results (E,F) for component- dependent and pattern-dependent VPL.</span></strong><span> </span><strong><em><span>A.</span></em></strong><span> The component-dependent VPL takes place at the lowest level of motion processing, as indicated by the red rectangle. Here, training on a component stimulus should only transfer to the plaid stimulus that comprises the trained component. Moreover, training on a plaid stimulus should only transfer to its two constituent components. </span><strong><em><span>B.</span></em></strong><span> Learning effects as predicted by component- dependent learning in panel A. </span><strong><em><span>C</span></em></strong><span>,</span><strong><em><span>D</span></em></strong><span>. Illustrations of the pattern-dependent perceptual learning and its predicted learning effects, following conventions in panels A and B. Here, plasticity involves the middle stage of motion processing. </span><strong><em><span>E.</span></em></strong><span> Duration thresholds at pre-/post-test across stimulus conditions in the component (left panel) and the plaid training (right panel), respectively. </span><strong><span>F</span></strong><span>. Learning effects quantified as percent of improvement (PI%) across stimulus conditions and training regimes. The overall pattern mimics the predictions in panel D, indicating plasticity associated with the middle-level of motion analysis. For all subplots, error bars denote ± 1 SEM across subjects. Significance symbol conventions are </span><span>*</span><span>p &lt; 0.05; </span><span>*</span><span>*</span><span>p &lt; 0.01; ***p &lt; 0.001; n.s.: non- significant. Same definitions of error bars and symbol conventions are kept for all figures in this paper.</span></p></blockquote><p>&nbsp;</p><h2><a name="文献引用" class="md-header-anchor"></a><span>文献引用</span></h2><ul><li><p><span>在Word里面插入文献一律用Endnote。注意文献管理软件可以根据任意个人喜好选择其他软件，但是写论文插入文献的时候一律用Endnote。一般可以从比如readcube/mendeley/zotero选择文献之后导入到Endnote。</span></p></li><li><p><span>每写一篇论文，请单独创建一个.enl或者.enlp的Endnote library文件，并和论文的word文件放在同一个文件夹。</span></p></li><li><p><span>确定期刊后，查阅期刊的文献格式要求。</span></p></li><li><p><span>用Endnote的时候，在正文内的引用，请加上对后面文献的超链接和下划线，可以在word的Endnote插件里面设置。例如</span></p><blockquote><p><span>Imaging scientists often use multivariate pattern analysis (MVPA) to assess the accuracy of population codes (</span><a href='#_ENREF_37'><span>Tong and Pratte, 2012</span></a><span>; </span><a href='#_ENREF_18'><span>Haxby et al., 2014</span></a><span>).</span></p></blockquote></li><li><p><span>正文中直接引文格式和author+year的格式。点击原有的以插入的文献，</span><kbd><span>right click the citation — Edit Citations — Display as : Author (Year)</span></kbd></p><blockquote><p><span>For example, the seminal study by </span><a href='#_ENREF_42'><span>Zohary et al. (1994)</span></a><span> demonstrated that TCNCs limit the amount of information in a neural population.</span></p></blockquote></li><li><p><span>有些官网下载的Endnote style (i.e., .ens文件) 并不好用，请仔细检查正文后在Endnote软件里修改原有的style。</span></p></li><li><p><span>有时候Endnote里面对期刊的第一缩写或者第二缩写并不对，请手动修改。</span></p></li></ul><p>&nbsp;</p><h2><a name="公式" class="md-header-anchor"></a><span>公式</span></h2><ul><li><span>请利用在线latex公式生成网站比如 </span><a href='https://www.codecogs.com/latex/eqneditor.php' target='_blank' class='url'>https://www.codecogs.com/latex/eqneditor.php</a><span>，不要用自带的公式编辑器。</span></li><li><span>用latex语言在线编辑好公式之后，请选择svg (i.e., 矢量图)格式下载，然后直接拖曳进word文档。</span></li><li><span>每一个公式，写出了之后要紧接着解释公式中不常见的运算符号以及所有变量的意义。</span></li></ul><p>&nbsp;</p><h2><a name="统计报告" class="md-header-anchor"></a><span>统计报告</span></h2><p><span>在描述结果的时候经常要报告统计结果，有这样几个注意事项</span></p><ul><li><span>所有数值(F value, t value, r value, p value, etc)，保留小数点后三位。</span></li><li><span>P value尽量写出实际数值，而不是简单的p &lt; 0.05，当数值实在太小很难写出时用p &lt; 0.001。</span></li><li><span>注意变量符号数字之间的空格，比如 p = 0.032. p, =, 和0.032之间分别用空格隔开。不要用 p= 0.032, p =0.032, 或者p=0.032.</span></li></ul><p><span>这里就t-test，correlation和ANOVA三种最常见的统计报告形式，其中重点讲解ANOVA的表达方法。</span></p><ul><li><p><span>ttest (报告t 值以及自由度，p value，和effect size, cohen&#39;d value)</span></p><blockquote><p><span>A is significant higher than B (t(30) = 1.752, p = 0.032, d = 0.324).</span></p></blockquote></li><li><p><span>Correlation (报告r 值 和 p 值)</span></p><blockquote><p><span>There is a significant correlation between A and B (r = 0.235, p = 0.132).</span></p></blockquote></li><li><p><span>ANOVA , 关于ANOVA，我们首先要报告这样几个要素，</span></p><ul><li><span>anova的设置。比如因变量是什么，组内自变量是什么，组间自变量是什么，协变量(如果有的话)是什么</span></li><li><span>按照先主效应后交互作用的顺序，报告所有可能的主效应和交互作用。在具体报告主效应时，可以优先报告和主旨相关的主效应，交互作用同理。有些不重要的，可以放入补充材料(SI)里面。</span></li><li><span>每一个主效应和交互作用，无论是否显著，要报告，F 值，自由度，p 值，还有Eta square value。</span></li><li><span>每一个显著的主效应，要报告显著的方向，比如A is significantly larger/smaller than B，不能简单的说A is significantly different from B.</span></li><li><span>每一个显著的交互作用，还要报告交互作用的方向，比如说明在A情况下，X大于Y; 但是在B情况下，X小于Y。</span></li><li><span>ANOVA的事后检验，要报告多重矫正的设置和方法以及p值，在SPSS里面有Bonferroni，Sidak, no correction三者可选. </span></li></ul></li><li><p><span>下面提供两个例子</span></p></li></ul><p><span>Example 1:</span></p><blockquote><p><span>A 2</span><span>*</span><span>2</span><span>*</span><span>2</span><span>*</span><span>8*2 ANOVA was performed with group (action/control) as a between-subject factor; test (pre/post2), run (first/second), external noise level (eight levels), and performance level (79.37% and 70.71%) as within- subject factors; and log signal contrast threshold as the de- pendent variable. The interaction between test (pre/post2) and group (action/control) was  significant and in the predicted direction (F(1,14) = 3.25, P = 0.02, η</span><sup><span>2</span></sup><span>= 0.29), indicating that action trainees continued to show improved performance in the task months to a year after training.</span></p></blockquote><p><span>Example 2:</span></p><blockquote><p><span>Data were analysed with a 3 × 2 × 2 MANCOVA, with training group (control, AVG, MAT) and nystagmus as a between-subjects factor and eccentricity (12° and 25°) as a within-subjects factor. The main effect of training group was statistically reliable (F(2,14) = 4.14, p = 0.039; η</span><sup><span>2</span></sup><span> = 0.63). Pairwise comparisons revealed significantly better performance in the MAT group relative to the control group (p = 0.045, Bonferroni corrected), with no significant differences between AVG and control groups (p = 0.30) and between MAT and AVG groups (p = 0.43). The main effect of nystagmus was not significant (F(1,14) = 0.33, p = 0.58, η</span><sup><span>2</span></sup><span>  = 0.08). Also, we noted a strong interaction of training and eccentricity (F(2,19) = 9.34, p = 0.004; η</span><sup><span>2</span></sup><span>  = 0.94). Pairwise comparisons revealed no significant differences between control and experimental groups at near periphery (AVG, p = 0.82; MAT, p = 0.47) but significant differences at far periphery (AVG, p = 0.032; MAT, p = 0.002, Bonferroni corrected). </span></p></blockquote><p><span>  </span></p><h2><a name="补充材料" class="md-header-anchor"></a><span>补充材料</span></h2><p><span>补充材料一般分为title page，补充notes内容，和references。主要格式有以下规则。</span></p><ul><li><p><span>行距1.5倍，字体字号，标记行数页码数，公式，图片，图注，文献引用等除非特殊说明一律和正文相同。</span></p></li><li><p><span>不一样的是，图片图注标记引用为Figure S1. Fig. S1. 公式标记引用为(S1), Eq. S1. 例如:</span></p><blockquote><p><span>#</span><span> 图注</span></p><p><span>Figure S1. </span><strong><span>A is a function of B</span></strong><span>.</span></p><p><span>#</span><span> 公式</span></p><p><span class="MathJax_SVG" tabindex="-1" style="font-size: 100%; display: inline-block;"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="25.325ex" height="2.737ex" viewBox="0 -840.7 10903.6 1178.2" role="img" focusable="false" style="vertical-align: -0.784ex; max-width: 19500px;"><defs><path stroke-width="0" id="E1-MJMAIN-28" d="M94 250Q94 319 104 381T127 488T164 576T202 643T244 695T277 729T302 750H315H319Q333 750 333 741Q333 738 316 720T275 667T226 581T184 443T167 250T184 58T225 -81T274 -167T316 -220T333 -241Q333 -250 318 -250H315H302L274 -226Q180 -141 137 -14T94 250Z"></path><path stroke-width="0" id="E1-MJMAIN-53" d="M55 507Q55 590 112 647T243 704H257Q342 704 405 641L426 672Q431 679 436 687T446 700L449 704Q450 704 453 704T459 705H463Q466 705 472 699V462L466 456H448Q437 456 435 459T430 479Q413 605 329 646Q292 662 254 662Q201 662 168 626T135 542Q135 508 152 480T200 435Q210 431 286 412T370 389Q427 367 463 314T500 191Q500 110 448 45T301 -21Q245 -21 201 -4T140 27L122 41Q118 36 107 21T87 -7T78 -21Q76 -22 68 -22H64Q61 -22 55 -16V101Q55 220 56 222Q58 227 76 227H89Q95 221 95 214Q95 182 105 151T139 90T205 42T305 24Q352 24 386 62T420 155Q420 198 398 233T340 281Q284 295 266 300Q261 301 239 306T206 314T174 325T141 343T112 367T85 402Q55 451 55 507Z"></path><path stroke-width="0" id="E1-MJMAIN-31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"></path><path stroke-width="0" id="E1-MJMAIN-29" d="M60 749L64 750Q69 750 74 750H86L114 726Q208 641 251 514T294 250Q294 182 284 119T261 12T224 -76T186 -143T145 -194T113 -227T90 -246Q87 -249 86 -250H74Q66 -250 63 -250T58 -247T55 -238Q56 -237 66 -225Q221 -64 221 250T66 725Q56 737 55 738Q55 746 60 749Z"></path><path stroke-width="0" id="E1-MJMATHI-61" d="M33 157Q33 258 109 349T280 441Q331 441 370 392Q386 422 416 422Q429 422 439 414T449 394Q449 381 412 234T374 68Q374 43 381 35T402 26Q411 27 422 35Q443 55 463 131Q469 151 473 152Q475 153 483 153H487Q506 153 506 144Q506 138 501 117T481 63T449 13Q436 0 417 -8Q409 -10 393 -10Q359 -10 336 5T306 36L300 51Q299 52 296 50Q294 48 292 46Q233 -10 172 -10Q117 -10 75 30T33 157ZM351 328Q351 334 346 350T323 385T277 405Q242 405 210 374T160 293Q131 214 119 129Q119 126 119 118T118 106Q118 61 136 44T179 26Q217 26 254 59T298 110Q300 114 325 217T351 328Z"></path><path stroke-width="0" id="E1-MJMAIN-2B" d="M56 237T56 250T70 270H369V420L370 570Q380 583 389 583Q402 583 409 568V270H707Q722 262 722 250T707 230H409V-68Q401 -82 391 -82H389H387Q375 -82 369 -68V230H70Q56 237 56 250Z"></path><path stroke-width="0" id="E1-MJMATHI-62" d="M73 647Q73 657 77 670T89 683Q90 683 161 688T234 694Q246 694 246 685T212 542Q204 508 195 472T180 418L176 399Q176 396 182 402Q231 442 283 442Q345 442 383 396T422 280Q422 169 343 79T173 -11Q123 -11 82 27T40 150V159Q40 180 48 217T97 414Q147 611 147 623T109 637Q104 637 101 637H96Q86 637 83 637T76 640T73 647ZM336 325V331Q336 405 275 405Q258 405 240 397T207 376T181 352T163 330L157 322L136 236Q114 150 114 114Q114 66 138 42Q154 26 178 26Q211 26 245 58Q270 81 285 114T318 219Q336 291 336 325Z"></path><path stroke-width="0" id="E1-MJMAIN-3D" d="M56 347Q56 360 70 367H707Q722 359 722 347Q722 336 708 328L390 327H72Q56 332 56 347ZM56 153Q56 168 72 173H708Q722 163 722 153Q722 140 707 133H70Q56 140 56 153Z"></path><path stroke-width="0" id="E1-MJMATHI-63" d="M34 159Q34 268 120 355T306 442Q362 442 394 418T427 355Q427 326 408 306T360 285Q341 285 330 295T319 325T330 359T352 380T366 386H367Q367 388 361 392T340 400T306 404Q276 404 249 390Q228 381 206 359Q162 315 142 235T121 119Q121 73 147 50Q169 26 205 26H209Q321 26 394 111Q403 121 406 121Q410 121 419 112T429 98T420 83T391 55T346 25T282 0T202 -11Q127 -11 81 37T34 159Z"></path></defs><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)"><g transform="translate(9069,0)"><g id="mjx-eqn-S1" transform="translate(0,-25)"><use xlink:href="#E1-MJMAIN-28"></use><use xlink:href="#E1-MJMAIN-53" x="389" y="0"></use><use xlink:href="#E1-MJMAIN-31" x="945" y="0"></use><use xlink:href="#E1-MJMAIN-29" x="1445" y="0"></use></g></g><g transform="translate(3652,0)"><g transform="translate(-14,0)"><g transform="translate(0,-25)"><use xlink:href="#E1-MJMATHI-61" x="0" y="0"></use><use xlink:href="#E1-MJMAIN-2B" x="751" y="0"></use><use xlink:href="#E1-MJMATHI-62" x="1751" y="0"></use><use xlink:href="#E1-MJMAIN-3D" x="2458" y="0"></use><use xlink:href="#E1-MJMATHI-63" x="3514" y="0"></use></g></g></g></g></svg></span><script type="math/tex"> a + b = c \tag{S1}</script></p><p><span>#</span><span> 图片和公式在主文和补充材料里面的引用</span></p><p><span>We observe a strong effect of A in Fig. S1A&amp;B.</span></p><p><span>Eq. S1 shows the linear relationship between A and B.</span></p></blockquote></li><li><p><span>请查阅期刊补充材料的称谓，常见的有supplimentary/supplemental information/materials/appendix. 如果称谓错误编辑有可能会打回修改。</span></p></li><li><p><span>在主文中对补充材料的引用，例如:</span></p><blockquote><p><span>We used a strict criteria for new subjects (see details in Supplimentary Note 4). </span></p></blockquote></li></ul><h3><a name="补充材料title-page" class="md-header-anchor"></a><span>补充材料title page</span></h3><p><span>补充材料的title page一般包括论文title，authors，table of content，格式(请注意</span><u><em><span>大小写加粗下划线对齐</span></em></u><span>等)例如:</span></p><blockquote><p><strong><span>SUPPLEMENTAl INFORMATION</span></strong><span> </span><strong><span>for</span></strong></p><p><span>Pratical tips of academic writing in cognitive neuroscience for Chinese young researchers</span></p><p><span>San Zhang, Si Li, Wu Wang</span></p><p>&nbsp;</p><p><strong><u><span>Table of Contents</span></u></strong></p><p><strong><span>Supplemental Note 1: Dual N-back working memory learning task</span></strong></p><p><strong><span>Supplemental Note 2: Procedures of Study 1, Cross-Sectional Study</span></strong></p><p><strong><span>Supplemental Note 3: Procedures of Study 2, Training Study</span></strong></p></blockquote><p>&nbsp;</p><h3><a name="补充材料正文" class="md-header-anchor"></a><span>补充材料正文</span></h3><p><span>补充材料一般以比如Supplimental Note XX 等为题目，格式(请注意下面</span><em><u><span>大小写加粗下划线对齐</span></u></em><span>等)例如</span></p><blockquote><p><strong><span>Supplemental Note 1: Dual N-back Working Memory Learning Task</span></strong></p><p><span>The three studies used the same dual N-back working memory task albeit slightly different training procedures. We thus document the task details as follows.</span></p><p><span>......</span></p><p><strong><span>Supplemental Note 2: Experimental procedures of Study 1, cross-sectional study</span></strong></p><p><span>The three studies (i.e., cross-sectional study, training study, and replication study) used the same dual N-back working memory task albeit slightly different training procedures. We thus document the task details as follows.</span></p></blockquote><p>&nbsp;</p></div>
+</body>
+</html>
