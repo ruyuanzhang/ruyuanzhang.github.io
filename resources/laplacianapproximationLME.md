@@ -40,30 +40,24 @@ $$
 
 公式(4)中的积分一般情况下很难通过解析的方式求出，我们可以进行泰勒展开进行近似求解
 $$
-\begin{align*}
-p(D|M)&=\int_{\theta}p(D,\theta|M)d\theta\\
-&=\int_{\theta}\exp \log(p(D,\theta|M)d\theta\\
-
-&\approx \int_{\theta}\exp \Bigg\{
-\log(p(D,\hat\theta|M) +\overbrace{\nabla\log(p(D,\hat\theta|M)}^{=0(\hat\theta\ is\ at\ the\ mode)}(\theta-\hat\theta)+\frac{1}{2}(\theta-\hat\theta)^T\overbrace{\nabla^2\log(p(D,\hat\theta|M)}^{=A (Hessian\ matrix)}(\theta-\hat\theta) \Bigg\}d\theta\\
-
-&= \int_{\theta}\exp\log(p(D,\hat\theta|M) * \exp \Bigg\{
-\frac{1}{2}(\theta-\hat\theta)^T\overbrace{\nabla^2\log(p(D,\hat\theta|M)}^{=A (Hessian\ matrix)}(\theta-\hat\theta) \Bigg\}d\theta\\
-
-&=p(D,\hat\theta|M)*\int_{\theta}\frac{1}{2}(\theta-\hat\theta)^T\overbrace{\nabla^2\log(p(D,\hat\theta|M)}^{=A (Hessian\ matrix)}(\theta-\hat\theta) \Bigg\}d\theta\\
-
-&=p(D,\hat\theta|M)*(2\pi)^{d/2}|A|^{-1/2}\\
-
-&=p(D|\hat\theta,M)p(\hat\theta|M)*(2\pi)^{d/2}|A|^{-1/2}
-
-\end{align*}
+\begin{align*} 
+p(D|M)&=\int_{\theta}p(D,\theta|M)d\theta\\ &=\int_{\theta}\exp \log(p(D,\theta|M)d\theta\\  &\approx \int_{\theta}\exp \Bigg\{ \log(p(D,\hat\theta|M) +\overbrace{\nabla\log(p(D,\hat\theta|M)}^{=0(\hat\theta\ is\ at\ the\ mode)}(\theta-\hat\theta)+\frac{1}{2}(\theta-\hat\theta)^T\overbrace{\nabla^2\log(p(D,\hat\theta|M)}^{=A (Hessian\ matrix)}(\theta-\hat\theta) \Bigg\}d\theta\\  &= \int_{\theta}\exp\log(p(D,\hat\theta|M) * \exp \Bigg\{ \frac{1}{2}(\theta-\hat\theta)^T\overbrace{\nabla^2\log(p(D,\hat\theta|M)}^{=-A (Hessian\ matrix)}(\theta-\hat\theta) \Bigg\}d\theta\\  
+&=p(D,\hat\theta|M)*\int_{\theta}exp(\frac{1}{2}(\theta-\hat\theta)^T\overbrace{\nabla^2\log(p(D,\hat\theta|M)}^{=-A (Hessian\ matrix)}(\theta-\hat\theta) ) d\theta\\
+&=p(D,\hat\theta|M)*\int_{\theta}exp(-\frac{1}{2}(\theta-\hat\theta)^T(A^{-1})^{-1}(\theta-\hat\theta) ) d\theta\\
+&=p(D,\hat\theta|M)*(2\pi)^{\frac{d}{2}}*|A^{-1}|^{\frac{1}{2}}\overbrace{\int_{\theta}\frac{1}{(2\pi)^{\frac{d}{2}}*|A^{-1}|^{\frac{1}{2}}}exp(-\frac{1}{2}(\theta-\hat\theta)^T(A^{-1})^{-1}(\theta-\hat\theta) ) d\theta}^{integration\ of\ multivariate\ Gaussian\ distribution} \\
+&=p(D,\hat\theta|M)*(2\pi)^{\frac{d}{2}}|A^{-1}|^{\frac{1}{2}}\\  
+&=p(D,\hat\theta|M)*(2\pi)^{\frac{d}{2}}|A|^{-\frac{1}{2}}\\  
+&=p(D|\hat\theta,M)p(\hat\theta|M)*(2\pi)^{\frac{d}{2}}|A|^{-\frac{1}{2}}  
+\end{align*} \tag{6}
 $$
 以上的化简当中，从第二行到第三行，是将$log(p(D,\theta|M)$这个函数通过泰勒展开进行近似。$\hat\theta$是在公式(3)做MAP的一步已经求出来的最优参数。因为$\hat\theta$是极值，所以函数$log(p(D,\theta|M)$在$\hat\theta$这个地方的一阶导数为0，即泰勒展开的第二项$\nabla\log(p(D,\hat\theta|M)$为0，那么展开第二项就可以消掉。
 
-最后得到的结果，$A=\nabla^2\log(p(D,\hat\theta|M)$ 是$log(p(D,\theta|M)$这个函数在$\hat\theta$这个位置的二阶导数矩阵(i.e., Hessian矩阵)，$|A|$代表该矩阵的行列式。$d$是参数$\theta$的维度。而$p(D|\hat\theta,M)p(\hat\theta|M)$因为在前面MAP的过程中已经优化过，可以直接带入前面优化的函数值。那么求解模型证据的唯一难点就变成了求函数$log(p(D,\theta|M)$在$\hat\theta$这个位置的Hessian矩阵，在matlab里面可以用数值的方法来求解。同时，对数模型证据LME可以写为。
+最后得到的结果，$A=-\nabla^2\log(p(D,\hat\theta|M)$ 是$log(p(D,\theta|M)$这个函数在$\hat\theta$这个位置的二阶导数矩阵(i.e., Hessian矩阵)，$|A|$代表该矩阵的行列式。$d$是参数$\theta$的维度。而$p(D|\hat\theta,M)p(\hat\theta|M)$因为在前面MAP的过程中已经优化过，可以直接带入前面优化的函数值。那么求解模型证据的唯一难点就变成了求函数$log(p(D,\theta|M)$在$\hat\theta$这个位置的Hessian矩阵，在matlab里面可以用数值的方法来求解。同时，对数模型证据LME可以写为。
 $$
 log(p(D|M))=log(p(D|\hat\theta,M))+log(p(\hat\theta|M))+\frac{d}{2}log(2\pi)-\frac{1}{2}log(|A|)
 $$
+
+注意这里参数$\theta$的先验分布$p(\hat\theta|M)$是自己指定的，带有一定的主观性。
 
 ## 模型证据和贝叶斯因子
 
