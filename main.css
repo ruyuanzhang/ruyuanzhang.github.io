@@ -194,9 +194,14 @@ p.pubsubtitle{
     font-weight: bold;
     font-size: x-large;
 }
-ul.ref{
+ol.ref{
     margin-left: 2em;
     font-size: 15px;
+}
+
+ul.ref{
+  margin-left: 2em;
+  font-size: 15px;
 }
 
 p.pubyear{
