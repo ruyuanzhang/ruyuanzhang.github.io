@@ -2,7 +2,7 @@
 
 我经常受到很多学生的来信，问我如何自己自学或者想办法入门认知或者计算神经科学。有这样的问题的学生，大多是非心理学或者神经科学专业的学生，希望转行参与到这个领域。也有一些心理学或者神经科学专业的学生希望进一步提高自己在计算建模方面的能力，我一般的回答就是找一个做计算认知或者计算神经科学的老师开展一些研究，这是最快最直接的办法。但是很多人反应国内这方面的研究者太少，很难找到相关的人。
 
-如果你实在找不动身边志同道合的人，有两个办法，请联系我(ruyuanzhangATgmail.com)，我可以把你拉入一些微信群来学习相关知识。其次，你可以按照以下路径进行自我探索。
+如果你实在找不动身边志同道合的人，有两个办法，请联系我(ruyuanzhangATgmail.com)。其次，你可以按照以下路径进行自我探索。
 
 
 
@@ -32,12 +32,14 @@
 5. 完成了以上内容之后，可以开始上一些简单的机器学习入门课程，比如UCLA吴英年老师的Coursera的课程(Coursera上面的machine learning课程太简单。。)
 
    * [Yingnian Wu's Machine Learning Course](http://www.stat.ucla.edu/~ywu/teaching.html)
+   * [Coursera Reinforcement Learning Specialization](https://www.coursera.org/specializations/reinforcement-learning)
 
 6. 如果以上的内容都完成了，可以开始进入一些计算神经科学的具体课程，首先推荐NeuroMatch Academy(NMA)的Computational Neuroscience的Summer Course
 
    * [NMA course](https://space.bilibili.com/534358980/channel/detail?cid=138741) 
    * [NMA github](https://github.com/NeuromatchAcademy/course-content)
-7. 其次课程可以考虑Coursera上面的Computational Neuroscience
+   
+7. 其次课程可以考虑Coursera上面的Computational Neuroscience和
    * [Coursera Computational Neuroscience](https://www.coursera.org/learn/computational-neuroscience)
    
 8. 有以上的内容做铺垫，我们可以进一步补充一些machine learning或者计算神经的更高阶课程，我推荐以下两本经典教科书，这两本书的内容并不需要完全掌握，很多时候是类似字典做查询的功能
