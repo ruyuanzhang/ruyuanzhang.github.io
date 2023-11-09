@@ -14580,7 +14580,8 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1 id="%E6%AF%94%E8%BE%83Monte-Carlo%E5%92%8C%E9%BB%8E%E6%9B%BC%E7%A7%AF%E5%88%86%E7%9A%84%E9%94%99%E8%AF%AF%E7%8E%87">&#27604;&#36739;Monte Carlo&#21644;&#40654;&#26364;&#31215;&#20998;&#30340;&#38169;&#35823;&#29575;<a class="anchor-link" href="#%E6%AF%94%E8%BE%83Monte-Carlo%E5%92%8C%E9%BB%8E%E6%9B%BC%E7%A7%AF%E5%88%86%E7%9A%84%E9%94%99%E8%AF%AF%E7%8E%87">&#182;</a></h1><p>蒙特卡洛积分的一个常被提及的优点是，误差率并不取决于输入空间的维度；它只取决于用于估计积分的样本数量。假设 $\int_{\mathcal{H}} f(x)$ 是我们要估计的积分。在蒙特卡罗积分中，我们使用从 $\mathcal{H}$ 中均匀抽取的样本来形成我们的估计值，如下所示</p>
+<h1 id="%E6%AF%94%E8%BE%83Monte-Carlo%E5%92%8C%E9%BB%8E%E6%9B%BC%E7%A7%AF%E5%88%86%E7%9A%84%E9%94%99%E8%AF%AF%E7%8E%87">&#27604;&#36739;Monte Carlo&#21644;&#40654;&#26364;&#31215;&#20998;&#30340;&#38169;&#35823;&#29575;<a class="anchor-link" href="#%E6%AF%94%E8%BE%83Monte-Carlo%E5%92%8C%E9%BB%8E%E6%9B%BC%E7%A7%AF%E5%88%86%E7%9A%84%E9%94%99%E8%AF%AF%E7%8E%87">&#182;</a></h1><p>Translated and revised by Ru-Yuan Zhang from <a href="https://nbviewer.org/github/gokererdogan/Notebooks/blob/master/Monte%20Carlo%20vs.%20Riemann.ipynb/">LINK</a></p>
+<p>蒙特卡洛积分的一个常被提及的优点是，误差率并不取决于输入空间的维度；它只取决于用于估计积分的样本数量。假设 $\int_{\mathcal{H}} f(x)$ 是我们要估计的积分。在蒙特卡罗积分中，我们使用从 $\mathcal{H}$ 中均匀抽取的样本来形成我们的估计值，如下所示</p>
 $$F_{mc} = \frac{1}{N}(\sum_i f(x_i))$$<p>如果让 $F$ 表示积分的真实值，根据大数定律，$F_{mc}$ 将接近 $F$。此外，我们估计值的方差为 $\frac{\sigma^2}{N}$ ，其中 $\sigma^2$ 是 $f(x)$ 的方差。因此，蒙特卡罗估计的误差为 $O(n^{-\frac{1}{2}})$。</p>
 <p>在黎曼积分中，我们只需将 $\mathcal{H}$ 划分为 $N$ 等间距的区间，并通过以下方法简单估计积分
 $$F_{r} = \frac{1}{N} \sum_i f(x_i) |H|$$
