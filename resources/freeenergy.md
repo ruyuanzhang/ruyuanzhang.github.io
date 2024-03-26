@@ -22,7 +22,7 @@ https://en.wikipedia.org/wiki/Free_energy_principleen.wikipedia.org
 
 对于一般的贝叶斯推断来说，我们观察到$s$ 是sensory state, $\phi$是环境中生成$s$的hidden state。这里我选用的是和上面wikipedia中相同的符号，以方便读者理解。我们大脑认识这个世界，基本任务就是根据sensory state来对hidden state做推断，也就是求解后验概率$p(\phi|s)$。这是认知科学中所有贝叶斯模型的最基本思想。
 $$
-\begin{align} p(\phi|s)=\frac{p(s,\phi)}{p(s)} \tag{1} \\ p(s)=\frac{p(s,\phi)}{p(\phi|s)} \tag{2} \\ log(p(s)) = log(p(\phi,s)) - log(p(\phi|s)) \tag{3} \end{align}  
+\begin{align} p(\phi|s)=\frac{p(s,\phi)}{p(s)} \tag{1} \\ p(s)=\frac{p(s,\phi)}{p(\phi|s)} \tag{2} \\ log(p(s)) = log(p(\phi,s)) - log(p(\phi|s)) \tag{3} \end{align}
 $$
 公式(1)是贝叶斯推断的基本形式，然后很容易推到公式(3)。
 
