@@ -7,12 +7,12 @@
 .mac-os-11 { --title-bar-height: 28px; }
 html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
 h1, h2, h3, h4, h5 { white-space: pre-wrap; }
-body { margin: 0px; padding: 0px; height: auto; inset: 0px; font-size: 1rem; line-height: 1.42857143; overflow-x: hidden; background-image: inherit; background-size: inherit; background-attachment: inherit; background-origin: inherit; background-clip: inherit; background-color: inherit; background-position: inherit; background-repeat: inherit; }
+body { margin: 0px; padding: 0px; height: auto; inset: 0px; font-size: 1rem; line-height: 1.428571; overflow-x: hidden; background: inherit; }
 iframe { margin: auto; }
 a.url { word-break: break-all; }
 a:active, a:hover { outline: 0px; }
 .in-text-selection, ::selection { text-shadow: none; background: var(--select-text-bg-color); color: var(--select-text-font-color); }
-#write { margin: 0px auto; height: auto; width: inherit; word-break: normal; word-wrap: break-word; position: relative; white-space: normal; overflow-x: visible; padding-top: 36px; }
+#write { margin: 0px auto; height: auto; width: inherit; word-break: normal; overflow-wrap: break-word; position: relative; white-space: normal; overflow-x: visible; padding-top: 36px; }
 #write.first-line-indent p { text-indent: 2em; }
 #write.first-line-indent li p, #write.first-line-indent p * { text-indent: 0px; }
 #write.first-line-indent li { margin-left: 2em; }
@@ -20,14 +20,14 @@ a:active, a:hover { outline: 0px; }
 body.typora-export { padding-left: 30px; padding-right: 30px; }
 .typora-export .footnote-line, .typora-export li, .typora-export p { white-space: pre-wrap; }
 .typora-export .task-list-item input { pointer-events: none; }
-@media screen and (max-width: 500px) { 
+@media screen and (max-width: 500px) {
   body.typora-export { padding-left: 0px; padding-right: 0px; }
   #write { padding-left: 20px; padding-right: 20px; }
 }
 #write li > figure:last-child { margin-bottom: 0.5rem; }
 #write ol, #write ul { position: relative; }
 img { max-width: 100%; vertical-align: middle; image-orientation: from-image; }
-button, input, select, textarea { color: inherit; font-family: inherit; font-size: inherit; font-style: inherit; font-variant-caps: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; }
+button, input, select, textarea { color: inherit; font-style: inherit; font-variant-caps: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; font-family: inherit; font-size-adjust: inherit; font-kerning: inherit; font-variant-alternates: inherit; font-variant-ligatures: inherit; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-variant-position: inherit; font-variant-emoji: inherit; font-feature-settings: inherit; font-optical-sizing: inherit; font-variation-settings: inherit; }
 input[type="checkbox"], input[type="radio"] { line-height: normal; padding: 0px; }
 *, ::after, ::before { box-sizing: border-box; }
 #write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p, #write pre { width: inherit; }
@@ -45,7 +45,7 @@ h6 { font-size: 1rem; }
 .hidden { display: none; }
 .md-blockmeta { color: rgb(204, 204, 204); font-weight: 700; font-style: italic; }
 a { cursor: pointer; }
-sup.md-footnote { padding: 2px 4px; background-color: rgba(238, 238, 238, 0.7); color: rgb(85, 85, 85); border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; cursor: pointer; }
+sup.md-footnote { padding: 2px 4px; background-color: rgba(238, 238, 238, 0.7); color: rgb(85, 85, 85); border-radius: 4px; cursor: pointer; }
 sup.md-footnote a, sup.md-footnote a:hover { color: inherit; text-transform: inherit; text-decoration: inherit; }
 #write input[type="checkbox"] { cursor: pointer; width: inherit; height: inherit; }
 figure { overflow-x: auto; margin: 1.2em 0px; max-width: calc(100% + 16px); padding: 0px; }
@@ -54,7 +54,7 @@ thead, tr { break-inside: avoid; break-after: auto; }
 thead { display: table-header-group; }
 table { border-collapse: collapse; border-spacing: 0px; width: 100%; overflow: auto; break-inside: auto; text-align: left; }
 table.md-table td { min-width: 32px; }
-.CodeMirror-gutters { border-right-width: 0px; background-color: inherit; }
+.CodeMirror-gutters { border-right-width: 0px; border-right-style: none; border-right-color: currentcolor; background-color: inherit; }
 .CodeMirror-linenumber { -webkit-user-select: none; }
 .CodeMirror { text-align: left; }
 .CodeMirror-placeholder { opacity: 0.3; }
@@ -65,7 +65,7 @@ div.hr:focus { cursor: none; }
 #write.fences-no-line-wrapping pre { white-space: pre; }
 #write pre.ty-contain-cm { white-space: normal; }
 .CodeMirror-gutters { margin-right: 4px; }
-.md-fences { font-size: 0.9rem; display: block; break-inside: avoid; text-align: left; overflow: visible; white-space: pre; background-image: inherit; background-size: inherit; background-attachment: inherit; background-origin: inherit; background-clip: inherit; background-color: inherit; position: relative !important; background-position: inherit; background-repeat: inherit; }
+.md-fences { font-size: 0.9rem; display: block; break-inside: avoid; text-align: left; overflow: visible; white-space: pre; background: inherit; position: relative !important; }
 .md-fences-adv-panel { width: 100%; margin-top: 10px; text-align: center; padding-top: 0px; padding-bottom: 8px; overflow-x: auto; }
 #write .md-fences.mock-cm { white-space: pre-wrap; }
 .md-fences.md-fences-with-lineno { padding-left: 0px; }
@@ -75,7 +75,7 @@ div.hr:focus { cursor: none; }
 svg { break-inside: avoid; }
 .footnotes { opacity: 0.8; font-size: 0.9rem; margin-top: 1em; margin-bottom: 1em; }
 .footnotes + .footnotes { margin-top: 0px; }
-.md-reset { margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: top; text-decoration: none; text-shadow: none; float: none; position: static; width: auto; height: auto; white-space: nowrap; cursor: inherit; line-height: normal; font-weight: 400; text-align: left; box-sizing: content-box; direction: ltr; background-position: 0px 0px; }
+.md-reset { margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: top; background: 0px 0px; text-decoration: none; text-shadow: none; float: none; position: static; width: auto; height: auto; white-space: nowrap; cursor: inherit; line-height: normal; font-weight: 400; text-align: left; box-sizing: content-box; direction: ltr; }
 li div { padding-top: 0px; }
 blockquote { margin: 1rem 0px; }
 li .mathjax-block, li p { margin: 0.5rem 0px; }
@@ -85,10 +85,10 @@ blockquote > :last-child { margin-bottom: 0px; }
 blockquote > :first-child, li > :first-child { margin-top: 0px; }
 .footnotes-area { color: rgb(136, 136, 136); margin-top: 0.714rem; padding-bottom: 0.143rem; white-space: normal; }
 #write .footnote-line { white-space: pre-wrap; }
-@media print { 
+@media print {
   body, html { border: 1px solid transparent; height: 99%; break-after: avoid; break-before: avoid; font-variant-ligatures: no-common-ligatures; }
   #write { margin-top: 0px; border-color: transparent !important; padding-top: 0px !important; padding-bottom: 0px !important; }
-  .typora-export * { -webkit-print-color-adjust: exact; }
+  .typora-export * { print-color-adjust: exact; }
   .typora-export #write { break-after: avoid; }
   .typora-export #write::after { height: 0px; }
   .is-mac table { break-inside: avoid; }
@@ -98,7 +98,7 @@ blockquote > :first-child, li > :first-child { margin-top: 0px; }
 }
 .footnote-line { margin-top: 0.714em; font-size: 0.7em; }
 a img, img a { cursor: pointer; }
-pre.md-meta-block { font-size: 0.8rem; min-height: 0.8rem; white-space: pre-wrap; background-color: rgb(204, 204, 204); display: block; overflow-x: hidden; }
+pre.md-meta-block { font-size: 0.8rem; min-height: 0.8rem; white-space: pre-wrap; background: rgb(204, 204, 204); display: block; overflow-x: hidden; }
 p > .md-image:only-child:not(.md-img-error) img, p > img:only-child { display: block; margin: auto; }
 #write.first-line-indent p > .md-image:only-child:not(.md-img-error) img { left: -2em; position: relative; }
 p > .md-image:only-child { display: inline-block; width: 100%; }
@@ -109,9 +109,9 @@ p > .md-image:only-child { display: inline-block; width: 100%; }
 [contenteditable="true"]:active, [contenteditable="true"]:focus, [contenteditable="false"]:active, [contenteditable="false"]:focus { outline: 0px; box-shadow: none; }
 .md-task-list-item { position: relative; list-style-type: none; }
 .task-list-item.md-task-list-item { padding-left: 0px; }
-.md-task-list-item > input { position: absolute; top: 0px; left: 0px; margin-left: -1.2em; margin-top: calc(1em - 10px); border: none; }
+.md-task-list-item > input { position: absolute; top: 0px; left: 0px; margin-left: -1.2em; margin-top: calc(1em - 10px); border: medium; }
 .math { font-size: 1rem; }
-.md-toc { min-height: 3.58rem; position: relative; font-size: 0.9rem; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; }
+.md-toc { min-height: 3.58rem; position: relative; font-size: 0.9rem; border-radius: 10px; }
 .md-toc-content { position: relative; margin-left: 0px; }
 .md-toc-content::after, .md-toc::after { display: none; }
 .md-toc-item { display: block; color: rgb(65, 131, 196); }
@@ -124,7 +124,7 @@ p > .md-image:only-child { display: inline-block; width: 100%; }
 .md-toc-h4 .md-toc-inner { margin-left: 6em; }
 .md-toc-h5 .md-toc-inner { margin-left: 8em; }
 .md-toc-h6 .md-toc-inner { margin-left: 10em; }
-@media screen and (max-width: 48em) { 
+@media screen and (max-width: 48em) {
   .md-toc-h3 .md-toc-inner { margin-left: 3.5em; }
   .md-toc-h4 .md-toc-inner { margin-left: 5em; }
   .md-toc-h5 .md-toc-inner { margin-left: 6.5em; }
@@ -136,23 +136,23 @@ a.md-toc-inner { font-size: inherit; font-style: inherit; font-weight: inherit; 
 .md-attr { display: none; }
 .md-fn-count::after { content: "."; }
 code, pre, samp, tt { font-family: var(--monospace); }
-kbd { margin: 0px 0.1em; padding: 0.1em 0.6em; font-size: 0.8em; color: rgb(36, 39, 41); background-color: rgb(255, 255, 255); border: 1px solid rgb(173, 179, 185); border-top-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px; box-shadow: rgba(12, 13, 14, 0.2) 0px 1px 0px, rgb(255, 255, 255) 0px 0px 0px 2px inset; white-space: nowrap; vertical-align: middle; }
+kbd { margin: 0px 0.1em; padding: 0.1em 0.6em; font-size: 0.8em; color: rgb(36, 39, 41); background: rgb(255, 255, 255); border: 1px solid rgb(173, 179, 185); border-radius: 3px; box-shadow: rgba(12, 13, 14, 0.2) 0px 1px 0px, rgb(255, 255, 255) 0px 0px 0px 2px inset; white-space: nowrap; vertical-align: middle; }
 .md-comment { color: rgb(162, 127, 3); opacity: 0.6; font-family: var(--monospace); }
-code { text-align: left; }
-a.md-print-anchor { white-space: pre !important; border: none !important; display: inline-block !important; position: absolute !important; width: 1px !important; right: 0px !important; outline: 0px !important; text-shadow: initial !important; background-position: 0px 0px !important; }
+code { text-align: left; vertical-align: initial; }
+a.md-print-anchor { white-space: pre !important; border-width: medium !important; border-style: none !important; border-color: currentcolor !important; display: inline-block !important; position: absolute !important; width: 1px !important; right: 0px !important; outline: 0px !important; background: 0px 0px !important; text-decoration: initial !important; text-shadow: initial !important; }
 .os-windows.monocolor-emoji .md-emoji { font-family: "Segoe UI Symbol", sans-serif; }
 .md-diagram-panel > svg { max-width: 100%; }
 [lang="flow"] svg, [lang="mermaid"] svg { max-width: 100%; height: auto; }
 [lang="mermaid"] .node text { font-size: 1rem; }
-table tr th { border-bottom-width: 0px; }
+table tr th { border-bottom-width: 0px; border-bottom-style: none; border-bottom-color: currentcolor; }
 video { max-width: 100%; display: block; margin: 0px auto; }
-iframe { max-width: 100%; width: 100%; border: none; }
+iframe { max-width: 100%; width: 100%; border: medium; }
 .highlight td, .highlight tr { border: 0px; }
-mark { background-color: rgb(255, 255, 0); color: rgb(0, 0, 0); }
+mark { background: rgb(255, 255, 0); color: rgb(0, 0, 0); }
 .md-html-inline .md-plain, .md-html-inline strong, mark .md-inline-math, mark strong { color: inherit; }
 .md-expand mark .md-meta { opacity: 0.3 !important; }
 mark .md-meta { color: rgb(0, 0, 0); }
-@media print { 
+@media print {
   .typora-export h1, .typora-export h2, .typora-export h3, .typora-export h4, .typora-export h5, .typora-export h6 { break-inside: avoid; }
 }
 .md-diagram-panel .messageText { stroke: none !important; }
@@ -160,24 +160,24 @@ mark .md-meta { color: rgb(0, 0, 0); }
 .md-diagram-panel .edgeLabel rect { opacity: 1 !important; }
 .md-fences.md-fences-math { font-size: 1em; }
 .md-fences-advanced:not(.md-focus) { padding: 0px; white-space: nowrap; border: 0px; }
-.md-fences-advanced:not(.md-focus) { background-image: inherit; background-size: inherit; background-attachment: inherit; background-origin: inherit; background-clip: inherit; background-color: inherit; background-position: inherit; background-repeat: inherit; }
+.md-fences-advanced:not(.md-focus) { background: inherit; }
 .typora-export-show-outline .typora-export-content { max-width: 1440px; margin: auto; display: flex; flex-direction: row; }
 .typora-export-sidebar { width: 300px; font-size: 0.8rem; margin-top: 80px; margin-right: 18px; }
 .typora-export-show-outline #write { --webkit-flex: 2; flex: 2 1 0%; }
 .typora-export-sidebar .outline-content { position: fixed; top: 0px; max-height: 100%; overflow: hidden auto; padding-bottom: 30px; padding-top: 60px; width: 300px; }
-@media screen and (max-width: 1024px) { 
+@media screen and (max-width: 1024px) {
   .typora-export-sidebar, .typora-export-sidebar .outline-content { width: 240px; }
 }
-@media screen and (max-width: 800px) { 
+@media screen and (max-width: 800px) {
   .typora-export-sidebar { display: none; }
 }
-.outline-content li, .outline-content ul { margin-left: 0px; margin-right: 0px; padding-left: 0px; padding-right: 0px; list-style: none; }
+.outline-content li, .outline-content ul { margin-left: 0px; margin-right: 0px; padding-left: 0px; padding-right: 0px; list-style: none; overflow-wrap: anywhere; }
 .outline-content ul { margin-top: 0px; margin-bottom: 0px; }
 .outline-content strong { font-weight: 400; }
-.outline-expander { width: 1rem; height: 1.428571429rem; position: relative; display: table-cell; vertical-align: middle; cursor: pointer; padding-left: 4px; }
-.outline-expander::before { content: ''; position: relative; font-family: Ionicons; display: inline-block; font-size: 8px; vertical-align: middle; }
+.outline-expander { width: 1rem; height: 1.428571rem; position: relative; display: table-cell; vertical-align: middle; cursor: pointer; padding-left: 4px; }
+.outline-expander::before { content: ""; position: relative; font-family: Ionicons; display: inline-block; font-size: 8px; vertical-align: middle; }
 .outline-item { padding-top: 3px; padding-bottom: 3px; cursor: pointer; }
-.outline-expander:hover::before { content: ''; }
+.outline-expander:hover::before { content: ""; }
 .outline-h1 > .outline-item { padding-left: 0px; }
 .outline-h2 > .outline-item { padding-left: 1em; }
 .outline-h3 > .outline-item { padding-left: 2em; }
@@ -189,20 +189,34 @@ mark .md-meta { color: rgb(0, 0, 0); }
 .outline-item:hover { border-color: rgb(245, 245, 245); background-color: var(--item-hover-bg-color); }
 .outline-item:hover { margin-left: -28px; margin-right: -28px; border-left-width: 28px; border-left-style: solid; border-left-color: transparent; border-right-width: 28px; border-right-style: solid; border-right-color: transparent; }
 .outline-item-single .outline-expander::before, .outline-item-single .outline-expander:hover::before { display: none; }
-.outline-item-open > .outline-item > .outline-expander::before { content: ''; }
+.outline-item-open > .outline-item > .outline-expander::before { content: ""; }
 .outline-children { display: none; }
 .info-panel-tab-wrapper { display: none; }
 .outline-item-open > .outline-children { display: block; }
 .typora-export .outline-item { padding-top: 1px; padding-bottom: 1px; }
 .typora-export .outline-item:hover { margin-right: -8px; border-right-width: 8px; border-right-style: solid; border-right-color: transparent; }
 .typora-export .outline-expander::before { content: "+"; font-family: inherit; top: -1px; }
-.typora-export .outline-expander:hover::before, .typora-export .outline-item-open > .outline-item > .outline-expander::before { content: '−'; }
+.typora-export .outline-expander:hover::before, .typora-export .outline-item-open > .outline-item > .outline-expander::before { content: "−"; }
 .typora-export-collapse-outline .outline-children { display: none; }
 .typora-export-collapse-outline .outline-item-open > .outline-children, .typora-export-no-collapse-outline .outline-children { display: block; }
 .typora-export-no-collapse-outline .outline-expander::before { content: "" !important; }
 .typora-export-show-outline .outline-item-active > .outline-item .outline-label { font-weight: 700; }
 .md-inline-math-container mjx-container { zoom: 0.95; }
 mjx-container { break-inside: avoid; }
+.md-alert.md-alert-note { border-left-color: rgb(9, 105, 218); }
+.md-alert.md-alert-important { border-left-color: rgb(130, 80, 223); }
+.md-alert.md-alert-warning { border-left-color: rgb(154, 103, 0); }
+.md-alert.md-alert-tip { border-left-color: rgb(31, 136, 61); }
+.md-alert.md-alert-caution { border-left-color: rgb(207, 34, 46); }
+.md-alert { padding: 0px 1em; margin-bottom: 16px; color: inherit; border-left-width: 0.25em; border-left-style: solid; border-left-color: rgb(0, 0, 0); }
+.md-alert-text-note { color: rgb(9, 105, 218); }
+.md-alert-text-important { color: rgb(130, 80, 223); }
+.md-alert-text-warning { color: rgb(154, 103, 0); }
+.md-alert-text-tip { color: rgb(31, 136, 61); }
+.md-alert-text-caution { color: rgb(207, 34, 46); }
+.md-alert-text { font-size: 0.9rem; font-weight: 700; }
+.md-alert-text svg { fill: currentcolor; position: relative; top: 0.125em; margin-right: 1ch; overflow: visible; }
+.md-alert-text-container::after { content: attr(data-text); text-transform: capitalize; pointer-events: none; margin-right: 1ch; }
 
 
 :root {
@@ -558,6 +572,10 @@ header, .context-menu, .megamenu-content, footer{
     background-color: var(--side-bar-bg-color);
 }
 
+.mac-os #write{
+    caret-color: AccentColor;
+}
+
 .md-lang {
     color: #b4654d;
 }
@@ -594,6 +612,6 @@ header, .context-menu, .megamenu-content, footer{
 </style><title>A Roadmap for NewBies in Computational Modeling in Cognitive Neuroscience</title>
 </head>
 <body class='typora-export'><div class='typora-export-content'>
-<div id='write'  class=''><h1 id='a-roadmap-for-newbies-in-computational-modeling-in-cognitive-neuroscience'><span>A Roadmap for NewBies in Computational Modeling in Cognitive Neuroscience</span></h1><p><span>我经常受到很多学生的来信，问我如何自己自学或者想办法入门认知或者计算神经科学。有这样的问题的学生，大多是非心理学或者神经科学专业的学生，希望转行参与到这个领域。也有一些心理学或者神经科学专业的学生希望进一步提高自己在计算建模方面的能力，我一般的回答就是找一个做计算认知或者计算神经科学的老师开展一些研究，这是最快最直接的办法。但是很多人反应国内这方面的研究者太少，很难找到相关的人。</span></p><p><span>如果你实在找不动身边志同道合的人，有两个办法，请联系我(ruyuanzhangATgmail.com)，我可以把你拉入一些微信群来学习相关知识。其次，你可以按照以下路径进行自我探索。</span></p><p>&nbsp;</p><ol start='' ><li><p><span>对于国内非心理学专业的同学来说，可能需要补充一些认知神经科学的基础知识，我推荐下面这本教材</span></p><ul><li><p><a href='https://book.douban.com/subject/5937126/'><span>认知神经科学</span></a></p></li></ul><p><span>这本书可以当做小说来看，全面的了解有关脑认知的神经基础。如果是心理学或者神经科学专业的学生了解认知心理学和实验心理学，可以跳过这一步。</span></p></li><li><p><span>数学课程请上以下一些基本课程。一般工程科学的数学基础都可以满足，但是有些心理学专业的学生可能这方面并不充足，但是起码保证上以下几门课</span></p><ul><li><p><span>线性代数</span></p></li><li><p><span>高等数学/微积分</span></p></li></ul></li><li><p><span>关于编程基础。在neuroscience里面编程基本上只需要两个工具Matlab和Python，我推荐两个课程</span></p><ul><li><p><a href='https://www.bilibili.com/video/av51366148?from=search&amp;seid=3395198250382243694'><span>B站中南大学Matlab课程</span></a></p></li><li><p><a href='https://www.bilibili.com/video/av4050443/'><span>B站小甲鱼0基础python教程</span></a><span> (不需要学爬虫，GUI和Pygame等部分)</span></p></li><li><p><a href='https://www.bilibili.com/video/BV1U7411x76j'><span>B站Python numpy基础</span></a></p></li></ul><p><span>同时，在写代码中需要经常小组协作，所以git的用法也很关键，我推荐</span></p><ul><li><p><a href='https://www.liaoxuefeng.com/wiki/896043488029600'><span>廖雪峰git教程</span></a></p></li></ul></li><li><p><span>(可选)在认知实验，熟悉编写一个实验任务非常重要，目前主流的编写程序的软件有基于Matlab的Psychtoolbox, 基于Python的Psychopy和基于Java的JsPsych等，一般初学者推荐上来掌握Psychtoolbox</span></p><ul><li><p><a href='https://zhuanlan.zhihu.com/p/45073723'><span>北师大蒋挺老师的Psychtoolbox教程</span></a></p></li><li><p><a href='https://space.bilibili.com/357829140/channel/detail?cid=159082'><span>B站Psychopy的教程</span></a></p></li></ul></li><li><p><span>完成了以上内容之后，可以开始上一些简单的机器学习入门课程，比如UCLA吴英年老师的Coursera的课程(Coursera上面的machine learning课程太简单。。)</span></p><ul><li><p><a href='http://www.stat.ucla.edu/~ywu/teaching.html'><span>Yingnian Wu&#39;s Machine Learning Course</span></a></p></li></ul></li><li><p><span>如果以上的内容都完成了，可以开始进入一些计算神经科学的具体课程，首先推荐NeuroMatch Academy(NMA)的Computational Neuroscience的Summer Course</span></p><ul><li><p><a href='https://space.bilibili.com/534358980/channel/detail?cid=138741'><span>NMA course</span></a><span> </span></p></li><li><p><a href='https://github.com/NeuromatchAcademy/course-content'><span>NMA github</span></a></p></li></ul></li><li><p><span>其次课程可以考虑Coursera上面的Computational Neuroscience</span></p><ul><li><p><a href='https://www.coursera.org/learn/computational-neuroscience'><span>Coursera Computational Neuroscience</span></a></p></li></ul></li><li><p><span>有以上的内容做铺垫，我们可以进一步补充一些machine learning或者计算神经的更高阶课程，我推荐以下两本经典教科书，这两本书的内容并不需要完全掌握，很多时候是类似字典做查询的功能</span></p><ul><li><p><a href='http://incompleteideas.net/book/RLbook2020trimmed.pdf'><span>Reinforcement Learning by Sutton and Barto</span></a><span>，这本书有</span><a href='https://rl.qiwihui.com/zh_CN/latest/'><span>中文网页版</span></a><span> </span></p></li><li><p><a href=''><span>Patten Recognition and Machine Learning中文版</span></a></p></li></ul><p><span>以及计算神经科学的经典教材。但是我不认为这本书是必读的，里面的很多内容其实非常艰深</span></p><ul><li><p><span>Theoretical Neuroscience (可选)</span></p></li></ul></li><li><p><span>基于最近深度学习的火热，我觉得掌握深度学习的基本知识很有必要，我推荐基于Pytorch的教程</span></p><ul><li><p><a href='https://tangshusen.me/Dive-into-DL-PyTorch/#/'><span>动手学深度学习Pytorch版</span></a></p></li></ul></li><li><p><span>如果你能走到这一步，我觉得往下系统的课程或者教科书已经不太重要的了，更多的是积累一些具体的topic上的经验。我列出一些比较有意思的话题，以及在认知神经科学上面的应用</span></p><ul><li><p><span>Maximum Likelihood Estimation (MLE) and Maximum Posterior Estimation (MAP)</span></p></li><li><p><span>Markov Chain Monte-Carlo Simulation (MCMC)</span></p></li><li><p><span>Hierarchical Bayesian analysis </span></p></li><li><p><span>Hidden Markov Model</span></p></li><li><p><span>Kalman Filter</span></p></li><li><p><span>Non-parametric Bayesian analysis</span></p></li><li><p><span>Variational Bayesian Methods</span></p></li><li><p><span>...</span></p></li></ul><p><span>以及一些具体的认知计算模型的范例</span></p><ul><li><p><span>Rescorlar-Wagner model in reinforcement learning</span></p></li><li><p><span>Drift-diffusion model</span></p></li><li><p><span>Visual working memory models</span></p></li><li><p><span>Cue-combination model</span></p></li><li><p><span>...</span></p></li></ul></li></ol><p><span>在计算神经科学中，有一个大类比如Spiking Neural Networks, 因为我自己不是专家，就不做评价，有兴趣的人可以参考比如Xiao-Jing Wang老师的工作。</span></p><p>&nbsp;</p><p><span>如果你掌握了以上所有的知识(大概率是不可能，我自己也几乎做不到)，还想进一步探索的话，欢迎联系我参与一些具体的实验研究和数据分析！</span></p></div></div>
+<div id='write'  class=''><h1 id='a-roadmap-for-newbies-in-computational-modeling-in-cognitive-neuroscience'><span>A Roadmap for NewBies in Computational Modeling in Cognitive Neuroscience</span></h1><p><span>我经常受到很多学生的来信，问我如何自己自学或者想办法入门认知或者计算神经科学。有这样的问题的学生，大多是非心理学或者神经科学专业的学生，希望转行参与到这个领域。也有一些心理学或者神经科学专业的学生希望进一步提高自己在计算建模方面的能力，我一般的回答就是找一个做计算认知或者计算神经科学的老师开展一些研究，这是最快最直接的办法。但是很多人反应国内这方面的研究者太少，很难找到相关的人。</span></p><p><span>祝愿你在网上更多的找到志同道合的人</span></p><p>&nbsp;</p><ol start='' ><li><p><span>对于国内非心理学专业的同学来说，可能需要补充一些认知神经科学的基础知识，我推荐下面这本教材</span></p><ul><li><p><a href='https://book.douban.com/subject/5937126/'><span>认知神经科学</span></a></p></li></ul><p><span>这本书可以当做小说来看，全面的了解有关脑认知的神经基础。如果是心理学或者神经科学专业的学生了解认知心理学和实验心理学，可以跳过这一步。</span></p></li><li><p><span>数学课程请上以下一些基本课程。一般工程科学的数学基础都可以满足，但是有些心理学专业的学生可能这方面并不充足，但是起码保证上以下几门课</span></p><ul><li><p><span>线性代数</span></p></li><li><p><span>高等数学/微积分</span></p></li></ul></li><li><p><span>关于编程基础。在neuroscience里面编程基本上只需要Python，(matlab比较传统但是已经不推荐)我推荐两个课程</span></p><ul><li><p><a href='https://www.bilibili.com/video/av4050443/'><span>B站小甲鱼0基础python教程</span></a><span> (不需要学爬虫，GUI和Pygame等部分)</span></p></li><li><p><a href='https://www.bilibili.com/video/BV1U7411x76j'><span>B站Python numpy基础</span></a></p></li></ul><p><span>同时，在写代码中需要经常小组协作，所以git的用法也很关键，我推荐</span></p><ul><li><p><a href='https://www.liaoxuefeng.com/wiki/896043488029600'><span>廖雪峰git教程</span></a></p></li></ul></li><li><p><span>(可选)在认知实验，熟悉编写一个实验任务非常重要，目前主流的编写程序的软件有基于Matlab的Psychtoolbox, 基于Python的Psychopy和基于Java的JsPsych等，一般初学者推荐上来掌握Psychtoolbox</span></p><ul><li><p><a href='https://zhuanlan.zhihu.com/p/45073723'><span>北师大蒋挺老师的Psychtoolbox教程</span></a></p></li><li><p><a href='https://space.bilibili.com/357829140/channel/detail?cid=159082'><span>B站Psychopy的教程</span></a></p></li></ul></li><li><p><span>完成了以上内容之后，可以开始上一些简单的机器学习入门课程，推荐上海交通大学张伟楠老师《动手学机器学习》课程(Coursera上面的machine learning课程太简单。。)，该课程资料完全免费</span></p><ul><li><p><a href='https://hml.boyuai.com/' target='_blank' class='url'>https://hml.boyuai.com/</a></p></li></ul></li><li><p><span>如果以上的内容都完成了，可以开始进入一些计算神经科学的具体课程，首先推荐NeuroMatch Academy(NMA)的Computational Neuroscience的Summer Course</span></p><ul><li><p><a href='https://space.bilibili.com/534358980/channel/detail?cid=138741'><span>NMA course</span></a><span> </span></p></li><li><p><a href='https://github.com/NeuromatchAcademy/course-content'><span>NMA github</span></a></p></li></ul></li><li><p><span>其次课程可以考虑Coursera上面的Computational Neuroscience和</span></p><ul><li><p><a href='https://www.coursera.org/learn/computational-neuroscience'><span>Coursera Computational Neuroscience</span></a></p></li></ul></li><li><p><span>(可选)有以上的内容做铺垫，我们可以进一步补充一些machine learning或者计算神经的更高阶课程，我推荐以下两本经典教科书，这两本书不用逐个章节来看，很多时候是类似字典做查询的功能</span></p><ul><li><p><a href='http://incompleteideas.net/book/RLbook2020trimmed.pdf'><span>Reinforcement Learning by Sutton and Barto</span></a><span>，这本书有</span><a href='https://rl.qiwihui.com/zh_CN/latest/'><span>中文网页版</span></a><span> </span></p></li><li><p><a href=''><span>Patten Recognition and Machine Learning中文版</span></a></p></li></ul><p><span>以及计算神经科学的经典教材。但是我不认为这本书是必读的，里面的很多内容其实非常艰深</span></p><ul><li><p><span>Theoretical Neuroscience (可选)</span></p></li></ul></li><li><p><span>基于最近深度学习的火热，我觉得掌握深度学习的基本知识很有必要，我推荐基于Pytorch的教程</span></p><ul><li><p><a href='https://tangshusen.me/Dive-into-DL-PyTorch/#/'><span>动手学深度学习Pytorch版</span></a></p></li></ul></li><li><p><span>如果你能走到这一步，我觉得往下系统的课程或者教科书已经不太重要的了，更多的是积累一些具体的topic上的经验。我列出一些比较有意思的话题，以及在认知神经科学上面的应用</span></p><ul><li><p><span>Maximum Likelihood Estimation (MLE) and Maximum Posterior Estimation (MAP)</span></p></li><li><p><span>Markov Chain Monte-Carlo Simulation (MCMC)</span></p></li><li><p><span>Hierarchical Bayesian analysis </span></p></li><li><p><span>Hidden Markov Model</span></p></li><li><p><span>Kalman Filter</span></p></li><li><p><span>Non-parametric Bayesian analysis</span></p></li><li><p><span>Variational Bayesian Methods</span></p></li><li><p><span>...</span></p></li></ul><p><span>以及一些具体的认知计算模型的范例</span></p><ul><li><p><span>Rescorlar-Wagner model in reinforcement learning</span></p></li><li><p><span>Drift-diffusion model</span></p></li><li><p><span>Visual working memory models</span></p></li><li><p><span>Cue-combination model</span></p></li><li><p><span>...</span></p></li></ul></li></ol><p><span>在计算神经科学中，有一个大类比如Spiking Neural Networks, 因为我自己不是专家，就不做评价，有兴趣的人可以参考比如Xiao-Jing Wang老师的工作。</span></p><p>&nbsp;</p><p><span>如果你掌握了以上所有的知识(大概率是不可能，我自己也几乎做不到)，还想进一步探索的话，欢迎联系我参与一些具体的实验研究和数据分析！</span></p></div></div>
 </body>
 </html>

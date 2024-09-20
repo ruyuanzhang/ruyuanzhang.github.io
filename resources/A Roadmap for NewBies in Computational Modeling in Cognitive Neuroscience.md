@@ -2,7 +2,7 @@
 
 我经常受到很多学生的来信，问我如何自己自学或者想办法入门认知或者计算神经科学。有这样的问题的学生，大多是非心理学或者神经科学专业的学生，希望转行参与到这个领域。也有一些心理学或者神经科学专业的学生希望进一步提高自己在计算建模方面的能力，我一般的回答就是找一个做计算认知或者计算神经科学的老师开展一些研究，这是最快最直接的办法。但是很多人反应国内这方面的研究者太少，很难找到相关的人。
 
-如果你实在找不动身边志同道合的人，有两个办法，请联系我(ruyuanzhangATgmail.com)。其次，你可以按照以下路径进行自我探索。
+祝愿你在网上更多的找到志同道合的人
 
 
 
@@ -16,24 +16,22 @@
    * 线性代数
    * 高等数学/微积分
 
-3. 关于编程基础。在neuroscience里面编程基本上只需要两个工具Matlab和Python，我推荐两个课程
-   * [B站中南大学Matlab课程](https://www.bilibili.com/video/av51366148?from=search&seid=3395198250382243694)
+3. 关于编程基础。在neuroscience里面编程基本上只需要Python，(matlab比较传统但是已经不推荐)我推荐两个课程
    * [B站小甲鱼0基础python教程](https://www.bilibili.com/video/av4050443/) (不需要学爬虫，GUI和Pygame等部分)
    * [B站Python numpy基础](https://www.bilibili.com/video/BV1U7411x76j)
-
+   
    同时，在写代码中需要经常小组协作，所以git的用法也很关键，我推荐
-
+   
    * [廖雪峰git教程](https://www.liaoxuefeng.com/wiki/896043488029600)
-
+   
 4. (可选)在认知实验，熟悉编写一个实验任务非常重要，目前主流的编写程序的软件有基于Matlab的Psychtoolbox, 基于Python的Psychopy和基于Java的JsPsych等，一般初学者推荐上来掌握Psychtoolbox
    * [北师大蒋挺老师的Psychtoolbox教程](https://zhuanlan.zhihu.com/p/45073723)
    * [B站Psychopy的教程](https://space.bilibili.com/357829140/channel/detail?cid=159082)
 
-5. 完成了以上内容之后，可以开始上一些简单的机器学习入门课程，比如UCLA吴英年老师的Coursera的课程(Coursera上面的machine learning课程太简单。。)
+5. 完成了以上内容之后，可以开始上一些简单的机器学习入门课程，推荐上海交通大学张伟楠老师《动手学机器学习》课程(Coursera上面的machine learning课程太简单。。)，该课程资料完全免费
 
-   * [Yingnian Wu's Machine Learning Course](http://www.stat.ucla.edu/~ywu/teaching.html)
-   * [Coursera Reinforcement Learning Specialization](https://www.coursera.org/specializations/reinforcement-learning)
-
+   * https://hml.boyuai.com/
+   
 6. 如果以上的内容都完成了，可以开始进入一些计算神经科学的具体课程，首先推荐NeuroMatch Academy(NMA)的Computational Neuroscience的Summer Course
 
    * [NMA course](https://space.bilibili.com/534358980/channel/detail?cid=138741) 
@@ -42,7 +40,7 @@
 7. 其次课程可以考虑Coursera上面的Computational Neuroscience和
    * [Coursera Computational Neuroscience](https://www.coursera.org/learn/computational-neuroscience)
    
-8. 有以上的内容做铺垫，我们可以进一步补充一些machine learning或者计算神经的更高阶课程，我推荐以下两本经典教科书，这两本书的内容并不需要完全掌握，很多时候是类似字典做查询的功能
+8. (可选)有以上的内容做铺垫，我们可以进一步补充一些machine learning或者计算神经的更高阶课程，我推荐以下两本经典教科书，这两本书不用逐个章节来看，很多时候是类似字典做查询的功能
 
    * [Reinforcement Learning by Sutton and Barto](http://incompleteideas.net/book/RLbook2020trimmed.pdf)，这本书有[中文网页版](https://rl.qiwihui.com/zh_CN/latest/) 
    * [Patten Recognition and Machine Learning中文版]()
