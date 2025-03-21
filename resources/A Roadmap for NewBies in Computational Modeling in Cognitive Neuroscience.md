@@ -2,9 +2,11 @@
 
 我经常受到很多学生的来信，问我如何自己自学或者想办法入门认知或者计算神经科学。有这样的问题的学生，大多是非心理学或者神经科学专业的学生，希望转行参与到这个领域。也有一些心理学或者神经科学专业的学生希望进一步提高自己在计算建模方面的能力，我一般的回答就是找一个做计算认知或者计算神经科学的老师开展一些研究，这是最快最直接的办法。但是很多人反应国内这方面的研究者太少，很难找到相关的人。
 
-祝愿你在网上更多的找到志同道合的人
+也有很多学生问我，我们组对学生要求是什么？我用这个机会不妨详细说一下
 
+祝愿我们能在国内找到更多的志同道合的人
 
+## 编程/专业基础
 
 1. 对于国内非心理学专业的同学来说，可能需要补充一些认知神经科学的基础知识，我推荐下面这本教材
 
@@ -19,61 +21,35 @@
 3. 关于编程基础。在neuroscience里面编程基本上只需要Python，(matlab比较传统但是已经不推荐)我推荐两个课程
    * [B站小甲鱼0基础python教程](https://www.bilibili.com/video/av4050443/) (不需要学爬虫，GUI和Pygame等部分)
    * [B站Python numpy基础](https://www.bilibili.com/video/BV1U7411x76j)
-   
+
    同时，在写代码中需要经常小组协作，所以git的用法也很关键，我推荐
-   
+
    * [廖雪峰git教程](https://www.liaoxuefeng.com/wiki/896043488029600)
-   
+
 4. (可选)在认知实验，熟悉编写一个实验任务非常重要，目前主流的编写程序的软件有基于Matlab的Psychtoolbox, 基于Python的Psychopy和基于Java的JsPsych等，一般初学者推荐上来掌握Psychtoolbox
    * [北师大蒋挺老师的Psychtoolbox教程](https://zhuanlan.zhihu.com/p/45073723)
    * [B站Psychopy的教程](https://space.bilibili.com/357829140/channel/detail?cid=159082)
 
-5. 完成了以上内容之后，可以开始上一些简单的机器学习入门课程，推荐上海交通大学张伟楠老师《动手学机器学习》课程(Coursera上面的machine learning课程太简单。。)，该课程资料完全免费
+## 计算认知
 
-   * https://hml.boyuai.com/
-   
-6. 如果以上的内容都完成了，可以开始进入一些计算神经科学的具体课程，首先推荐NeuroMatch Academy(NMA)的Computational Neuroscience的Summer Course
+下面我会希望学生本科生修的课程，这是正餐
 
-   * [NMA course](https://space.bilibili.com/534358980/channel/detail?cid=138741) 
-   * [NMA github](https://github.com/NeuromatchAcademy/course-content)
-   
-7. 其次课程可以考虑Coursera上面的Computational Neuroscience和
-   * [Coursera Computational Neuroscience](https://www.coursera.org/learn/computational-neuroscience)
-   
-8. (可选)有以上的内容做铺垫，我们可以进一步补充一些machine learning或者计算神经的更高阶课程，我推荐以下两本经典教科书，这两本书不用逐个章节来看，很多时候是类似字典做查询的功能
+1. 可以开始机器学习基础，推荐上海交通大学张伟楠老师[《动手学机器学习》](https://hml.boyuai.com/)课程(Coursera上面的machine learning课程太简单。。)，该课程资料完全免费
+2. 推荐西湖大学赵世钰老师的[强化学习](https://www.bilibili.com/opus/709028860846407685)课程
+3. 需要一定的深度学习的基础，我觉得掌握深度学习的基本知识很有必要，我推荐[动手学深度学习Pytorch版](https://tangshusen.me/Dive-into-DL-PyTorch/#/)
 
-   * [Reinforcement Learning by Sutton and Barto](http://incompleteideas.net/book/RLbook2020trimmed.pdf)，这本书有[中文网页版](https://rl.qiwihui.com/zh_CN/latest/) 
-   * [Patten Recognition and Machine Learning中文版]()
+完成这三门课程，我觉得基本上你可以联系我开始做一些项目了。同时我也呼吁国内各大心理学院系，这三门课作为本科生选修课
 
-   以及计算神经科学的经典教材。但是我不认为这本书是必读的，里面的很多内容其实非常艰深
+1. 基于以上三门课的基础，我觉得可以进入计算认知的领域了，欢迎阅读我正在写的一本教材[《认知行为的计算原理》](https://ruyuanzhang.gitbook.io/compmodcogpsy)
 
-   * Theoretical Neuroscience (可选)
+如果要继续加深对计算认知和计算神经科学的理解：
 
-9. 基于最近深度学习的火热，我觉得掌握深度学习的基本知识很有必要，我推荐基于Pytorch的教程
-   
-   * [动手学深度学习Pytorch版](https://tangshusen.me/Dive-into-DL-PyTorch/#/)
-   
-10. 如果你能走到这一步，我觉得往下系统的课程或者教科书已经不太重要的了，更多的是积累一些具体的topic上的经验。我列出一些比较有意思的话题，以及在认知神经科学上面的应用
+1. 推荐Coursera上面的[Computational Neuroscience](https://www.coursera.org/learn/computational-neuroscience)
 
-    * Maximum Likelihood Estimation (MLE) and Maximum Posterior Estimation (MAP)
-    * Markov Chain Monte-Carlo Simulation (MCMC)
-    * Hierarchical Bayesian analysis 
-    * Hidden Markov Model
-    * Kalman Filter
-    * Non-parametric Bayesian analysis
-    * Variational Bayesian Methods
-    * ...
+2. 推荐NeuroMatch Academy(NMA)的Computational Neuroscience的Summer Course
 
-    以及一些具体的认知计算模型的范例
+如果要继续加深对machine learning等各方面算法的理解:
 
-    * Rescorlar-Wagner model in reinforcement learning
-    * Drift-diffusion model
-    * Visual working memory models
-    * Cue-combination model
-    * ...
+1. 强烈推荐B站大神shuhuai008的白板推导系列!!! https://space.bilibili.com/97068901
 
-在计算神经科学中，有一个大类比如Spiking Neural Networks, 因为我自己不是专家，就不做评价，有兴趣的人可以参考比如Xiao-Jing Wang老师的工作。
-
-
-
-如果你掌握了以上所有的知识(大概率是不可能，我自己也几乎做不到)，还想进一步探索的话，欢迎联系我参与一些具体的实验研究和数据分析！
+如果你掌握了以上所有的知识(我自己也几乎做不到)，还想进一步探索的话，麻烦告诉我，我来求你加入我们组还不行么！
