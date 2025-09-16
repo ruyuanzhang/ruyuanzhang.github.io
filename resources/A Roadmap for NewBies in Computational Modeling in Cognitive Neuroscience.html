@@ -1,11 +1,10 @@
 <!doctype html>
 <html>
 <head>
-<meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
-
-<link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext' rel='stylesheet' type='text/css' /><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color: #ffffff; --text-color: #333333; --select-text-bg-color: #B5D6FC; --select-text-font-color: auto; --monospace: "Lucida Console",Consolas,"Courier",monospace; --title-bar-height: 20px; }
+<meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'><style type='text/css'>html {overflow-x: initial !important;}</style>
+<style type='text/css'  id="style-base">:root { --bg-color: #ffffff; --text-color: #333333; --select-text-bg-color: #B5D6FC; --select-text-font-color: auto; --monospace: "Lucida Console",Consolas,"Courier",monospace; --title-bar-height: 20px; }
 .mac-os-11 { --title-bar-height: 28px; }
-html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
+html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: "Helvetica Neue", Helvetica, Arial, "Segoe UI Emoji", "SF Pro", sans-serif; -webkit-font-smoothing: antialiased; }
 h1, h2, h3, h4, h5 { white-space: pre-wrap; }
 body { margin: 0px; padding: 0px; height: auto; inset: 0px; font-size: 1rem; line-height: 1.428571; overflow-x: hidden; background: inherit; }
 iframe { margin: auto; }
@@ -14,7 +13,7 @@ a:active, a:hover { outline: 0px; }
 .in-text-selection, ::selection { text-shadow: none; background: var(--select-text-bg-color); color: var(--select-text-font-color); }
 #write { margin: 0px auto; height: auto; width: inherit; word-break: normal; overflow-wrap: break-word; position: relative; white-space: normal; overflow-x: visible; padding-top: 36px; }
 #write.first-line-indent p { text-indent: 2em; }
-#write.first-line-indent li p, #write.first-line-indent p * { text-indent: 0px; }
+#write.first-line-indent li p, #write.first-line-indent p *, #write.first-line-indent svg * { text-indent: 0px; }
 #write.first-line-indent li { margin-left: 2em; }
 .for-image #write { padding-left: 8px; padding-right: 8px; }
 body.typora-export { padding-left: 30px; padding-right: 30px; }
@@ -31,10 +30,12 @@ button, input, select, textarea { color: inherit; font-style: inherit; font-vari
 input[type="checkbox"], input[type="radio"] { line-height: normal; padding: 0px; }
 *, ::after, ::before { box-sizing: border-box; }
 #write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p, #write pre { width: inherit; position: relative; }
-#write svg h1, #write svg h2, #write svg h3, #write svg h4, #write svg h5, #write svg h6, #write svg p { position: static; }
+#write svg h1, #write svg h2, #write svg h3, #write svg h4, #write svg h5, #write svg h6, #write svg p { position: static; white-space: nowrap; overflow: visible; }
+foreignObject { overflow: visible; }
 p { line-height: inherit; }
 h1, h2, h3, h4, h5, h6 { break-after: avoid-page; break-inside: avoid; orphans: 4; }
 p { orphans: 4; }
+li p { orphans: 1; }
 h1 { font-size: 2rem; }
 h2 { font-size: 1.8rem; }
 h3 { font-size: 1.6rem; }
@@ -219,8 +220,9 @@ mjx-container { break-inside: avoid; }
 .md-alert-text svg { fill: currentcolor; position: relative; top: 0.125em; margin-right: 1ch; overflow: visible; }
 .md-alert-text-container::after { content: attr(data-text); text-transform: capitalize; pointer-events: none; margin-right: 1ch; }
 
-
-:root {
+</style>
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,700,400&amp;subset=latin,latin-ext' type='text/css' />
+<style type='text/css'  id="style-theme_css">:root {
     --side-bar-bg-color: #fafafa;
     --control-text-color: #777;
 }
@@ -237,7 +239,7 @@ mjx-container { break-inside: avoid; }
 }
 
 body {
-    font-family: "Open Sans","Clear Sans", "Helvetica Neue", Helvetica, Arial, 'Segoe UI Emoji', sans-serif;
+    font-family: "Open Sans","Clear Sans", "Helvetica Neue", Helvetica, Arial, 'Segoe UI Emoji', 'SF Pro', sans-serif;
     color: rgb(51, 51, 51);
     line-height: 1.6;
 }
@@ -607,12 +609,13 @@ header, .context-menu, .megamenu-content, footer{
     background-color: #f5f8fa;
     background-image: linear-gradient( 180deg , hsla(0, 0%, 100%, 0.8), hsla(0, 0%, 100%, 0)); 
 }
+</style>
+<style type='text/css'  id="style-lp">ol, ul {padding-left: 40px}</style>
+<style type='text/css'  id="style-mac-print"> @media print { @page {margin: 0 0 0 0;} body.typora-export {padding-left: 0; padding-right: 0;} #write {padding:0;}}</style>
 
-
- @media print { @page {margin: 0 0 0 0;} body.typora-export {padding-left: 0; padding-right: 0;} #write {padding:0;}}
-</style><title>A Roadmap for NewBies in Computational Modeling in Cognitive Neuroscience</title>
+<title>A Roadmap for NewBies in Computational Modeling in Cognitive Neuroscience</title>
 </head>
 <body class='typora-export'><div class='typora-export-content'>
-<div id='write'  class=''><h1 id='a-roadmap-for-newbies-in-computational-modeling-in-cognitive-neuroscience'><span>A Roadmap for NewBies in Computational Modeling in Cognitive Neuroscience</span></h1><p><span>我经常受到很多学生的来信，问我如何自己自学或者想办法入门认知或者计算神经科学。有这样的问题的学生，大多是非心理学或者神经科学专业的学生，希望转行参与到这个领域。也有一些心理学或者神经科学专业的学生希望进一步提高自己在计算建模方面的能力，我一般的回答就是找一个做计算认知或者计算神经科学的老师开展一些研究，这是最快最直接的办法。但是很多人反应国内这方面的研究者太少，很难找到相关的人。</span></p><p><span>也有很多学生问我，我们组对学生要求是什么？我用这个机会不妨详细说一下</span></p><p><span>祝愿我们能在国内找到更多的志同道合的人</span></p><h2 id='编程专业基础'><span>编程/专业基础</span></h2><ol start='' ><li><p><span>对于国内非心理学专业的同学来说，可能需要补充一些认知神经科学的基础知识，我推荐下面这本教材</span></p><ul><li><p><a href='https://book.douban.com/subject/5937126/'><span>认知神经科学</span></a></p></li></ul><p><span>这本书可以当做小说来看，全面的了解有关脑认知的神经基础。如果是心理学或者神经科学专业的学生了解认知心理学和实验心理学，可以跳过这一步。</span></p></li><li><p><span>数学课程请上以下一些基本课程。一般工程科学的数学基础都可以满足，但是有些心理学专业的学生可能这方面并不充足，但是起码保证上以下几门课</span></p><ul><li><p><span>线性代数</span></p></li><li><p><span>高等数学/微积分</span></p></li></ul></li><li><p><span>关于编程基础。在neuroscience里面编程基本上只需要Python，(matlab比较传统但是已经不推荐)我推荐两个课程</span></p><ul><li><p><a href='https://www.bilibili.com/video/av4050443/'><span>B站小甲鱼0基础python教程</span></a><span> (不需要学爬虫，GUI和Pygame等部分)</span></p></li><li><p><a href='https://www.bilibili.com/video/BV1U7411x76j'><span>B站Python numpy基础</span></a></p></li></ul><p><span>同时，在写代码中需要经常小组协作，所以git的用法也很关键，我推荐</span></p><ul><li><p><a href='https://www.liaoxuefeng.com/wiki/896043488029600'><span>廖雪峰git教程</span></a></p></li></ul></li><li><p><span>(可选)在认知实验，熟悉编写一个实验任务非常重要，目前主流的编写程序的软件有基于Matlab的Psychtoolbox, 基于Python的Psychopy和基于Java的JsPsych等，一般初学者推荐上来掌握Psychtoolbox</span></p><ul><li><p><a href='https://zhuanlan.zhihu.com/p/45073723'><span>北师大蒋挺老师的Psychtoolbox教程</span></a></p></li><li><p><a href='https://space.bilibili.com/357829140/channel/detail?cid=159082'><span>B站Psychopy的教程</span></a></p></li></ul></li></ol><h2 id='计算认知'><span>计算认知</span></h2><p><span>下面我会希望学生本科生修的课程，这是正餐。曾经我以为这个过程很简单，我给学生说的时候可能也流露出学这些知识简单。但是，最近几年的教学和科研工作让我了解到，我可能过于乐观。我不得不承认，这些东西的确很难。很多时候我们自己课题组的研究工作，已经超出了对一个一般计算机本科生甚至是研究生在计算建模方面的难度要求。我也很认真的想过如何指导一个心理学背景的学生如何获取这些知识。目前是我最近(2025年6月29日)觉得比较好的路径。</span></p><p><span>如果你想来我的课题组实习、保研甚至深造，请慎重考虑你能否接受以下内容，如果你已经具备以下的知识，请直接告诉我，将会大大增加我们合作的可能性。具体分为以下四步: </span></p><ol start='' ><li><p><span>第一步，请从强化学习入门，推荐西湖大学赵世钰老师的</span><a href='https://www.bilibili.com/opus/709028860846407685'><span>强化学习</span></a><span>课程。这个课程是我无需任何强化学习研究背景，我反而觉得这是一本非常适合心理学背景的强化学习课程。其教材、视频、PPT等各种资料齐全。是最好的入门教材。学这种东西，会有心理学的学生很困惑，里面学习的强化学习知识和心理学到底有什么关系，暂且别急，这些困惑会在后面解答。我也强烈建议国内各大心理学院系把这个课程作为本科生认知科学基础课程。</span></p></li><li><p><span>第二步，请的深度学习的基础，我觉得掌握深度学习的基本知识很有必要，我推荐</span><a href='https://zh-v2.d2l.ai/'><span>动手学深度学习Pytorch版</span></a><span> 对照李沐老师出版的相应教材，对应啃下来。</span></p></li><li><p><span>第三步，开始学习机器学习基础，目前市面上的线上机器学习课程都太简单了。对于工科学生入门来说没问题。但是对于我们构建科学理论来说太简单。这里我推荐B站大神的</span><a href='https://www.bilibili.com/video/BV1aE411o7qd/?spm_id_from=333.1387.0.0'><span>机器学习白板推导系列</span></a><span>。这个系列一共有三十三个系列，根据实际科研要求，我把这三十三个系列分成了基础部分和进阶部分 (详情请见</span><a href='./machinelearning.html'><span>这里</span></a><span>)，心理学的学生入门时只需要完成基础部分。在学习过程中，我尤其看重补充一些在认知科学中的应用例子。</span></p></li></ol><p><span>我强烈呼吁国内各大心理学院系，这三门课作为本科生选修课。</span></p><p><span>如果你没有以上基础，可能也很难参与到我们的课题中。完成这三门课程，欢迎你来做RA</span></p><ol start='4' ><li><p><span>第四步，需要练手。我在集合一些认知科学和心理学里面的model。我把其叫做chanllenges in computational modeling。有兴趣的人可以试试完成到第几步？</span></p></li></ol><hr /><ol start='' ><li><p><span>基于以上三门课的基础，我觉得可以进入计算认知的领域了，欢迎阅读我正在写的一本教材</span><a href='https://ruyuanzhang.gitbook.io/compmodcogpsy'><span>《认知行为的计算原理》</span></a></p></li></ol><p><span>如果要继续加深对计算认知和计算神经科学的理解：</span></p><ol start='' ><li><p><span>推荐Coursera上面的</span><a href='https://www.coursera.org/learn/computational-neuroscience'><span>Computational Neuroscience</span></a></p></li><li><p><span>推荐NeuroMatch Academy(NMA)的Computational Neuroscience的Summer Course</span></p></li></ol><p><span>如果你掌握了以上所有的知识(我自己也几乎做不到)，还想进一步探索的话，麻烦告诉我，我来求你加入我们组还不行么！</span></p></div></div>
+<div id='write'  class=''><h1 id='a-roadmap-for-newbies-in-computational-modeling-in-cognitive-neuroscience'><span>A Roadmap for NewBies in Computational Modeling in Cognitive Neuroscience</span></h1><p><span>我经常受到很多学生的来信，问我如何自己自学或者想办法入门认知或者计算神经科学。有这样的问题的学生，大多是非心理学或者神经科学专业的学生，希望转行参与到这个领域。也有一些心理学或者神经科学专业的学生希望进一步提高自己在计算建模方面的能力，我一般的回答就是找一个做计算认知或者计算神经科学的老师开展一些研究，这是最快最直接的办法。但是很多人反应国内这方面的研究者太少，很难找到相关的人。</span></p><p><span>也有很多学生问我，我们组对学生要求是什么？我用这个机会不妨详细说一下</span></p><p><span>祝愿我们能在国内找到更多的志同道合的人</span></p><h2 id='编程专业基础'><span>编程/专业基础</span></h2><ol start='' ><li><p><span>对于国内非心理学专业的同学来说，可能需要补充一些认知神经科学的基础知识，我推荐下面这本教材</span></p><ul><li><p><a href='https://book.douban.com/subject/5937126/'><span>认知神经科学</span></a></p></li></ul><p><span>这本书可以当做小说来看，全面的了解有关脑认知的神经基础。如果是心理学或者神经科学专业的学生了解认知心理学和实验心理学，可以跳过这一步。</span></p></li><li><p><span>数学课程请上以下一些基本课程。一般工程科学的数学基础都可以满足，但是有些心理学专业的学生可能这方面并不充足，但是起码保证上以下几门课</span></p><ul><li><p><span>线性代数</span></p></li><li><p><span>高等数学/微积分</span></p></li></ul></li><li><p><span>关于编程基础。在neuroscience里面编程基本上只需要Python，(matlab比较传统但是已经不推荐)我推荐两个课程</span></p><ul><li><p><a href='https://www.bilibili.com/video/av4050443/'><span>B站小甲鱼0基础python教程</span></a><span> (不需要学爬虫，GUI和Pygame等部分)</span></p></li><li><p><a href='https://www.bilibili.com/video/BV1U7411x76j'><span>B站Python numpy基础</span></a></p></li></ul><p><span>同时，在写代码中需要经常小组协作，所以git的用法也很关键，我推荐</span></p><ul><li><p><a href='https://www.liaoxuefeng.com/wiki/896043488029600'><span>廖雪峰git教程</span></a></p></li></ul></li><li><p><span>(可选)在认知实验，熟悉编写一个实验任务非常重要，目前主流的编写程序的软件有基于Matlab的Psychtoolbox, 基于Python的Psychopy和基于Java的JsPsych等，一般初学者推荐上来掌握Psychtoolbox</span></p><ul><li><p><a href='https://zhuanlan.zhihu.com/p/45073723'><span>北师大蒋挺老师的Psychtoolbox教程</span></a></p></li><li><p><a href='https://space.bilibili.com/357829140/channel/detail?cid=159082'><span>B站Psychopy的教程</span></a></p></li></ul></li></ol><h2 id='计算认知'><span>计算认知</span></h2><p><span>下面我会希望学生本科生修的课程，这是正餐。曾经我以为这个过程很简单，我给学生说的时候可能也流露出学这些知识简单。但是，最近几年的教学和科研工作让我了解到，我可能过于乐观。我不得不承认，这些东西的确很难。很多时候我们自己课题组的研究工作，已经超出了对一个一般计算机本科生甚至是研究生在计算建模方面的难度要求。我也很认真的想过如何指导一个心理学背景的学生如何获取这些知识。目前是我最近(2025年6月29日)觉得比较好的路径。</span></p><p><span>如果你想来我的课题组实习、保研甚至深造，请慎重考虑你能否接受以下内容，如果你已经具备以下的知识，请直接告诉我，将会大大增加我们合作的可能性。具体分为以下四步: </span></p><ol start='' ><li><p><span>第一步，请从强化学习入门，推荐西湖大学赵世钰老师的</span><a href='https://www.bilibili.com/opus/709028860846407685'><span>强化学习</span></a><span>课程。这个课程是我无需任何强化学习研究背景，我反而觉得这是一本非常适合心理学背景的强化学习课程。其教材、视频、PPT等各种资料齐全。是最好的入门教材。学这种东西，会有心理学的学生很困惑，里面学习的强化学习知识和心理学到底有什么关系，暂且别急，这些困惑会在后面解答。我也强烈建议国内各大心理学院系把这个课程作为本科生认知科学基础课程。</span></p></li><li><p><span>第二步，请的深度学习的基础，我觉得掌握深度学习的基本知识很有必要，我推荐</span><a href='https://zh-v2.d2l.ai/'><span>动手学深度学习Pytorch版</span></a><span> 对照李沐老师出版的相应教材，对应啃下来。</span></p></li><li><p><span>第三步，开始学习机器学习基础，目前市面上的线上机器学习课程都太简单了。对于工科学生入门来说没问题。但是对于我们构建科学理论来说太简单。这里我推荐B站大神的</span><a href='https://www.bilibili.com/video/BV1aE411o7qd/?spm_id_from=333.1387.0.0'><span>机器学习白板推导系列</span></a><span>。这个系列一共有三十三个系列，根据实际科研要求，我把这三十三个系列分成了基础部分和进阶部分 (详情请见</span><a href='./machinelearning.html'><span>这里</span></a><span>)，心理学的学生入门时只需要完成基础部分。在学习过程中，我尤其看重补充一些在认知科学中的应用例子。</span></p></li></ol><hr /><p><strong><span>如果你希望报考我的硕博，我希望你在入学前学完这些内容！！！</span></strong></p><hr /><p><span>我强烈呼吁国内各大心理学院系，这三门课作为本科生选修课。</span></p><p><span>如果你没有以上基础，可能也很难参与到我们的课题中。完成这三门课程，欢迎你来做RA</span></p><ol start='' ><li><p><span>第四步，需要练手。我在集合一些认知科学和心理学里面的model。我把其叫做chanllenges in computational modeling。有兴趣的人可以试试完成到第几步？</span></p></li></ol><hr /><ol start='' ><li><p><span>基于以上三门课的基础，我觉得可以进入计算认知的领域了，欢迎阅读我正在写的一本教材</span><a href='https://ruyuanzhang.gitbook.io/compmodcogpsy'><span>《认知行为的计算原理》</span></a></p></li></ol><p><span>如果要继续加深对计算认知和计算神经科学的理解：</span></p><ol start='' ><li><p><span>推荐Coursera上面的</span><a href='https://www.coursera.org/learn/computational-neuroscience'><span>Computational Neuroscience</span></a></p></li><li><p><span>推荐NeuroMatch Academy(NMA)的Computational Neuroscience的Summer Course</span></p></li></ol><p><span>如果你掌握了以上所有的知识(我自己也几乎做不到)，还想进一步探索的话，麻烦告诉我，我来求你加入我们组还不行么！</span></p></div></div>
 </body>
 </html>
