@@ -1,11 +1,10 @@
 <!doctype html>
 <html>
 <head>
-<meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
-
-<link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext' rel='stylesheet' type='text/css' /><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color: #ffffff; --text-color: #333333; --select-text-bg-color: #B5D6FC; --select-text-font-color: auto; --monospace: "Lucida Console",Consolas,"Courier",monospace; --title-bar-height: 20px; }
+<meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'><style type='text/css'>html {overflow-x: initial !important;}</style>
+<style type='text/css'  id="style-base">:root { --bg-color: #ffffff; --text-color: #333333; --select-text-bg-color: #B5D6FC; --select-text-font-color: auto; --monospace: "Lucida Console",Consolas,"Courier",monospace; --title-bar-height: 20px; }
 .mac-os-11 { --title-bar-height: 28px; }
-html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
+html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: "Helvetica Neue", Helvetica, Arial, "Segoe UI Emoji", "SF Pro", sans-serif; -webkit-font-smoothing: antialiased; }
 h1, h2, h3, h4, h5 { white-space: pre-wrap; }
 body { margin: 0px; padding: 0px; height: auto; inset: 0px; font-size: 1rem; line-height: 1.428571; overflow-x: hidden; background: inherit; }
 iframe { margin: auto; }
@@ -14,7 +13,7 @@ a:active, a:hover { outline: 0px; }
 .in-text-selection, ::selection { text-shadow: none; background: var(--select-text-bg-color); color: var(--select-text-font-color); }
 #write { margin: 0px auto; height: auto; width: inherit; word-break: normal; overflow-wrap: break-word; position: relative; white-space: normal; overflow-x: visible; padding-top: 36px; }
 #write.first-line-indent p { text-indent: 2em; }
-#write.first-line-indent li p, #write.first-line-indent p * { text-indent: 0px; }
+#write.first-line-indent li p, #write.first-line-indent p *, #write.first-line-indent svg * { text-indent: 0px; }
 #write.first-line-indent li { margin-left: 2em; }
 .for-image #write { padding-left: 8px; padding-right: 8px; }
 body.typora-export { padding-left: 30px; padding-right: 30px; }
@@ -32,9 +31,13 @@ input[type="checkbox"], input[type="radio"] { line-height: normal; padding: 0px;
 *, ::after, ::before { box-sizing: border-box; }
 #write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p, #write pre { width: inherit; position: relative; }
 #write svg h1, #write svg h2, #write svg h3, #write svg h4, #write svg h5, #write svg h6, #write svg p { position: static; }
+.nodeLabel p { padding-right: 2px; padding-left: 2px; }
+.typora-export .nodeLabel p { padding-right: 0px; padding-left: 0px; }
+foreignObject { overflow: visible; }
 p { line-height: inherit; }
 h1, h2, h3, h4, h5, h6 { break-after: avoid-page; break-inside: avoid; orphans: 4; }
 p { orphans: 4; }
+li p { orphans: 1; }
 h1 { font-size: 2rem; }
 h2 { font-size: 1.8rem; }
 h3 { font-size: 1.6rem; }
@@ -219,8 +222,9 @@ mjx-container { break-inside: avoid; }
 .md-alert-text svg { fill: currentcolor; position: relative; top: 0.125em; margin-right: 1ch; overflow: visible; }
 .md-alert-text-container::after { content: attr(data-text); text-transform: capitalize; pointer-events: none; margin-right: 1ch; }
 
-
-:root {
+</style>
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,700,400&amp;subset=latin,latin-ext' type='text/css' />
+<style type='text/css'  id="style-theme_css">:root {
     --side-bar-bg-color: #fafafa;
     --control-text-color: #777;
 }
@@ -237,7 +241,7 @@ mjx-container { break-inside: avoid; }
 }
 
 body {
-    font-family: "Open Sans","Clear Sans", "Helvetica Neue", Helvetica, Arial, 'Segoe UI Emoji', sans-serif;
+    font-family: "Open Sans","Clear Sans", "Helvetica Neue", Helvetica, Arial, 'Segoe UI Emoji', 'SF Pro', sans-serif;
     color: rgb(51, 51, 51);
     line-height: 1.6;
 }
@@ -607,12 +611,14 @@ header, .context-menu, .megamenu-content, footer{
     background-color: #f5f8fa;
     background-image: linear-gradient( 180deg , hsla(0, 0%, 100%, 0.8), hsla(0, 0%, 100%, 0)); 
 }
+</style>
+<style type='text/css'  id="style-lp">ol, ul {padding-left: 40px}</style>
+<style type='text/css'  id="style-mac-print"> @media print { @page {margin: 0 0 0 0;} body.typora-export {padding-left: 0; padding-right: 0;} #write {padding:0;}}</style>
 
-
- @media print { @page {margin: 0 0 0 0;} body.typora-export {padding-left: 0; padding-right: 0;} #write {padding:0;}}
-</style><title>机器学习白板推导</title>
+<title>machinelearning</title>
 </head>
 <body class='typora-export'><div class='typora-export-content'>
-<div id='write'  class=''><p><span>相关的资料</span></p><p><span>视频: </span><a href='https://www.bilibili.com/video/BV1aE411o7qd/?spm_id_from=333.1387.0.0' target='_blank' class='url'>https://www.bilibili.com/video/BV1aE411o7qd/?spm_id_from=333.1387.0.0</a></p><p><span>github:  </span><a href='https://github.com/tsyw/MachineLearningNotes' target='_blank' class='url'>https://github.com/tsyw/MachineLearningNotes</a></p><p><span>语雀: </span><a href='https://www.yuque.com/books/share/f4031f65-70c1-4909-ba01-c47c31398466?#' target='_blank' class='url'>https://www.yuque.com/books/share/f4031f65-70c1-4909-ba01-c47c31398466?#</a></p><p>&nbsp;</p><h1 id='机器学习白板推导'><span>机器学习白板推导</span></h1><h2 id='基础部分-要求'><span>基础部分 (要求)</span></h2><ol start='' ><li><p><span>绪论</span></p></li><li><p><span>数学基础</span></p></li><li><p><span>线性回归</span></p></li><li><p><span>线性分类</span></p></li><li><p><span>降维</span></p><ul><li><p><span>Face recognition using eigenfaces</span></p></li></ul></li><li><p><span>支持向量机</span></p></li><li><p><span>核方法</span></p></li><li><p><span>指数族分布</span></p></li><li><p><span>概率图模型</span></p></li><li><p><span>EM算法</span></p><ul><li><p><span>EM算法在认知科学的应用 (待补充)</span></p></li></ul></li><li><p><span>高斯混合模型</span></p></li><li><p><span>变分推断</span></p><ul><li><p><span>变分推断求解心理物理曲线 </span></p></li></ul></li><li><p><span>MCMC</span></p><ul><li><p><span>MCMC求解心理物理曲线</span></p></li></ul></li><li><p><span>HMM</span></p><ul><li><p><span>HMM的认知科学应用 (待补充)</span></p></li></ul></li><li><p><span>linear dynamic system</span></p><ul><li><p><span>LDS在认知科学的应用 (待补充)</span></p></li></ul></li><li><p><span>Particle filter</span></p><ul><li><p><span>Particle filter在认知科学的应用 (待补充)</span></p></li></ul></li><li><p><span>生成模型</span></p><ul><li><p><span>Organizing probablistic models of perception</span></p></li><li><p><span>The Bayesian brain: the role of uncertainty in neural coding and computation</span></p></li><li><p><span>Karl Friston, Free energy theory</span></p></li></ul></li><li><p><span>GAN</span></p><ul><li><p><span>GAN在认知科学中的应用 (待补充)</span></p></li></ul></li><li><p><span>VAE</span></p><ul><li><p><span>A model of working memory for latent representations</span></p></li></ul><ul><li><p><span>A generative model of memory construction and consolidation</span></p></li></ul></li></ol><p>&nbsp;</p><h2 id='进阶部分不要求'><span>进阶部分(不要求)</span></h2><ol start='' ><li><p><span>前馈神经网络</span></p></li><li><p><span>高斯网络</span></p></li><li><p><span>贝叶斯线性回归</span></p></li><li><p><span>高斯过程回归</span></p></li><li><p><span>Normalizing flow</span></p></li><li><p><span>条件随机场</span></p></li><li><p><span>Restricted Bolzman Machine</span></p></li><li><p><span>谱聚类</span></p></li><li><p><span>直面配分函数</span></p></li><li><p><span>近似推断</span></p></li><li><p><span>Sigmoid Belief Network</span></p></li><li><p><span>Deep Belief Network</span></p></li><li><p><span>Bolzman Machine</span></p></li><li><p><span>Deep Bolzman Machine</span></p></li></ol></div></div>
+<div id='write'  class=''><p><span>相关的资料</span></p><p><span>视频: </span></p><ul><li><p><a href='https://www.bilibili.com/video/BV1aE411o7qd' target='_blank' class='url'>https://www.bilibili.com/video/BV1aE411o7qd</a></p></li><li><p><a href='https://www.bilibili.com/video/BV17ZmWBmETP/' target='_blank' class='url'>https://www.bilibili.com/video/BV17ZmWBmETP/</a></p></li></ul><p><span>github:  </span><a href='https://github.com/tsyw/MachineLearningNotes' target='_blank' class='url'>https://github.com/tsyw/MachineLearningNotes</a></p><p><span>语雀: </span><a href='https://www.yuque.com/books/share/f4031f65-70c1-4909-ba01-c47c31398466?#' target='_blank' class='url'>https://www.yuque.com/books/share/f4031f65-70c1-4909-ba01-c47c31398466?#</a></p><p><span> </span></p><h1 id='机器学习白板推导'><span>机器学习白板推导</span></h1><h2 id='基础部分-要求'><span>基础部分 (要求)</span></h2><ol start='' ><li><p><span>绪论</span></p></li><li><p><span>数学基础</span></p></li><li><p><span>线性回归</span></p></li><li><p><span>线性分类</span></p></li><li><p><span>降维</span></p><ul><li><p><span>Face recognition using eigenfaces</span></p></li></ul></li><li><p><span>支持向量机</span></p></li><li><p><span>核方法</span></p></li><li><p><span>指数族分布</span></p><ul><li><p><span>Probablistic population codes</span></p></li></ul></li><li><p><span>概率图模型</span></p></li><li><p><span>EM算法</span></p><ul><li><p><span>Batchelder, W. H., &amp; Riefer, D. M. (1999). Theoretical and empirical review of multinomial process tree modeling </span></p></li></ul></li><li><p><span>高斯混合模型</span></p><ul><li><p><span>(心理学应用待补充)</span></p></li></ul></li><li><p><span>变分推断</span></p><ul><li><p><span>变分推断求解心理物理曲线 </span></p></li><li><p><span>Gershman, S. J. (2019). What does the free energy principle tell us about the brain?. </span><em><span>Neurons, Behavior, Data analysis, and Theory</span></em><span>, </span><em><span>2</span></em><span>(3), 1-10. </span><a href='https://gershmanlab.com/pubs/free_energy.pdf' target='_blank' class='url'>https://gershmanlab.com/pubs/free_energy.pdf</a></p></li></ul></li><li><p><span>MCMC</span></p><ul><li><p><span>MCMC求解心理物理曲线</span></p></li><li><p><span>Neural Sampling Hypothesis</span></p></li></ul></li><li><p><span>HMM</span></p><ul><li><p><span>Visser, I., Raijmakers, M. E. J., &amp; Molenaar, P. C. M. (1999). Hidden Markov models for individual time series: An application to the sequential learning data. </span><a href='https://link.springer.com/content/pdf/10.1007/978-0-387-95922-1_13' target='_blank' class='url'>https://link.springer.com/content/pdf/10.1007/978-0-387-95922-1_13</a></p></li></ul></li><li><p><span>linear dynamic system</span></p><ul><li><p><span>Kwon, O. S., Tadin, D., &amp; Knill, D. C. (2015). Unifying account of visual motion and position perception. </span><em><span>Proceedings of the National Academy of Sciences</span></em><span>, </span><em><span>112</span></em><span>(26), 8142-8147.</span></p></li><li><p><span>Malamud, J., Guloksuz, S., van Winkel, R., Delespaul, P., De Hert, M. A. F., Derom, C., Thiery, E., Jacobs, N., Rutten, B. P. F., &amp; Huys, Q. J. M. (2024).</span>
+<span>“Characterizing the dynamics, reactivity and controllability of moods in depression with a Kalman filter.” PLOS Computational Biology , 20(9): e1012457</span></p></li></ul></li><li><p><span>Particle filter</span></p><ul><li><p><span>Sanborn, A. N., Griffiths, T. L., &amp; Navarro, D. J. (2010). Rational approximations to rational models: Alternative algorithms for category learning . Psychological Review, 117(4), 1144-1167.</span></p></li><li><p><span>Modeling the effect of chained study in transitive inference. 代码: </span><a href='https://github.com/fangzefunny/particle-filter' target='_blank' class='url'>https://github.com/fangzefunny/particle-filter</a><span>; 论文: </span><a href='https://escholarship.org/uc/item/4764d1tn' target='_blank' class='url'>https://escholarship.org/uc/item/4764d1tn</a></p></li></ul></li><li><p><span>生成模型</span></p><ul><li><p><span>Organizing probablistic models of perception</span></p></li><li><p><span>The Bayesian brain: the role of uncertainty in neural coding and computation</span></p></li></ul></li><li><p><span>GAN</span></p><ul><li><p><span>Goetschalckx, L., Andonian, A., &amp; Wagemans, J. (2021). Generative adversarial networks unlock new methods for cognitive science. </span><em><span>Trends in Cognitive Sciences</span></em><span>, </span><em><span>25</span></em><span>(9), 788-801.</span></p></li></ul></li><li><p><span>VAE</span></p><ul><li><p><span>A model of working memory for latent representations</span></p></li><li><p><span>A generative model of memory construction and consolidation</span></p></li></ul></li><li><p><span>Hopefield Network</span></p><ul><li><p>&nbsp;</p></li></ul></li><li><p>&nbsp;</p></li></ol><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><h2 id='进阶部分不要求'><span>进阶部分(不要求)</span></h2><ol start='' ><li><p><span>前馈神经网络</span></p></li><li><p><span>高斯网络</span></p></li><li><p><span>贝叶斯线性回归</span></p></li><li><p><span>高斯过程回归</span></p></li><li><p><span>Normalizing flow</span></p></li><li><p><span>条件随机场</span></p></li><li><p><span>Restricted Bolzman Machine</span></p></li><li><p><span>谱聚类</span></p></li><li><p><span>直面配分函数</span></p></li><li><p><span>近似推断</span></p></li><li><p><span>Sigmoid Belief Network</span></p></li><li><p><span>Deep Belief Network</span></p></li><li><p><span>Bolzman Machine</span></p></li><li><p><span>Deep Bolzman Machine</span></p></li></ol></div></div>
 </body>
 </html>
