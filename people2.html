@@ -9,102 +9,7 @@
     <!--for mail envelope button-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   
-    <!-- 学生网格布局样式：使用 !important 强制覆盖 main.css -->
-    <style>
-      /* ========== 学生区域：3列网格布局 ========== */
-      ul.people.student-grid {
-        display: grid !important;                           /* 启用CSS网格布局，替代默认流式布局 */
-        grid-template-columns: repeat(3, 1fr) !important;   /* 每行均分为3列，每列宽度相等 */
-        gap: 25px 15px !important;                          /* 上下间距25px（排间距），左右间距15px（列间距），紧凑不浪费 */
-        padding: 0 !important;                                /* 清除ul默认的内边距 */
-        margin: 20px auto !important;                         /* 上下外边距20px，左右auto使其在父容器中水平居中 */
-        width: 100% !important;                              /* 宽度填满父容器 */
-        list-style: none !important;                         /* 移除列表项默认的圆点符号 */
-      }
-
-      /* 学生网格中的每一个列表项 */
-      ul.people.student-grid > li.people {
-        display: block !important;                           /* 块级显示，确保正确占据网格单元格 */
-        width: 100% !important;                              /* 宽度填满单元格 */
-        float: none !important;                              /* 强制清除main.css中可能的浮动 */
-        clear: none !important;                              /* 清除浮动清除属性 */
-        overflow: visible !important;                        /* 内容溢出时保持可见，不被截断 */
-      }
-
-      /* ========== 单个成员卡片：垂直排列，头像在上文字在下 ========== */
-      ul.people.student-grid .personcontainer {
-        display: flex !important;                           /* 启用Flexbox弹性盒布局 */
-        flex-direction: column !important;                   /* 子元素垂直排列：头像在上，文字在下 */
-        align-items: center !important;                      /* 所有子元素在水平方向（交叉轴）上居中对齐 */
-        justify-content: flex-start !important;              /* 子元素从顶部开始排列，避免上下留白过大 */
-        text-align: center !important;                       /* 文字内容水平居中 */
-        width: 100% !important;                              /* 宽度填满父容器 */
-        height: auto !important;                             /* 【关键修复】覆盖main.css的height:100%，让容器高度随内容自适应 */
-        position: relative !important;                       /* 相对定位，建立定位上下文 */
-        overflow: visible !important;                        /* 内容溢出时可见 */
-      }
-
-      /* 头像外层容器：控制头像与文字的间距 */
-      ul.people.student-grid .head {
-        position: relative !important;                       /* 相对定位，参与正常文档流 */
-        float: none !important;                              /* 清除main.css中的float:center（无效值但需清除） */
-        clear: none !important;                                /* 清除浮动清除 */
-        display: block !important;                           /* 块级显示，独占一行 */
-        width: auto !important;                              /* 【关键修复】覆盖main.css的width:30%，恢复自动宽度 */
-        height: auto !important;                             /* 【关键修复】覆盖main.css的height:30%，恢复自动高度 */
-        margin: 0 auto 10px auto !important;                 /* 上0 左右auto(水平居中) 下10px(与文字留一点间距) */
-        top: auto !important;                                /* 清除可能存在的顶部偏移 */
-        left: auto !important;                               /* 清除可能存在的左侧偏移 */
-        right: auto !important;                              /* 清除可能存在的右侧偏移 */
-        bottom: auto !important;                             /* 清除可能存在的底部偏移 */
-        z-index: 2 !important;                               /* 层级设为2，确保头像显示在文字上方 */
-      }
-
-      /* 头像图片本身：扩大1.5倍 */
-      ul.people.student-grid .peopleimg {
-        width: 195px !important;                             /* 头像宽度195像素（原130px × 1.5倍） */
-        height: 195px !important;                            /* 头像高度195像素，保持1:1正方形比例 */
-        object-fit: cover !important;                        /* 【关键修复】覆盖main.css的contain，裁剪填充避免变形 */
-        border-radius: 50% !important;                       /* 边框半径50%，显示为圆形 */
-        float: none !important;                              /* 清除浮动 */
-        display: block !important;                           /* 块级显示 */
-        margin: 0 auto !important;                           /* 上下外边距0，左右auto实现水平居中 */
-      }
-
-      /* 文字介绍区域：与头像水平居中对齐，且不被遮挡 */
-      ul.people.student-grid .intro {
-        position: relative !important;                       /* 相对定位，参与正常文档流，避免被绝对定位的头像覆盖 */
-        float: none !important;                              /* 清除main.css中的float:center */
-        clear: both !important;                              /* 清除左右两侧浮动影响，确保另起一行 */
-        display: block !important;                           /* 块级显示，独占一行 */
-        width: 100% !important;                              /* 宽度填满父容器 */
-        height: auto !important;                             /* 【关键修复】覆盖main.css的height:20%，让文字区域高度随内容自适应 */
-        line-height: 1.6 !important;                         /* 行高设为字号的1.6倍，增加文字可读性 */
-        text-align: center !important;                       /* 文字水平居中对齐，与头像上下中心对齐 */
-        margin: 8px 0 0 0 !important;                        /* 上外边距8px（与头像拉开安全距离） 其余方向为0 */
-        padding: 0 5px !important;                           /* 上下内边距0，左右5px（防止文字贴到单元格边缘） */
-        top: auto !important;                                /* 清除可能存在的顶部偏移 */
-        left: auto !important;                               /* 清除可能存在的左侧偏移 */
-        right: auto !important;                              /* 清除可能存在的右侧偏移 */
-        bottom: auto !important;                             /* 清除可能存在的底部偏移 */
-        z-index: 1 !important;                               /* 层级设为1，低于头像，确保不会被头像遮挡 */
-        overflow: visible !important;                        /* 内容溢出时可见，不被截断 */
-      }
-
-      /* ========== 响应式适配：屏幕宽度小于900px时 ========== */
-      @media (max-width: 900px) {
-        ul.people.student-grid {
-          grid-template-columns: repeat(2, 1fr) !important;   /* 改为每行显示2列，避免过挤 */
-        }
-      }
-
-      /* ========== 响应式适配：屏幕宽度小于600px时 ========== */
-      @media (max-width: 600px) {
-        ul.people.student-grid {
-          grid-template-columns: 1fr !important;             /* 改为每行显示1列，单列铺满全宽 */
-        }
-      }
-    </style>
+  </head>
 
 
   <body>
@@ -175,8 +80,7 @@
                     </ul>
                     
                     <p style="font-size:25px; text-indent:1em;line-height: 0.5;"> Postdoc/Graduate students/Research assistants </p>
-                    <!-- 注意：添加了 student-grid 类 -->
-                    <ul class='people student-grid'>
+                    <ul class='people'>
                       <!-- <li class='people', style='color: red'>
                         We are currently recruting undergraduate research assistants and graduate students!                      
                       </li> -->
